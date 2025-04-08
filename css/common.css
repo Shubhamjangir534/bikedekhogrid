@@ -11,3 +11,83 @@
         font-weight: 500;
     }
 }
+@media screen and (min-width: 992px) {
+    .overviewTop .overviewdetail>.price .buttonHolder .primaryButton {
+        vertical-align: baseline;
+    }
+}
+body{
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    background-color: transparent;
+    color: #24272c;
+    cursor: pointer;
+    text-decoration: none;
+}
+.button {
+    background: #d02f2f;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    height: 44px;
+    line-height: 45px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+.carSummary .gs_readmore div:last-child, .carSummary .gs_readmore p:last-child {
+    margin-bottom: 0;
+}
+.quickOverviewNew .qccontent tr td, .quickOverviewNew .qccontent li td {
+    width: 50%;
+}
+.overviewTop .overviewdetail>.price .buttonHolder .primaryButton {
+    margin: 0;
+    padding: 0 0 0 8px;
+    background: 0 0;
+    border: none;
+    color: #007be5;
+    font-size: 14px;
+    height: auto;
+    line-height: 15px;
+    max-width: 100%;
+    padding: 0;
+    text-transform: inherit;
+    width: auto;
+}
+
+.lightButton, .lightButtonGray, .primaryButton {
+    background: #fff;
+    border: 1px solid #d02f2f;
+    border-radius: 8px;
+    color: #d02f2f;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    height: 44px;
+    letter-spacing: 0;
+    line-height: 43px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 5px;
+    text-align: center;
+    text-overflow: ellipsis;
+    transition: all .4sease;
+    white-space: nowrap;
+    width: 100%;
+}
+
+#colors, #expertReview, #features, #price, #specification, #userReview {
+    scroll-margin-top: 100px;
+}
+
