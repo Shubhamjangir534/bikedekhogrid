@@ -144,10 +144,12 @@
 .pl-20 { padding-left: 20px; }
 .pr-20 { padding-right: 20px; }
 
-.p20{
-    padding: 20px;
+.shadow24{
+    border: 1px solid rgba(36, 39, 44, .1);
+    border-radius: var(--radius-xl);
+    box-shadow: 0 1px 2px rgba(36, 39, 44, .1);
+    padding: 17px 20px 20px;
 }
-
 
 .rightSup{
     position: relative;
