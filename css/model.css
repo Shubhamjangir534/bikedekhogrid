@@ -25,3 +25,38 @@
     border-bottom: 3px solid #d02f2f;
     padding-bottom: 17px;
 }
+
+.bikeDtls{
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.startRatings .rating{
+    color: var(--gray-color);
+    font-weight: 700;
+}
+
+.priceDtls .bikePrice{
+    font-size: 20px;
+    color: var(--gray-color);
+    font-weight: 600;
+}
+
+.priceDtls .bikePrice i{
+    font-weight: 400;
+    font-style: normal;
+}
+
+.exShowroom{
+    color: rgba(36, 39, 44, .5);;
+}
+.exShowroom .leftSup{
+    font-size: 13px;
+}
+.exShowroom .exCity{
+    font-size: 12px;
+}
+
+.bikeDtls .limitedOffer{
+    font-size: 15px;
+}

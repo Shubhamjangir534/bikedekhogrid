@@ -8,7 +8,7 @@
 .btn{
     display: inline-block;
     border: 0;
-    border-radius: 8px;
+    border-radius: var(--radius-md);
     cursor: pointer;
     font-size: 16px;
     font-weight: 700;
@@ -116,13 +116,41 @@
 .ml-8 { margin-left: 8px; }
 .mr-8 { margin-right: 8px; }
 
+.mb-20 {margin-bottom: 20px;}
+
+.mt-12 { margin-top: 12px; }
+.mb-12 { margin-bottom: 12px; }
+.ml-12 { margin-left: 12px; }
+.mr-12 { margin-right: 12px; }
 
 .pt-4{ padding-top: 4px;}
 .pb-4{ padding-bottom: 4px;}
 .pl-4{ padding-left: 4px;}
 .pr-4{ padding-right: 4px;}
 
-.pt-8 { margin-top: 8px; }
-.pb-8 { margin-bottom: 8px; }
-.pl-8 { margin-left: 8px; }
-.pr-8 { margin-right: 8px; }
+.pt-8 { padding-top: 8px;}
+.pb-8 { padding-bottom: 8px; }
+.pl-8 { padding-left: 8px; }
+.pr-8 { padding-right: 8px; }
+
+.pt-20 { padding-top: 20px;}
+.pb-20 { padding-bottom: 20px; }
+.pl-20 { padding-left: 20px; }
+.pr-20 { padding-right: 20px; }
+
+.p20{
+    padding: 20px;
+}
+
+
+.rightSup{
+    position: relative;
+    top: 3px;
+    left: -4px;
+}
+
+.leftSup{
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
