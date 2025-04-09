@@ -69,6 +69,9 @@
     .col-md-4 { 
         grid-column: span 4; 
     }
+    .col-md-6 { 
+        grid-column: span 6; 
+    }
     .col-md-8 { 
         grid-column: span 8; 
     }
@@ -77,6 +80,12 @@
 @media (min-width: 1024px) {
     .col-lg-3 { 
         grid-column: span 3; 
+    }
+    .col-lg-6 { 
+        grid-column: span 6; 
+    }
+    .col-lg-8 { 
+        grid-column: span 8; 
     }
     .col-lg-9 { 
         grid-column: span 9; 
