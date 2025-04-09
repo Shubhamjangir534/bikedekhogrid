@@ -1,8 +1,27 @@
+.modelNav{
+    box-shadow: 0 6px 10px 0 rgba(36, 39, 44, .05);
+    width: 100%;
+}
+
 .modelNavList{
     display: flex;
     align-items: center;
     gap: 30px;
 }
 .modelNavList li{
+    cursor: pointer;
     list-style: none;
+    transition:0.4s ease-in-out;
+}
+
+.modelNavList li span{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+.modelNavList li:hover span{
+    color: var(--primary-color);
+    border-bottom: 3px solid #d02f2f;
+    padding-bottom: 17px;
 }
