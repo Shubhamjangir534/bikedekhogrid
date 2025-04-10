@@ -112,4 +112,11 @@ strong{
     background-color: var(--light-bg);
     color: var(--light-grey-font);
 }
-  
+.outer-spin{
+    padding: 18px 14px;
+    background-color: #dff1e74d;
+}
+.inner-spin{
+    padding: 18px 14px;
+    background-color: rgba(255, 30, 60, .03);
+}
