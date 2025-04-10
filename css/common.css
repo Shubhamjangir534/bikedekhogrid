@@ -1,5 +1,4 @@
 
-
 .btnfull{
     width: 100%;
 }
@@ -109,6 +108,37 @@
     position: relative;
 }
 
+.rightAlign{
+    text-align: right;
+}
+.leftAlign{
+    text-align: right;
+}
+.centerAlign{
+    text-align: center;
+}
+
+.decorationLi{
+    text-decoration: underline;
+}
+
+.styleLi{
+    list-style-type: disc;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.downArrow{
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #24272c;
+    content: "";
+    display: inline-block;
+    margin-left: 3px;
+}
+
 .flexCenter{
     display: flex;
     align-items: center;
@@ -185,11 +215,6 @@
         margin-inline: auto;
         /* padding: 0 15px; */
     }
-    
-    .btn{
-        width: 240px;
-    }
-
 }
 
 @media (min-width: 1024px) {
