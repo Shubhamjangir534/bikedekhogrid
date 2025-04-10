@@ -1,7 +1,6 @@
 .feature-tabs{
     left: -20px;
     width: calc(100% + 40px);
-    padding-left: 20px;
     display: flex;
     gap: 30px;
     border-bottom: 1px solid rgba(36, 39, 44, .15);
@@ -41,6 +40,9 @@ strong{
     color: var(--gray-color);
     font-weight: 600;
 }
+.hondaprice-data{
+    padding: 27px 0px 37px 20px;
+}
 
 .link-btn{
     cursor: pointer;
@@ -74,3 +76,41 @@ strong{
     position: absolute;
     right: -19px;
 }
+.thirdBtn{
+    border: 1px solid #d02f2f;
+    font-size: 14px;
+    height: 44px;
+    line-height: 44px;
+    width: 195px;
+    color: var( --primary-color);
+}
+.F-18{
+    font-size: 18px;
+}
+.F-12{
+    font-size: 12px;
+}
+.F-15{
+    font-size: 15px;
+}
+.p-30{
+    padding: 27px 20px 37px 0px;
+}
+.p-31{
+    padding: 27px 0px 37px 20px;
+}
+.p-6{
+    padding: 6px 0 0 20px;
+}
+.p-7{
+    padding: 6px 20px 0 0;
+}
+.bb-10{
+    border-bottom: 1px solid rgba(36, 39, 44, .15);
+}
+.bg{
+    width: calc(100% + 20px);
+    background-color: var(--light-bg);
+    color: var(--light-grey-font);
+}
+  

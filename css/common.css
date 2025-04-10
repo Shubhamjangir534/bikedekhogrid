@@ -16,6 +16,9 @@
     width: 100%;
     line-height: 48px;
 }
+.blockTb{
+    display: block;
+}
 
 .primaryBtn{
     background: var(--primary-color);
