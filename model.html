@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/model.css">
     <link rel="stylesheet" href="./css/modalnew.css">
+    <link rel="stylesheet" href="./css/icons.css">
 </head>
 <body>
     <!-- navbar -->
     <section class="modelNav">
         <nav class="container">
-            <ul class="modelNavList">
+            <ul class="modelNavList hide-scrollbar pl-20">
                 <li class="listItems"><span>SP125</span></li>
                 <li class="listItems"><span>PRICE</span></li>
                 <li class="listItems"><span>SPECS</span></li>
@@ -25,107 +26,119 @@
                 <li class="listItems"><span>USER REVIEWS</span></li>
                 <li class="listItems"><span>SP125 EMI</span></li>
                 <li class="listItems"><span>MORE</span></li>
+                <li></li>
+                <li></li>
             </ul>
         </nav>
     </section>
-    <main>
-        <div class="container">
-            <!-- hondasp -->
-            <section class="modelPrice row-new">
-                <div class="col-lg-5">
-                    <img src="./images/honda125.avif" alt="">
+    <main class="mt-4 container">
+        <!-- hondasp -->
+        <section class="modelPrice row-new">
+            <div class="col-lg-5 col-12">
+                <div class="row-new posR">
+                    <div class="col-lg-2 morePics">
+
+                    </div>
+                    <div class="col-lg-10 bikeImg col-12">
+                        <img src="https://cdn.bikedekho.com/processedimages/honda/sp125/494X300/sp1256789eaeb8a21e.jpg" alt="" class="fit-img">
+                    </div>
                 </div>
-                <div class="col-lg-7 bikeDtls">
-                    <h1 class="mb-4">Honda SP 125</h1>
-                    <div class="reviewShare mb-12">
-                        <div class="startRatings">
-                            <span class="rating">4.5</span>
-                            <span class="reviews blueLink">69 Reviews</span>
-                            <span class="wrtReview blueLink">Write Reviews</span>
-                        </div>
-                        <div class="likeShare">
-
-                        </div>
+            </div>
+            <div class="col-lg-7 bikeDtls col-12 pl-20 pr-20">
+                <h1 class="mb-4 hondaText">Honda SP 125</h1>
+                <div class="reviewShare mb-12 spaceBetween">
+                    <div class="startRatings">
+                        <span class="rating">4.5</span>
+                        <span class="icon-star-full-fill"></span>
+                        <span class="reviews blueLink mr-4">69 Reviews</span>
+                        <span class="wrtReview blueLink posR pl-10">Write Reviews</span>
                     </div>
-                    <div class="features pl-20 mb-12">
-                        <ul>
-                            <li>The Honda SP125 is the company’s sportiest 125cc commuter bike. </li>
-                            <li>It is basically the Shine 125 underneath its sharp body panels - the same chassis and the same fuel-efficient 123.94cc single-cylinder air-cooled motor which in this bike makes marginally more power, but marginally less torque. </li>
-                        </ul>
+                    <div class="likeShare">
+                        <i class="icon-cd-heart_empty mr-12"></i>
+                        <i class="icon-share ml-12"></i>
                     </div>
+                </div>
+                <div class="features pl-20 mb-12">
+                    <ul>
+                        <li>The Honda SP125 is the company’s sportiest 125cc commuter bike. </li>
+                        <li>It is basically the Shine 125 underneath its sharp body panels - the same chassis and the same fuel-efficient.</li>
+                    </ul>
+                </div>
 
-                    <div class="otherDetails">
-                        <div class="priceDtls">
-                            <span class="bikePrice">
-                                <i>₹</i>
-                                92,678 - 1 Lakh
-                                <sup class="rightSup">*</sup>
-                            </span>
+                <div class="otherDetails">
+                    <div class="priceDtls">
+                        <span class="bikePrice">
+                            <i class="icon-cd_R posR"></i>
+                            92,678 - 1 Lakh
+                            <sup class="rightSup">*</sup>
+                        </span>
+                        <div class="buttonHolder">
                             <span class="blueLink">Get On Road Price</span>
-                            <div class="exShowroom">
-                                <sup class="leftSup">*</sup>
-                                Ex-showroom price in
-                                <span class="exCity blueLink">
-                                    Delhi
-                                    <i></i>
-                                </span>
-                            </div>
                         </div>
-                        <div class="EMIDtls mt-4 mb-20">
-                            <span>EMI starts from ₹3,072</span>
+                        <div class="exShowroom">
+                            <sup class="leftSup">*</sup>
+                            Ex-showroom price in
+                            <span class="exCity blueLink">
+                                Delhi
+                                <i class="icon-cd_pencil pl-4"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="EMIDtls mt-4">
+                        <span>EMI starts from ₹3,072</span>
+                        <div class="buttonHolder">
                             <span class="blueLink">View Finance Offers</span>
                         </div>
-                        <div class="offerBtn">
-                            <button class="btn primaryBtn">
-                                <span>View April Offer</span>
-                            </button>
-                        </div>
-                        <div class="limitedOffer">
-                            <i></i>
-                            <span>Don't miss out on the best offers this April</span>
-                        </div>
+                    </div>
+                    <div class="buttonHolder mt-12 btnfull">
+                        <span class="btn primaryBtn">View April Offers</span>
+                    </div>
+                    <div class="limitedOffer mt-6 mb-20">
+                        <i class="icon-offers mr-10"></i>
+                        <span>Don't miss out on the best offers this April</span>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
             <!-- last -->
             <section>
                 <div class="row-new">
-                    <div class="col-lg-9">
+                    <div class="col-lg-9 col-12">
                         <div class="keySpecs mb-20 p-20 shadow24 col-12">
                             <h2 class="mb-8"> Key Specs & Features of Honda SP 125</h2>
                             <div>
-                                    <ul class="feature-tabs posR">
+                                    <ul class="feature-tabs hide-scrollbar posR pl-20 pr-20">
                                         <li title="key specs">Key Specs</li>
                                         <li title="Top Features">Top Features</li>
                                         <li title="App Features">App Features</li>
                                         <li title="Stand Out Features">Stand Out Features</li>
                                     </ul>
                             </div>
-                            <div class="table-data">
-                                    <table>
-                                        <tbody>
-                                            <tr>
-                                                <td class="table-icon"><i class="icon"></i> Engine</td>
+                            <div class="table-data mt-12">
+                                    <table class="blockTb">
+                                        <tbody class="row-new">
+                                            <tr class="col-lg-6 spaceBetween col-12">
+                                                <td ><i class="icon-cd-Engine mr-12"></i> Engine</td>
                                                 <td class="iconname">123.94 cc</td>
                                             </tr>
-                                            <tr>
-                                                <td><i class="icon"></i>Power</td>
+                                            <tr class="col-lg-6 spaceBetween col-12">
+                                                <td><i class="icon-cd-BHP mr-12"></i>Power</td>
                                                 <td class="iconname">10.87 PS </td>
                                             </tr>
-                                            <tr>
-                                                <td><i class="icon"></i>Torque</td>
+                                            <tr class="col-lg-6 spaceBetween col-12">
+                                                <td><i class="icon-torque mr-12"></i>Torque</td>
                                                 <td class="iconname">10.9 Nm </td>
                                             </tr>
-                                            <tr>
-                                                <td><i class="icon"></i>Mileage</td>
+                                            <tr class="col-lg-6 spaceBetween col-12">
+                                                <td><i class="icon-mileage mr-12"></i>Mileage</td>
                                                 <td class="iconname">63 kmpl</td>
                                             </tr>
-                                            <tr>
-                                                <td><i class="icon"></i>Kerb Weight</td>
+                                            <tr class="col-lg-6 spaceBetween col-12">
+                                                <td><i class="icon-curb-weight mr-12"></i>Kerb Weight</td>
                                                 <td class="iconname">116 kg</td>
                                             </tr>
-                                            <tr>
-                                                <td><i class="icon"></i>Brakes</td>
+                                            <tr class="col-lg-6 spaceBetween col-12">
+                                                <td><i class="icon-brake-system mr-12"></i>Brakes</td>
                                                 <td class="iconname">Drum</td>
                                             </tr>
                                         </tbody>
@@ -161,45 +174,44 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="mb-20 p-20 shadow24">
-                            <div class="row-new">
-                                <div class="col-lg-7 mb-4">
-                                    <div>Calculate EMI</div>
+                    <div class="col-lg-3 col-12">
+                        <div class="finOffer mb-20 p-20 shadow24">
+                            <div class="row-new posR">
+                                <div class="col-lg-9 col-10">
+                                    <div class="h2Title mb-8">Calculate EMI</div>
                                     <div>Your monthly EMI</div>
-                                    <div>
-                                        <span>₹ 3,072</span>
-                                        <span>Edit EMI</span>
+                                    <div class="editEMI">
+                                        <span class="EMIamt">₹ 3,072</span>
+                                        <span class="linkTag ml-8">Edit EMI</span>
                                     </div>
                                     <div class="mt-4">Interest calculated at 9.7% for 36 months</div>
                                 </div>
-                                <div class="col-lg-5">
+                                <div class="col-lg-3 offerImg">
                                     <img alt="Emi" decoding="async" class="image imageTransition active" width="90" height="105" src="https://cdn.bikedekho.com/pwa/img/illustration/monthlyEmiIconV1.svg" loading="eager" fetchpriority="low" data-lazy="true">
                                 </div>
                             </div>
-                            <div class="btn secondaryBtn mt-12">
-                                <span>View Finance Offers</span>
+                            <div class="buttonHolder mt-12 btnfull">
+                                <span class="btn secondaryBtn">View Finance Offers</span>
                             </div>
                         </div>
-                        <div class=" mb-20 p-20 shadow24">
-                            <div class="row-new">
-                                <div class="col-lg-7 mt-4">
-                                    <div>SP125 Brochure</div>
+                        <div class="broDown mb-20 p-20 shadow24">
+                            <div class="row-new posR">
+                                <div class="col-lg-9 col-10">
+                                    <div class="h2Title mb-8">SP125 Brochure</div>
                                     <div>Download the SP125 brochure for comprehensive details on technical specifications, features, 
                                         variants, and available colours.</div>
                                 </div>
-                                <div class="col-lg-5">
+                                <div class="col-lg-3 brochureImg">
                                     <img alt="download brochure" decoding="async" class="image imageTransition active" height="90" src="https://cdn.bikedekho.com/pwa/img/illustration/brochureIconV1.svg" loading="eager" fetchpriority="low" data-lazy="true">
                                 </div>
                             </div>
-                            <div class="btn secondaryBtn mt-12">
-                                <span>Download Brochure</span>
+                            <div class="buttonHolder mt-12 btnfull">
+                                <span class="btn secondaryBtn">Download Brochure</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>  
-        </div>
     </main>
 </body>
 </html>

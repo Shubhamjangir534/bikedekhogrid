@@ -1,3 +1,7 @@
+.modelPrice .hondaText{
+    margin-top: 25px;
+}
+
 .modelNav{
     box-shadow: 0 6px 10px 0 rgba(36, 39, 44, .05);
     width: 100%;
@@ -7,17 +11,19 @@
     display: flex;
     align-items: center;
     gap: 30px;
+    overflow-y: auto;
 }
 .modelNavList li{
     cursor: pointer;
     list-style: none;
     transition:0.4s ease-in-out;
+    white-space: nowrap;
 }
 
 .modelNavList li span{
     display: inline-block;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 20px 0px;
 }
 .modelNavList li:hover span{
@@ -26,25 +32,54 @@
     padding-bottom: 17px;
 }
 
-.bikeDtls{
-    font-size: 13px;
-    line-height: 1.5;
-    font-weight: 400;
+.modelPrice{
+    margin-bottom: 28px;
 }
+
+/* temp */
+.modelPrice .morePics{
+    width: 48px;
+    height: 48px;
+    background: black;
+    border-radius: var(--radius-md);
+    position: absolute;
+    bottom: -18px;
+    left: 20px;
+
+}
+
+.modelPrice .bikeImg img{
+    height: 240px;
+}
+  
 .startRatings .rating{
     color: var(--gray-color);
     font-weight: 700;
 }
 
-.priceDtls .bikePrice{
+.bikeDtls .wrtReview::before{
+    background: rgba(36, 39, 44, .5);
+    border-radius: 50%;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 9px;
+    width: 3px;
+}
+.bikeDtls .likeShare i{
     font-size: 20px;
+    color: var(--light-gray);
+}
+.priceDtls .bikePrice{
+    font-size: 18px;
     color: var(--gray-color);
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .priceDtls .bikePrice i{
-    font-weight: 400;
-    font-style: normal;
+    font-size: 18px;
+    top: 1px;
 }
 
 .exShowroom{
@@ -56,7 +91,39 @@
 .exShowroom .exCity{
     font-size: 12px;
 }
+.exShowroom .exCity i{
+    font-size: 10px;
+}
 
 .bikeDtls .limitedOffer{
     font-size: 15px;
 }
+
+.bikeDtls .limitedOffer i{
+    font-size: 20px;
+}
+
+
+@media (min-width: 786px) {
+    main{
+        padding: 34px 0px;
+    }
+    /* temp */
+    .modelPrice .morePics{
+        position: unset;
+    }
+    .modelPrice .hondaText{
+        margin-top: -5px;
+    }
+
+    .modelPrice .bikeImg img{
+        border-radius: var(--radius-md);
+    }
+    .modelPrice .bikeImg img{
+        height: 304px;
+    }
+    .modelNavList li span{
+        font-weight: 600;
+    }
+}
+  

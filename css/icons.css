@@ -1,0 +1,840 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  
+    url('../icons/icomoon.woff2') format('woff2'),
+    url('../icons/icomoon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Video:before {
+  content: "\e9fe";
+}
+.icon-bd-sort:before {
+  content: "\e9fb";
+}
+.icon-bd-image:before {
+  content: "\e9fc";
+}
+.icon-bd-color:before {
+  content: "\e9fd";
+}
+.icon-cd-fb-icon:before {
+  content: "\e948";
+}
+.icon-youtube:before {
+  content: "\e9fa";
+}
+.icon-compare-car:before {
+  content: "\e9f7";
+}
+.icon-car-sold:before {
+  content: "\e9f8";
+}
+.icon-offers:before {
+  content: "\e9f6";
+}
+.icon-instagram:before {
+  content: "\e9f9";
+}
+.icon-anti-theft-alarm:before {
+  content: "\e9f3";
+}
+.icon-charging-station:before {
+  content: "\e9f4";
+}
+.icon-low-battery-alert:before {
+  content: "\e9f5";
+}
+.icon-mobile-app:before {
+  content: "\e9ee";
+}
+.icon-warranty:before {
+  content: "\e9ef";
+}
+.icon-charger:before {
+  content: "\e9f0";
+}
+.icon-battery-warranty:before {
+  content: "\e9f1";
+}
+.icon-road-side-assistance:before {
+  content: "\e9f2";
+}
+.icon-curb-weight:before {
+  content: "\e9ed";
+}
+.icon-info-line:before {
+  content: "\e9ec";
+}
+.icon-camera:before {
+  content: "\e9e7";
+}
+.icon-browsefile:before {
+  content: "\e9e8";
+}
+.icon-book-online:before {
+  content: "\e9e6";
+}
+.icon-my-Appointments:before {
+  content: "\e9d7";
+  color: #8498b0;
+}
+.icon-my-order:before {
+  content: "\e9d8";
+  color: #8498b0;
+}
+.icon-shortlist-new:before {
+  content: "\e9d9";
+}
+.icon-back-arrow-new:before {
+  content: "\e9da";
+}
+.icon-my-order-new:before {
+  content: "\e9db";
+}
+.icon-my-vehical-new:before {
+  content: "\e9dc";
+}
+.icon-notification-new:before {
+  content: "\e9dd";
+}
+.icon-recent-activities-new:before {
+  content: "\e9de";
+}
+.icon-myAccount:before {
+  content: "\e9df";
+}
+.icon-my-Appointments-red .path1:before {
+  content: "\e9e0";
+  color: rgb(132, 152, 176);
+}
+.icon-my-Appointments-red .path2:before {
+  content: "\e9e1";
+  margin-left: -0.94140625em;
+  color: rgb(235, 113, 120);
+}
+.icon-MyOrders:before {
+  content: "\e9e2";
+  color: #8498b0;
+}
+.icon-new-notifications .path1:before {
+  content: "\e9e3";
+  color: rgb(132, 152, 176);
+}
+.icon-new-notifications .path2:before {
+  content: "\e9e4";
+  margin-left: -1.10546875em;
+  color: rgb(132, 152, 176);
+}
+.icon-new-notifications .path3:before {
+  content: "\e9e5";
+  margin-left: -1.10546875em;
+  color: rgb(235, 113, 120);
+}
+.icon-logout:before {
+  content: "\e9d5";
+}
+.icon-setting:before {
+  content: "\e9d6";
+}
+.icon-off-roadIcon:before {
+  content: "\e9d4";
+}
+.icon-acceleration-new:before {
+  content: "\e9cc";
+}
+.icon-Warranty:before {
+  content: "\e9cd";
+}
+.icon-Top-Speed:before {
+  content: "\e9ce";
+}
+.icon-Battery-Capacity:before {
+  content: "\e9cf";
+}
+.icon-bs6Green:before {
+  content: "\e9d0";
+  color: #019e43;
+}
+.icon-electricNew:before {
+  content: "\e9d1";
+}
+.icon-variantNew:before {
+  content: "\e9d2";
+}
+.icon-facelift:before {
+  content: "\e9d3";
+  color: #ffa236;
+}
+.icon-happycustomer:before {
+  content: "\e9ca";
+  color: #2176ae;
+}
+.icon-nosecurity:before {
+  content: "\e9cb";
+  color: #2176ae;
+}
+.icon-ploan:before {
+  content: "\e9c9";
+}
+.icon-report:before {
+  content: "\e9c8";
+}
+.icon-security:before {
+  content: "\e9c4";
+  color: #529ec1;
+}
+.icon-idea:before {
+  content: "\e9c5";
+}
+.icon-netbanking:before {
+  content: "\e9c6";
+}
+.icon-debitcard:before {
+  content: "\e9c7";
+}
+.icon-cyclesIcon:before {
+  content: "\e9c3";
+}
+.icon-reply:before {
+  content: "\e9c2";
+}
+.icon-approvaltime:before {
+  content: "\e9b8";
+  color: #2176ae;
+}
+.icon-interest:before {
+  content: "\e9be";
+  color: #2176ae;
+}
+.icon-paperless:before {
+  content: "\e9bf";
+  color: #2176ae;
+}
+.icon-rupee:before {
+  content: "\e9c0";
+  color: #2176ae;
+}
+.icon-wallet:before {
+  content: "\e9c1";
+  color: #2176ae;
+}
+.icon-dislike-line:before {
+  content: "\e9b6";
+}
+.icon-like-line:before {
+  content: "\e9b7";
+}
+.icon-loan:before {
+  content: "\e9b2";
+}
+.icon-alert:before {
+  content: "\e9b5";
+}
+.icon-sell-bike:before {
+  content: "\e9b1";
+}
+.icon-more:before {
+  content: "\e9b0";
+}
+.icon-whatsapp:before {
+  content: "\e9af";
+}
+.icon-image:before {
+  content: "\e9ac";
+}
+.icon-spare-parts:before {
+  content: "\e9ad";
+}
+.icon-feature:before {
+  content: "\e9b9";
+}
+.icon-faq:before {
+  content: "\e9ba";
+}
+.icon-login-register:before {
+  content: "\e9bb";
+}
+.icon-service-center:before {
+  content: "\e9bc";
+}
+.icon-model:before {
+  content: "\e9bd";
+}
+.icon-new-location:before {
+  content: "\e9ab";
+}
+.icon-bd-mail:before {
+  content: "\e9aa";
+}
+.icon-bd-privacy:before {
+  content: "\e9a9";
+}
+.icon-bd-price:before {
+  content: "\e9a0";
+}
+.icon-topspeed:before {
+  content: "\e99f";
+}
+.icon-mileage:before {
+  content: "\e982";
+}
+.icon-tyre-type:before {
+  content: "\e99d";
+}
+.icon-motor-type:before {
+  content: "\e99e";
+}
+.icon-cylinder:before {
+  content: "\e9a1";
+}
+.icon-engine-start:before {
+  content: "\e9a2";
+}
+.icon-motor-power:before {
+  content: "\e9a3";
+}
+.icon-battery:before {
+  content: "\e9a4";
+}
+.icon-console:before {
+  content: "\e9a5";
+}
+.icon-cooling:before {
+  content: "\e9a6";
+}
+.icon-cruise-control:before {
+  content: "\e9a7";
+}
+.icon-bd-abs:before {
+  content: "\e9a8";
+}
+.icon-features:before {
+  content: "\e99c";
+}
+.icon-new-bike:before {
+  content: "\e999";
+}
+.icon-new-compare:before {
+  content: "\e99a";
+}
+.icon-new-scooter:before {
+  content: "\e99b";
+}
+.icon-location:before {
+  content: "\e998";
+}
+.icon-fuel-tank:before {
+  content: "\e984";
+}
+.icon-acceleration:before {
+  content: "\e983";
+}
+.icon-cd-more:before {
+  content: "\e981";
+}
+.icon-car-service:before {
+  content: "\e956";
+}
+.icon-download-app:before {
+  content: "\e97d";
+  color: #6b6b6b;
+}
+.icon-safety-month:before {
+  content: "\e97e";
+}
+.icon-user-reviews:before {
+  content: "\e97f";
+}
+.icon-brochure:before {
+  content: "\e93c";
+}
+.icon-colors:before {
+  content: "\e93e";
+}
+.icon-emi-calculator:before {
+  content: "\e940";
+}
+.icon-expert-review:before {
+  content: "\e941";
+}
+.icon-insurance:before {
+  content: "\e942";
+}
+.icon-loans:before {
+  content: "\e943";
+}
+.icon-service-cost:before {
+  content: "\e946";
+}
+.icon-brake-system:before {
+  content: "\e92d";
+}
+.icon-general-car:before {
+  content: "\e92e";
+}
+.icon-payload-towing:before {
+  content: "\e930";
+}
+.icon-dimension:before {
+  content: "\e923";
+}
+.icon-others:before {
+  content: "\e927";
+}
+.icon-performance:before {
+  content: "\e928";
+}
+.icon-safety:before {
+  content: "\e929";
+}
+.icon-suspension:before {
+  content: "\e92c";
+}
+.icon-cd-video-play:before {
+  content: "\e920";
+}
+.icon-cd-feel-tha-car:before {
+  content: "\e91c";
+}
+.icon-cd-download:before {
+  content: "\e91d";
+}
+.icon-cd-color:before {
+  content: "\e91e";
+}
+.icon-info:before {
+  content: "\e917";
+}
+.icon-next:before {
+  content: "\e918";
+}
+.icon-360:before {
+  content: "\e913";
+}
+.icon-big-saving:before {
+  content: "\e915";
+  color: #e6274b;
+}
+.icon-share:before {
+  content: "\e916";
+}
+.icon-offers1:before {
+  content: "\e90f";
+}
+.icon-india-no:before {
+  content: "\e910";
+}
+.icon-check:before {
+  content: "\e901";
+}
+.icon-deletearrow:before {
+  content: "\e90a";
+}
+.icon-down-arrow:before {
+  content: "\e90b";
+}
+.icon-overview:before {
+  content: "\e90e";
+}
+.icon-news2:before {
+  content: "\e906";
+}
+.icon-sell-car:before {
+  content: "\e908";
+}
+.icon-used-car:before {
+  content: "\e909";
+}
+.icon-back:before {
+  content: "\e902";
+}
+.icon-menu:before {
+  content: "\e912";
+}
+.icon-cd_facebook:before {
+  content: "\e91a";
+  color: #1877f2;
+}
+.icon-cd_google-plus:before {
+  content: "\e92a";
+  color: #dc4f42;
+}
+.icon-cd_twitter:before {
+  content: "\e932";
+  color: #fff;
+}
+.icon-cd-pinterest:before {
+  content: "\e947";
+  color: #cb2128;
+}
+.icon-cd-whatsapp:before {
+  content: "\e97b";
+  color: #09b83e;
+}
+.icon-delete:before {
+  content: "\e97a";
+}
+.icon-diesel:before {
+  content: "\e95a";
+}
+.icon-petrol:before {
+  content: "\e979";
+}
+.icon-addition:before {
+  content: "\e970";
+}
+.icon-subtraction:before {
+  content: "\e978";
+}
+.icon-torque:before {
+  content: "\e951";
+}
+.icon-chandigarh:before {
+  content: "\e972";
+}
+.icon-ghaziabad:before {
+  content: "\e973";
+}
+.icon-gurgaon:before {
+  content: "\e974";
+}
+.icon-lucknow:before {
+  content: "\e975";
+}
+.icon-patna:before {
+  content: "\e976";
+}
+.icon-Ground-clearence:before {
+  content: "\e977";
+}
+.icon-noida:before {
+  content: "\e96e";
+}
+.icon-cochin:before {
+  content: "\e96d";
+}
+.icon-ahmedabad:before {
+  content: "\e964";
+}
+.icon-bangalore:before {
+  content: "\e965";
+}
+.icon-chennai:before {
+  content: "\e96c";
+}
+.icon-delhi:before {
+  content: "\e987";
+}
+.icon-hyderabad:before {
+  content: "\e988";
+}
+.icon-jaipur:before {
+  content: "\e989";
+}
+.icon-kolkata:before {
+  content: "\e98a";
+}
+.icon-mumbai:before {
+  content: "\e98b";
+}
+.icon-ncr:before {
+  content: "\e98c";
+}
+.icon-pune:before {
+  content: "\e9ae";
+}
+.icon-cng:before {
+  content: "\e96f";
+}
+.icon-lpg:before {
+  content: "\e9b3";
+}
+.icon-electric:before {
+  content: "\e9b4";
+}
+.icon-offer:before {
+  content: "\e945";
+}
+.icon-cd-BHP:before {
+  content: "\e94a";
+}
+.icon-cd-Dealer:before {
+  content: "\e94c";
+}
+.icon-cd-Dealer2:before {
+  content: "\e971";
+}
+.icon-cd-Engine:before {
+  content: "\e94d";
+}
+.icon-cd-Transmission:before {
+  content: "\e962";
+}
+.icon-cd-call_icon:before {
+  content: "\e949";
+}
+.icon-cd-comments .path1:before {
+  content: "\e966";
+  color: rgb(36, 39, 44);
+}
+.icon-cd-comments .path2:before {
+  content: "\e967";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-cd-comments .path3:before {
+  content: "\e968";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-cd-comments .path4:before {
+  content: "\e969";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-cd-dealer-sol:before {
+  content: "\e96a";
+}
+.icon-cd-filter:before {
+  content: "\e950";
+}
+.icon-cd-fuel:before {
+  content: "\e952";
+}
+.icon-cd-gallery:before {
+  content: "\e96b";
+}
+.icon-cd-grid_icon:before {
+  content: "\e953";
+}
+.icon-cd-heart_empty:before {
+  content: "\e94b";
+}
+.icon-cd-heart_filled:before {
+  content: "\e954";
+  color: #f75d34;
+}
+.icon-cd-kilometer:before {
+  content: "\e955";
+}
+.icon-cd-listing_view:before {
+  content: "\e957";
+}
+.icon-cd-locationPin:before {
+  content: "\e958";
+}
+.icon-cd-milage:before {
+  content: "\e959";
+}
+.icon-cd-owner:before {
+  content: "\e94f";
+}
+.icon-cd-play_icon:before {
+  content: "\e95b";
+}
+.icon-cd-recent:before {
+  content: "\e95c";
+}
+.icon-cd-review:before {
+  content: "\e97c";
+}
+.icon-cd-search:before {
+  content: "\e95d";
+}
+.icon-cd-seats:before {
+  content: "\e95e";
+}
+.icon-cd-sorting:before {
+  content: "\e95f";
+}
+.icon-cd-support:before {
+  content: "\e980";
+}
+.icon-cd-thumbdown:before {
+  content: "\e960";
+}
+.icon-cd-thumbup:before {
+  content: "\e961";
+}
+.icon-cd-wheel:before {
+  content: "\e963";
+}
+.icon-cd-write-a-comment:before {
+  content: "\e985";
+}
+.icon-cd-year:before {
+  content: "\e986";
+}
+.icon-cd_R:before {
+  content: "\52";
+}
+.icon-cd_appstore:before {
+  content: "\e900";
+}
+.icon-cd_call:before {
+  content: "\e914";
+}
+.icon-cd_comments:before {
+  content: "\e90d";
+}
+.icon-cd_emi:before {
+  content: "\e905";
+}
+.icon-cd_fblikes:before {
+  content: "\e907";
+}
+.icon-cd_grid-view:before {
+  content: "\e90c";
+}
+.icon-cd_home:before {
+  content: "\e91b";
+}
+.icon-cd_mail:before {
+  content: "\e91f";
+}
+.icon-cd_mobile-app:before {
+  content: "\e921";
+}
+.icon-cd_most-viewed-Model:before {
+  content: "\e919";
+}
+.icon-cd_my-account:before {
+  content: "\e922";
+}
+.icon-cd_pencil:before {
+  content: "\e931";
+}
+.icon-cd_phone:before {
+  content: "\e92f";
+}
+.icon-cd_r:before {
+  content: "\72";
+}
+.icon-cd_top-selling-model:before {
+  content: "\e936";
+}
+.icon-cd_video:before {
+  content: "\e92b";
+}
+.icon-cd_views:before {
+  content: "\e93d";
+}
+.icon-fulscreen:before {
+  content: "\e939";
+}
+.icon-msg-icon:before {
+  content: "\e944";
+}
+.icon-quote:before {
+  content: "\e938";
+  color: #6f7684;
+}
+.icon-star-full-empty:before {
+  content: "\e933";
+}
+.icon-star-full-fill:before {
+  content: "\e935";
+  color: #ffa236;
+}
+.icon-star-half-empty:before {
+  content: "\e934";
+}
+.icon-time:before {
+  content: "\e93b";
+}
+.icon-view:before {
+  content: "\e93a";
+}
+.icon-cd_s:before {
+  content: "\73";
+}
+.icon-cd_space:before {
+  content: "\20";
+}
+.icon-cd_dot:before {
+  content: "\2e";
+}
+.icon-youtube1:before {
+  content: "\e903";
+}
+.icon-twitter:before {
+  content: "\e904";
+}
+.icon-google-plus:before {
+  content: "\e924";
+}
+.icon-tourer_bike:before {
+  content: "\e925";
+}
+.icon-super_bike:before {
+  content: "\e926";
+}
+.icon-street_bike:before {
+  content: "\e937";
+}
+.icon-sports_bike:before {
+  content: "\e93f";
+}
+.icon-scooter:before {
+  content: "\e94e";
+}
+.icon-moped:before {
+  content: "\e98d";
+}
+.icon-electic_bike:before {
+  content: "\e98e";
+}
+.icon-dirt_bike:before {
+  content: "\e98f";
+}
+.icon-cruiser_bike:before {
+  content: "\e990";
+}
+.icon-best_mileage:before {
+  content: "\e991";
+}
+.icon-upcomingscooter:before {
+  content: "\e996";
+}
+.icon-upcomingbike:before {
+  content: "\e997";
+}
+.icon-used-bike:before {
+  content: "\e992";
+}
+.icon-bikes:before {
+  content: "\e993";
+}
+.icon-scooter2:before {
+  content: "\e994";
+}
+.icon-road_test:before {
+  content: "\e995";
+}
+.icon-news:before {
+  content: "\e9e9";
+}
+.icon-home-compare:before {
+  content: "\e9ea";
+}
+.icon-finance:before {
+  content: "\e9eb";
+}
