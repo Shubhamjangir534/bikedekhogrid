@@ -31,6 +31,12 @@ a{
     font-weight: 500;
 }
 
+li{
+    list-style: none;
+    text-decoration: none;
+}
+
+
 img{
     width: 100%;
 }
@@ -40,7 +46,30 @@ p{
     line-height: 1.6;
 }
 
-  
+.icon-cd_my-account,
+.icon-share,
+.icon-cd-heart_empty{
+    font-size: 20px;
+    color: var(--light-gray);
+    position: relative;
+    top: 2px;
+}
+.icon-cd-heart_empty{
+    top: 4px;
+}
+
+.icon-cd-locationPin{
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+}
+
+
+.icon-cd_my-account{
+    font-size: 17px;
+    color: var(--gray-color);
+}
+
 @media (min-width: 480px) {
     h1, h2, h3 {
         color: var(--gray-color);
