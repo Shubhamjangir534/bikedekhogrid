@@ -77,6 +77,9 @@ strong{
     width: 195px;
     color: var( --primary-color);
 }
+.fw-500{
+    font-weight: 500;
+}
 .F-18{
     font-size: 18px;
 }
@@ -118,5 +121,7 @@ strong{
 }
 .td-font{
     color: var(--gray-color);
-    font-weight: 500;
+}
+.img-area{
+    height: 100px;
 }
