@@ -1,0 +1,164 @@
+@media (min-width: 786px) {
+    .header .topArea{
+        padding: 11px 0;
+    }
+    .header .topheader{
+        align-items: center;
+    }
+    .header .topArea .logo{
+        height: 42px;
+        width: 174px;
+    }
+    .header .topArea .bdhomeSearch{
+        font-size: 14px;
+        border: 1px solid var(--gray-border);
+        height: 44px;
+        text-overflow: ellipsis;
+        padding: 0 40px 0 50px;
+        border-radius: 23px;
+        font-weight: 500;
+        width: 100%;
+        color: rgba(36, 39, 44, .5);
+        line-height: 44px;
+    }
+    
+    .header .topArea .homeSearch{
+        color: var(--gray-color);
+        font-weight: 500;
+        top: 13px;
+        font-size: 17px;
+        position: absolute;
+        left: 17px;
+    }
+    .header .topArea .loginAreaRight li{
+        display: inline-block;
+        margin-left: 34px;
+    }
+    .header .topArea .LangProfile{
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .header .topArea .LangProfile:after {
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-top: 5px solid #24272c;
+        content: "";
+        display: inline-block;
+        margin-left: 3px;
+    }
+    .header .bottomArea {
+        border-top: 1px solid rgba(36, 39, 44, .1);
+        box-shadow: 0 3px 6px 0 rgba(36, 39, 44, .1);
+        position: relative;
+        z-index: 1;
+    }
+    
+    .header .loginAreaRight .username{
+        color: var(--gray-color);
+        font-size: 14px;
+    }
+    .header .bottomArea .mainMenu{
+        padding-right: 33px;
+        color: var(--gray-color);
+    }
+    .header .bottomArea .mainMenu> span{
+        font-weight: 500;
+        font-size: 14px;
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        border-top: 3px solid transparent;
+        position: relative;
+        top: -2px;
+    }
+    .header .bottomArea .mainMenu> span:hover{
+        border-top: 3px solid var(--primary-color);
+    }
+    .header .bottomArea .downArrow{
+        position: relative;
+        top: -2px;
+    }
+
+
+    .header .mainMenu .submenu{
+        background-color: var(--white);
+        border: 1px solid rgba(36, 39, 44, .15);
+        box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+        opacity: 0;
+        margin: 0;
+        width: 240px;
+        left: -9999px;
+        position: absolute;
+        top: 51px;
+        transform: rotateX(-92deg);
+        border-radius: 0 0 4px 4px;
+        transform-origin: 0 0;
+        transition: transform .8s, opacity .4s;
+    }
+
+    .header .bottomArea li .subMenu li:hover {
+        background: #f0f1f2;
+    }
+    .header .mainMenu:hover .submenu{
+        left: -1px;
+        opacity: 1;
+        transform: rotateX(0);
+        z-index: 1000;
+    }
+    .header .mainMenu:hover .submenu li:hover .subMenuDeep li,
+    .header .mainMenu:hover .submenu li{
+        border-bottom: 1px solid rgba(36, 39, 44, .1);
+        padding: 10px 20px;
+    }
+    .header .mainMenu:hover .submenu li:hover .subMenuDeep li{
+        color: var(--light-gray);
+    }
+    .header .mainMenu:hover .submenu li:hover{
+        background: #f0f1f2;
+    }
+    
+
+    .header .mainMenu .submenu .subMenuDeep {
+        background: #fff;
+        border: 1px solid rgba(36, 39, 44, .15);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+        opacity: 0;
+        margin: 0;
+        width: 240px;
+        left: 237px;
+        position: absolute;
+        top: -1px;
+        max-height: 430px;
+        overflow: auto;
+        visibility: hidden;
+    }
+    .header .mainMenu .submenu li:hover .subMenuDeep {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .header .bottomArea li .subMenu li:hover  .subMenuDeep li a{
+        background: #f0f1f2;
+    }
+
+    .header .mainMenu .submenu .innerSpan i {
+        border: 1px solid rgba(36, 39, 44, .5);
+        border-width: 0 0 1px 1px;
+        display: inline-block;
+        font-size: 0;
+        height: 7px;
+        line-height: 0;
+        position: absolute;
+        right: 11px;
+        top: 15px;
+        transform: rotate(-135deg);
+        width: 7px;
+    }
+
+    .header .bottomArea .linkArea{
+        font-size: 14px;
+        position: absolute;
+        right: 10px;
+        top: 16px;
+    }
+}
