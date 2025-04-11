@@ -64,6 +64,11 @@ p{
     top: 3px;
 }
 
+.icon-my-order-new,.icon-shortlist-new,.icon-recent-activities-new,.icon-setting,.icon-logout{
+font-size: 13px;
+position: relative;
+top: 2px;
+}
 
 .icon-cd_my-account{
     font-size: 17px;
