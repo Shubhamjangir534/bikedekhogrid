@@ -75,9 +75,12 @@ strong{
     position: absolute;
     right: -19px;
 }
+.display{
+    display: flex;
+}
 .thirdBtn{
     border: 1px solid #d02f2f;
-    font-size: 14px;
+    font-size: 16px;
     height: 44px;
     line-height: 44px;
     width: 195px;
@@ -90,6 +93,8 @@ strong{
     font-size: 12px;
 }
 .F-15{
+    font-weight: 400;
+    color: var(--gray-color);
     font-size: 15px;
 }
 .p-30{
@@ -119,4 +124,8 @@ strong{
 .inner-spin{
     padding: 18px 14px;
     background-color: rgba(255, 30, 60, .03);
+}
+.td-font{
+    color: var(--gray-color);
+    font-weight: 500;
 }
