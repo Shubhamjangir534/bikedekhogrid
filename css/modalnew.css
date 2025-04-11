@@ -25,11 +25,7 @@
 strong{
     font-weight: 600;
 }
-/* tbody{
-    width: 933px;
-    display: grid ;
-     grid-template-columns: repeat(2, 50%);
-} */
+
 .table-data tr{
     font-size: 15px;
     padding: 10px 25px 10px 10px;
@@ -49,10 +45,6 @@ strong{
     margin: 12px 0 0;
 }
 
-
-.finOffer{
-    font-size: 13px;
-}
 .finOffer .editEMI .EMIamt{
     font-size: 17px;
     color: var(--gray-color);
@@ -62,7 +54,6 @@ strong{
     color: var(--gray-color);
     font-size: 14px;
 }
-
 
 .finOffer .offerImg{
     position: absolute;
