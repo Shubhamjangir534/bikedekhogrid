@@ -25,15 +25,43 @@
                 </div>
                 <div class="col-lg-5">
                     <form action="/" class="posR">
-                        <input type="text" class="bdhomeSearch" placeholder="Search Bikes or Scooters eg. YZF R15 V3, Activa 6G">
+                        <input id="bdekhosearchtext" type="text" class="bdhomeSearch" placeholder="Search Bikes or Scooters eg. YZF R15 V3, Activa 6G">
+                        <div class="typeHeadContainer posR">
+                            <div class="results">
+                                <ul>
+                                    <li class="groups uppercase hover">Recent Searches</li>
+                                    <li class="choice hover"> Honda SP 125</li>
+                                    <li class="choice hover"> Hero Splendor Plus</li>
+                                    <li class="groups uppercase hover"> Popular Searches</li>
+                                    <li class="choice hover">TVS Raider</li>
+                                    <li class="choice hover">TVS Apache RTR 160</li>
+                                    <li class="choice hover">Bajaj Pulsar 125</li>
+                                    <li class="choice hover">Royal Enfield Hunter 350</li>
+                                    <li class="choice hover"> Royal Enfield Classic 350</li>
+                                    <li class="choice hover">Bajaj Pulsar 125</li>
+                                    <li class="choice hover">Royal Enfield Hunter 350</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
                         <span class="homeSearch icon-cd-search"></span>
                     </form>
                 </div>
                 <div class="col-lg-4 rightAlign loginAreaRight">
                     <ul>
-                        <li class="underline">
-                            <div class="LangProfile hover">
+                        <li class="underline posR">
+                            <div class="LangProfile hover" id="selectLang">
                                 English
+                            </div>
+                            <div class="langDropDown">
+                                <ul>
+                                    <li class="pt-8 pb-8 m-0">
+                                        <a href="#">English</a>
+                                    </li>
+                                    <li class="pt-8 pb-8 m-0">
+                                        <a href="#">हिन्दी</a>
+                                    </li>
+                                </ul>
                             </div>
                         </li>
                         <li>
@@ -393,21 +421,26 @@
                                             as it is the best-selling 125cc bike in India. 
                                         </p>
                                     </li>
+        <!-- last -->
+        <section
+            <div class="row-new">
+                <div class="col-lg-9 col-12">
+                    <div class="keySpecs mb-20 p-20 shadow24 col-12">
+                        <h2 class="mb-8"> Key Specs & Features of Honda SP 125</h2>
+                        <div>
+                                <ul class="feature-tabs hide-scrollbar posR pl-20 pr-20">
+                                    <li title="key specs">Key Specs</li>
+                                    <li title="Top Features">Top Features</li>
+                                    <li title="App Features">App Features</li>
+                                    <li title="Stand Out Features">Stand Out Features</li>
                                 </ul>
-                            </div>
                         </div>
                         <div class="hondaprice mb-20 p-20 marginbottom shadow24">
                             <h2 class="mb-8 fw-500">Honda SP 125 Price</h2>
                             <p class="mb-20 F-12">The price of Honda SP 125 in India starts at Rs. 92,678 and goes upto Rs. 
                                 1,00,948. Honda SP 125 comes with 2 variants.</p>
+                        <div class="table-data mt-12">
                                 <table class="blockTb">
-                                    <thead class="row-new bg posR">
-                                        <tr class=" spaceBetween col-10">
-                                            <th>Variant</th>
-                                            <th>Ex-Showroom Price</th>
-                                            <th>Compare</th>
-                                        </tr>
-                                    </thead>
                                     <tbody class="row-new">
                                         <tr class="spaceBetween col-12 posR bb-10">
                                             <td class="p-30">
@@ -458,6 +491,29 @@
                                                     <input type="checkbox">
                                                 </label>
                                             </td>
+                                        <tr class="col-lg-6 spaceBetween col-12">
+                                            <td ><i class="icon-cd-Engine mr-12"></i> Engine</td>
+                                            <td class="iconname">123.94 cc</td>
+                                        </tr>
+                                        <tr class="col-lg-6 spaceBetween col-12">
+                                            <td><i class="icon-cd-BHP mr-12"></i>Power</td>
+                                            <td class="iconname">10.87 PS </td>
+                                        </tr>
+                                        <tr class="col-lg-6 spaceBetween col-12">
+                                            <td><i class="icon-torque mr-12"></i>Torque</td>
+                                            <td class="iconname">10.9 Nm </td>
+                                        </tr>
+                                        <tr class="col-lg-6 spaceBetween col-12">
+                                            <td><i class="icon-mileage mr-12"></i>Mileage</td>
+                                            <td class="iconname">63 kmpl</td>
+                                        </tr>
+                                        <tr class="col-lg-6 spaceBetween col-12">
+                                            <td><i class="icon-curb-weight mr-12"></i>Kerb Weight</td>
+                                            <td class="iconname">116 kg</td>
+                                        </tr>
+                                        <tr class="col-lg-6 spaceBetween col-12">
+                                            <td><i class="icon-brake-system mr-12"></i>Brakes</td>
+                                            <td class="iconname">Drum</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -888,178 +944,645 @@
                             </div>
                         </div>
                         
+                        <div class="link-btn posR" >
+                            <a href="#" class="blueLink">SP125 Specifications</a>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-12">
-                        <div class="finOffer mb-20 p-20 shadow24">
-                            <div class="row-new posR">
-                                <div class="col-lg-9 col-10">
-                                    <div class="h2Title mb-8">Calculate EMI</div>
-                                    <div>Your monthly EMI</div>
-                                    <div class="editEMI">
-                                        <span class="EMIamt">₹ 3,072</span>
-                                        <span class="linkTag ml-8 underline">Edit EMI</span>
-                                    </div>
-                                    <div class="mt-4">Interest calculated at 9.7% for 36 months</div>
-                                </div>
-                                <div class="col-lg-3 offerImg">
-                                    <img alt="Emi" decoding="async" class="image imageTransition active" width="90" height="105" src="https://cdn.bikedekho.com/pwa/img/illustration/monthlyEmiIconV1.svg" loading="eager" fetchpriority="low" data-lazy="true">
-                                </div>
-                            </div>
-                            <div class="buttonHolder mt-12 btnfull">
-                                <span class="btn secondaryBtn">View Finance Offers</span>
-                            </div>
+                    <div class="Summary mb-20 p-20  marginbottom shadow24">
+                        <h2 class="mb-8">Honda SP 125 Summary</h2>
+                        <div class="pl-20">
+                            <ul>
+                                <li class="posR styleLi">
+                                    <p><strong>March 4, 2025:</strong> According to our dealer sources, there is no waiting period for the Honda SP125 in Mumbai,
+                                        Delhi and Jaipur. Buyers in Bengaluru and Chennai will have to wait for around 10-15 days. That said, the exact waiting
+                                        period for the bike will depend on the colour or variant chosen, as well as the dealership and the city in which you live.</p>
+                                </li>
+                                <li class="posR styleLi">
+                                    <p>
+                                        <strong>March 4, 2025:</strong> If you’re looking for discounts on the Honda SP125, we’d suggest you head to your local dealership 
+                                        for any offers as there aren’t any official ones at the moment.
+                                    </p>
+                                </li>
+                                <li class="posR styleLi">
+                                    <p>
+                                        <strong>February 25, 2025:</strong> The 125cc Honda bike range including the Shine 125 and the SP125 tallied a total of 1,51,439 units 
+                                        in January 2025, a healthy growth of 23.29% year-on-year.   Out of this, the majority of the sales is the Shine 
+                                        as it is the best-selling 125cc bike in India. 
+                                    </p>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="broDown mb-20 p-20 shadow24">
-                            <div class="row-new posR">
-                                <div class="col-lg-9 col-10">
-                                    <div class="h2Title mb-8">SP125 Brochure</div>
-                                    <div>Download the SP125 brochure for comprehensive details on technical specifications, features, 
-                                        variants, and available colours.</div>
-                                </div>
-                                <div class="col-lg-3 brochureImg">
-                                    <img alt="download brochure" decoding="async" class="image imageTransition active" height="90" src="https://cdn.bikedekho.com/pwa/img/illustration/brochureIconV1.svg" loading="eager" fetchpriority="low" data-lazy="true">
-                                </div>
-                            </div>
-                            <div class="buttonHolder mt-12 btnfull">
-                                <span class="btn secondaryBtn">Download Brochure</span>
-                            </div>
-                        </div>
-                        <div class="indianprice mb-20 p-20 shadow24">
-                            <div class="h2Title mb-8">SP125 Price in India</div>
+                    </div>
+                    <div class="hondaprice mb-20 p-20 marginbottom shadow24">
+                        <h2 class="mb-8">Honda SP 125 Price</h2>
+                        <p class="mb-20 F-12">The price of Honda SP 125 in India starts at Rs. 92,678 and goes upto Rs. 
+                            1,00,948. Honda SP 125 comes with 2 variants.</p>
                             <table class="blockTb">
-                                <thead class="buttonHolder btnfull">
-                                    <tr class="spaceBetween">
-                                        <th class="pt-8">City</th>
-                                        <th class="pt-8">On-Road Price</th>
+                                <thead class="row-new bg posR">
+                                    <tr class=" spaceBetween col-10">
+                                        <th>Variant</th>
+                                        <th>Ex-Showroom Price</th>
+                                        <th>Compare</th>
                                     </tr>
                                 </thead>
-                                <tbody class="buttonHolder btnfull">
-                                    <tr class="spaceBetween">
-                                        <td class="pt-8"><a class="underline">Bangalore</a></td>
-                                        <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
+                                <tbody class="row-new">
+                                    <tr class="spaceBetween col-12 posR bb-10">
+                                        <td class="p-30">
+                                            <a class="F-15" href="#" title="SP125 Drum">SP125 Drum</a>
+                                            <div class="F-12 display">
+                                                <span><li>100 kmp</li></span>
+                                                <span><li class="styleLi ml-12">63 kmpl</li></span>
+                                                <span><li class="styleLi ml-12">123.94 cc</li></span>
+                                            </div>
+                                        </td>
+                                        <td class="p-31 F-18 td-font">₹ 92,678
+                                            <div>
+                                                <span class="blueLink">Get On Road Price</span>
+                                            </div>
+                                        </td>
+                                        <td class="p-6">
+                                            <div class="btn blockTb mb-10 thirdBtn">
+                                                <span>View Offers</span>
+                                            </div>
+                                        </td>
+                                        <td class="p-7">
+                                            <label for="input">
+                                                <input type="checkbox">
+                                            </label>
+                                        </td>
                                     </tr>
-                                    <tr class="spaceBetween">
-                                        <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
-                                        <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
-                                    </tr>
-                                    <tr class="spaceBetween">
-                                        <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
-                                        <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
-                                    </tr>
-                                    <tr class="spaceBetween">
-                                        <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
-                                        <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
-                                    </tr>
-                                    <tr class="spaceBetween">
-                                        <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
-                                        <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
-                                    </tr>
-                                    <tr class="spaceBetween">
-                                        <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
-                                        <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
-                                    </tr>
-                                    <tr class="spaceBetween">
-                                        <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
-                                        <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
-                                    </tr>
-                                    <tr class="spaceBetween">
-                                        <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
-                                        <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
-                                    </tr>
-                                    <tr class="spaceBetween">
-                                        <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
-                                        <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
-                                    </tr>
-                                    <tr class="spaceBetween">
-                                        <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
-                                        <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
+                                    <tr class=" spaceBetween col-12 ">
+                                        <td class="p-30">
+                                            <a class="F-15" href="#" title="SP125 Drum">SP125 Drum</a>
+                                            <div class="F-12 display">
+                                                <span>100 kmph</span>
+                                                <span><li class="styleLi ml-12">63 kmpl</li></span>
+                                                <span><li class="styleLi ml-12">123.94 cc</li></span>
+                                            </div>
+                                        </td>
+                                        <td class="p-31 F-18 td-font">₹ 92,678
+                                            <div>
+                                                <span class="blueLink">Get On Road Price</span>
+                                            </div>
+                                        </td>
+                                        <td class="p-6">
+                                            <div class="btn blockTb mb-10 thirdBtn">
+                                                <span>View Offers</span>
+                                            </div>
+                                        </td>
+                                        <td class="p-7">
+                                            <label for="input">
+                                                <input type="checkbox">
+                                            </label>
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
+                    </div>
+                    <div class="expertReview mb-20 p-20 marginbottom shadow24">
+                        <h2 class="mb-8">Honda SP125 Expert Review</h2>
+                        <div>
+                            <i class="iconstar"></i>
+                            BikeDekho Experts
                         </div>
-                        <div class="trending mb-20 p-20 shadow24">
-                            <div class="h2Title mb-8">SP125 Price in India</div>
+                        <!--bikedekho experts-->
+                        <div class="baner">
+                            <h3>Shinier Shine!</h3>
                             <div>
-                                <div class="tab">
-                                    <ul>
-                                        <li>Popular</li>
-                                        <li>Upcoming</li>
-                                    </ul>
+                                <p>
+                                    <img title=" Honda SP 125 Riding Shot " src="https://cdn.bikedekho.com/upload/userfiles/images/67ee7ffdf149a.jpg?tr=w-930"
+                                        data-gsll-src="https://cdn.bikedekho.com/upload/userfiles/images/67ee7ffdf149a.jpg?tr=w-930" alt=" Honda SP 125 Riding Shot " 
+                                        height="630">
+                                </p>
+                                <p>The 2025 Honda SP125 is basically a sportier version of India’s best selling 125cc bike - the Shine 125. Unlike the Shine, which has a very commuter-focussed design, the SP125 gets edgier body panels and a lot more features. In fact, the SP125 was among the first few 125cc bikes in India that got sporty styling 
+                                    - making it completely stand apart from other bikes in the market.</p>
+                            </div>
+                            <div>
+                                <span>less</span>
+                            </div>
+                        </div>
+                        <div class="baner">
+                            <h3>Design</h3>
+                            <div>
+                                <ul>
+                                        <li>
+                                            <p>The 2025 SP 125 gets a sharp looking LED headlight that goes well with the tall fuel tank and 
+                                                large tank extensions, making it look like a much bigger bike than it is
+                                                <img title=" Honda SP 125 Riding Shot " src="https://cdn.bikedekho.com/upload/userfiles/images/67ee802e16c77.jpg?tr=w-930" data-gsll-src="https://cdn.bikedekho.com/upload/userfiles/images/67ee802e16c77.jpg?tr=w-930"
+                                                alt=" Honda SP 125 Riding Shot " height="630">
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>The 2025 SP 125 gets a sharp looking LED headlight that goes well with the tall fuel tank and 
+                                                large tank extensions, making it look like a much bigger bike than it is
+                                                <img title=" Honda SP 125 Riding Shot " src="https://cdn.bikedekho.com/upload/userfiles/images/67ee802e16c77.jpg?tr=w-930" data-gsll-src="https://cdn.bikedekho.com/upload/userfiles/images/67ee802e16c77.jpg?tr=w-930"
+                                                alt=" Honda SP 125 Riding Shot " height="630">
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>The 2025 SP 125 gets a sharp looking LED headlight that goes well with the tall fuel tank and 
+                                                large tank extensions, making it look like a much bigger bike than it is
+                                                <img title=" Honda SP 125 Riding Shot " src="https://cdn.bikedekho.com/upload/userfiles/images/67ee802e16c77.jpg?tr=w-930" data-gsll-src="https://cdn.bikedekho.com/upload/userfiles/images/67ee802e16c77.jpg?tr=w-930"
+                                                alt=" Honda SP 125 Riding Shot " height="630">
+                                            </p>
+                                        </li>
+                                </ul>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pros mb-20 p-20 marginbottom shadow24">
+                        <h2 class="mb-8">Honda SP 125 Pros and Cons</h2>
+                        <div>
+                            <div class="outer-spin">
+                                <h3><i class="icon"></i>Things We Like</h3>
+                                <ul>
+                                    <li>Gets an extensive feature list</li>
+                                    <li>Refined and punchy engine</li>
+                                    <li>The build quality and finish levels are good</li>
+                                </ul>
+                            </div>
+                            <div class="inner-spin posR">
+                                <h3><i class="icon"></i>Things We Don't Like</h3>
+                                <ul>
+                                    <li>Looks might not cater to the younger audience</li>
+                                    <li>Pricing could be better</li>
+                                    <li>Suspension is pretty stiff especially over sharp bumps</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comparision mb-20 p-20 marginbottom shadow24">
+                        <h2 class="mb-8">SP125 comparison with similar Bikes</h2>
+                        <div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <span>
+                                                <img alt="Honda SP 125" decoding="async" title="Honda SP 125" src="https://cdn.bikedekho.com/processedimages/honda/sp125/source/sp1256789ead2971d1.jpg?tr=w-150" loading="eager" 
+                                                fetchpriority="low" data-lazy="true" class="imageTransition active">
+                                            </span>
+                                            <a href="#">Honda SP 125</a>
+                                            <div>
+                                                <i>Rs.</i>92,678 - 1 Lakh
+                                                <sup>*</sup>
+                                            </div>
+                                            <div>
+                                                <span>4.5</span>
+                                                <span class="iconstar"></span>
+                                                <span>71 Reviews</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <img alt="Honda SP 125" decoding="async" title="Honda SP 125" src="https://cdn.bikedekho.com/processedimages/honda/sp125/source/sp1256789ead2971d1.jpg?tr=w-150" loading="eager" 
+                                                fetchpriority="low" data-lazy="true" class="imageTransition active">
+                                            </span>
+                                            <a href="#">Honda SP 125</a>
+                                            <div>
+                                                <i>Rs.</i>92,678 - 1 Lakh
+                                                <sup>*</sup>
+                                            </div>
+                                            <div>
+                                                <span>4.5</span>
+                                                <span class="iconstar"></span>
+                                                <span>71 Reviews</span>
+                                            </div>
+                                            <div>
+                                                <span>Check Offers</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <img alt="Honda SP 125" decoding="async" title="Honda SP 125" src="https://cdn.bikedekho.com/processedimages/honda/sp125/source/sp1256789ead2971d1.jpg?tr=w-150" loading="eager" 
+                                                fetchpriority="low" data-lazy="true" class="imageTransition active">
+                                            </span>
+                                            <a href="#">Honda SP 125</a>
+                                            <div>
+                                                <i>Rs.</i>92,678 - 1 Lakh
+                                                <sup>*</sup>
+                                            </div>
+                                            <div>
+                                                <span>4.5</span>
+                                                <span class="iconstar"></span>
+                                                <span>71 Reviews</span>
+                                            </div>
+                                            <div>
+                                                <span>Check Offers</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <img alt="Honda SP 125" decoding="async" title="Honda SP 125" src="https://cdn.bikedekho.com/processedimages/honda/sp125/source/sp1256789ead2971d1.jpg?tr=w-150" loading="eager" 
+                                                fetchpriority="low" data-lazy="true" class="imageTransition active">
+                                            </span>
+                                            <a href="#">Honda SP 125</a>
+                                            <div>
+                                                <i>Rs.</i>92,678 - 1 Lakh
+                                                <sup>*</sup>
+                                            </div>
+                                            <div>
+                                                <span>4.5</span>
+                                                <span class="iconstar"></span>
+                                                <span>71 Reviews</span>
+                                            </div>
+                                            <div>
+                                                <span>Check Offers</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <img alt="Honda SP 125" decoding="async" title="Honda SP 125" src="https://cdn.bikedekho.com/processedimages/honda/sp125/source/sp1256789ead2971d1.jpg?tr=w-150" loading="eager" 
+                                                fetchpriority="low" data-lazy="true" class="imageTransition active">
+                                            </span>
+                                            <a href="#">Honda SP 125</a>
+                                            <div>
+                                                <i>Rs.</i>92,678 - 1 Lakh
+                                                <sup>*</sup>
+                                            </div>
+                                            <div>
+                                                <span>4.5</span>
+                                                <span class="iconstar"></span>
+                                                <span>71 Reviews</span>
+                                            </div>
+                                            <div>
+                                                <span>Check Offers</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <img alt="Honda SP 125" decoding="async" title="Honda SP 125" src="https://cdn.bikedekho.com/processedimages/honda/sp125/source/sp1256789ead2971d1.jpg?tr=w-150" loading="eager" 
+                                                fetchpriority="low" data-lazy="true" class="imageTransition active">
+                                            </span>
+                                            <a href="#">Honda SP 125</a>
+                                            <div>
+                                                <i>Rs.</i>92,678 - 1 Lakh
+                                                <sup>*</sup>
+                                            </div>
+                                            <div>
+                                                <span>4.5</span>
+                                                <span class="iconstar"></span>
+                                                <span>71 Reviews</span>
+                                            </div>
+                                            <div>
+                                                <span>Check Offers</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span>
+                                                <img alt="Honda SP 125" decoding="async" title="Honda SP 125" src="https://cdn.bikedekho.com/processedimages/honda/sp125/source/sp1256789ead2971d1.jpg?tr=w-150" loading="eager" 
+                                                fetchpriority="low" data-lazy="true" class="imageTransition active">
+                                            </span>
+                                            <a href="#">Honda SP 125</a>
+                                            <div>
+                                                <i>Rs.</i>92,678 - 1 Lakh
+                                                <sup>*</sup>
+                                            </div>
+                                            <div>
+                                                <span>4.5</span>
+                                                <span class="iconstar"></span>
+                                                <span>71 Reviews</span>
+                                            </div>
+                                            <div>
+                                                <span>Check Offers</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="specarea">
+                                            <span>Mileage</span>
+                                            <span>63 kmpl</span>
+                                        </td>
+                                        <td class="specarea">
+                                            <span>Mileage</span>
+                                            <span>63 kmpl</span>
+                                        </td>
+                                        <td class="specarea">
+                                            <span>Mileage</span>
+                                            <span>63 kmpl</span>
+                                        </td>
+                                        <td class="specarea">
+                                            <span>Mileage</span>
+                                            <span>63 kmpl</span>
+                                        </td>
+                                        <td class="specarea">
+                                            <span>Mileage</span>
+                                            <span>63 kmpl</span>
+                                        </td>
+                                        <td class="specarea">
+                                            <span>Mileage</span>
+                                            <span>63 kmpl</span>
+                                        </td>
+                                        <td class="specarea">
+                                            <span>Mileage</span>
+                                            <span>63 kmpl</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span>Engine</span>
+                                            <span>123.94 cc</span>
+                                        </td>
+                                        <td>
+                                            <span>Engine</span>
+                                            <span>123.94 cc</span>
+                                        </td>
+                                        <td>
+                                            <span>Engine</span>
+                                            <span>123.94 cc</span>
+                                        </td>
+                                        <td>
+                                            <span>Engine</span>
+                                            <span>123.94 cc</span>
+                                        </td>
+
+                                        <td>
+                                            <span>Engine</span>
+                                            <span>123.94 cc</span>
+                                        </td>
+                                        <td>
+                                            <span>Engine</span>
+                                            <span>123.94 cc</span>
+                                        </td>
+
+                                        <td>
+                                            <span>Engine</span>
+                                            <span>123.94 cc</span>
+                                        </td>
+                                        <td>
+                                            <span>Engine</span>
+                                            <span>123.94 cc</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span>Power</span>
+                                            <span>10.87 PS @ 7500 rpm</span>
+                                        </td>
+                                        <td>
+                                            <span>Power</span>
+                                            <span>10.87 PS @ 7500 rpm</span>
+                                        </td>
+                                        <td>
+                                            <span>Power</span>
+                                            <span>10.87 PS @ 7500 rpm</span>
+                                        </td>
+                                        <td>
+                                            <span>Power</span>
+                                            <span>10.87 PS @ 7500 rpm</span>
+                                        </td>
+                                        <td>
+                                            <span>Power</span>
+                                            <span>10.87 PS @ 7500 rpm</span>
+                                        </td>
+                                        <td>
+                                            <span>Power</span>
+                                            <span>10.87 PS @ 7500 rpm</span>
+                                        </td>
+                                        <td>
+                                            <span>Power</span>
+                                            <span>10.87 PS @ 7500 rpm</span>
+                                        </td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="news mb-20 p-20 marginbottom shadow24">
+                        <h2 class="mb-8">SP125 News</h2>
+                        <div>
+                            <ul>
+                                <li>
                                     <div>
-                                        <ul>
-                                            <li>
-                                                <div>
-                                                    <img alt="Honda Shine" decoding="async" class="hover imageTransition active" title="Honda Shine"
-                                                     src="https://cdn.bikedekho.com/upload/modellogo/64918c165f525.jpg?tr=w-86" loading="eager" fetchpriority="low" data-lazy="true">
-                                                </div>
-                                                <div>
-                                                    <a href="#">Honda Shine</a>
-                                                    <div>
-                                                        <span>Rs </span>83,251 - 87,251
-                                                        <sup>*</sup>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div>
-                                                    <img alt="Honda Shine" decoding="async" class="hover imageTransition active" title="Honda Shine"
-                                                     src="https://cdn.bikedekho.com/upload/modellogo/64918c165f525.jpg?tr=w-86" loading="eager" fetchpriority="low" data-lazy="true">
-                                                </div>
-                                                <div>
-                                                    <a href="#">Honda Shine</a>
-                                                    <div>
-                                                        <span>Rs </span>83,251 - 87,251
-                                                        <sup>*</sup>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div>
-                                                    <img alt="Honda Shine" decoding="async" class="hover imageTransition active" title="Honda Shine"
-                                                     src="https://cdn.bikedekho.com/upload/modellogo/64918c165f525.jpg?tr=w-86" loading="eager" fetchpriority="low" data-lazy="true">
-                                                </div>
-                                                <div>
-                                                    <a href="#">Honda Shine</a>
-                                                    <div>
-                                                        <span>Rs </span>83,251 - 87,251
-                                                        <sup>*</sup>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div>
-                                                    <img alt="Honda Shine" decoding="async" class="hover imageTransition active" title="Honda Shine"
-                                                     src="https://cdn.bikedekho.com/upload/modellogo/64918c165f525.jpg?tr=w-86" loading="eager" fetchpriority="low" data-lazy="true">
-                                                </div>
-                                                <div>
-                                                    <a href="#">Honda Shine</a>
-                                                    <div>
-                                                        <span>Rs </span>83,251 - 87,251
-                                                        <sup>*</sup>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div>
-                                                    <img alt="Honda Shine" decoding="async" class="hover imageTransition active" title="Honda Shine"
-                                                     src="https://cdn.bikedekho.com/upload/modellogo/64918c165f525.jpg?tr=w-86" loading="eager" fetchpriority="low" data-lazy="true">
-                                                </div>
-                                                <div>
-                                                    <a href="#">Honda Shine</a>
-                                                    <div>
-                                                        <span>Rs </span>83,251 - 87,251
-                                                        <sup>*</sup>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                        <div>
+                                            <img alt="All the Honda Bikes and Scooters Launched In 2024" class="hover imageTransition active" data-autofit="true" data-autofitmobile="true" decoding="async" title="All the Honda Bikes and Scooters Launched In 2024" src="https://cdn.bikedekho.com/upload/newsimages/cover_676ea40ff1311.jpg?tr=w-360" 
+                                            loading="eager" fetchpriority="low" data-lazy="true" style="height: 349px;">
+                                        </div>
+                                        <div>
+                                            <span>All the Honda Bikes and Scooters Launched In 2024</span>
+                                            <p>The electric Activa made its debut!</p>
+                                            <div>
+                                                <span>By Tanmay</span>
+                                                <span>Dec 29, 2024</span>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <div>
+                                        <a href="#">Honda SP 125 News</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <div>
+                                            <img alt="All the Honda Bikes and Scooters Launched In 2024" class="hover imageTransition active" data-autofit="true" data-autofitmobile="true" decoding="async" title="All the Honda Bikes and Scooters Launched In 2024" src="https://cdn.bikedekho.com/upload/newsimages/cover_676ea40ff1311.jpg?tr=w-360" 
+                                            loading="eager" fetchpriority="low" data-lazy="true" style="height: 349px;">
+                                        </div>
+                                        <div>
+                                            <span>All the Honda Bikes and Scooters Launched In 2024</span>
+                                            <p>The electric Activa made its debut!</p>
+                                            <div>
+                                                <span>By Tanmay</span>
+                                                <span>Dec 29, 2024</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <div>
+                                            <img alt="All the Honda Bikes and Scooters Launched In 2024" class="hover imageTransition active" data-autofit="true" data-autofitmobile="true" decoding="async" title="All the Honda Bikes and Scooters Launched In 2024" src="https://cdn.bikedekho.com/upload/newsimages/cover_676ea40ff1311.jpg?tr=w-360" 
+                                            loading="eager" fetchpriority="low" data-lazy="true" style="height: 349px;">
+                                        </div>
+                                        <div>
+                                            <span>All the Honda Bikes and Scooters Launched In 2024</span>
+                                            <p>The electric Activa made its debut!</p>
+                                            <div>
+                                                <span>By Tanmay</span>
+                                                <span>Dec 29, 2024</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="finOffer mb-20 p-20 shadow24">
+                        <div class="row-new posR">
+                            <div class="col-lg-9 col-10">
+                                <div class="h2Title mb-8">Calculate EMI</div>
+                                <div>Your monthly EMI</div>
+                                <div class="editEMI">
+                                    <span class="EMIamt">₹ 3,072</span>
+                                    <span class="linkTag ml-8 underline">Edit EMI</span>
+                                </div>
+                                <div class="mt-4">Interest calculated at 9.7% for 36 months</div>
+                            </div>
+                            <div class="col-lg-3 offerImg">
+                                <img alt="Emi" decoding="async" class="image imageTransition active" width="90" height="105" src="https://cdn.bikedekho.com/pwa/img/illustration/monthlyEmiIconV1.svg" loading="eager" fetchpriority="low" data-lazy="true">
+                            </div>
+                        </div>
+                        <div class="buttonHolder mt-12 btnfull">
+                            <span class="btn secondaryBtn">View Finance Offers</span>
+                        </div>
+                    </div>
+                    <div class="broDown mb-20 p-20 shadow24">
+                        <div class="row-new posR">
+                            <div class="col-lg-9 col-10">
+                                <div class="h2Title mb-8">SP125 Brochure</div>
+                                <div>Download the SP125 brochure for comprehensive details on technical specifications, features, 
+                                    variants, and available colours.</div>
+                            </div>
+                            <div class="col-lg-3 brochureImg">
+                                <img alt="download brochure" decoding="async" class="image imageTransition active" height="90" src="https://cdn.bikedekho.com/pwa/img/illustration/brochureIconV1.svg" loading="eager" fetchpriority="low" data-lazy="true">
+                            </div>
+                        </div>
+                        <div class="buttonHolder mt-12 btnfull">
+                            <span class="btn secondaryBtn">Download Brochure</span>
+                        </div>
+                    </div>
+                    <div class="indianprice mb-20 p-20 shadow24">
+                        <div class="h2Title mb-8">SP125 Price in India</div>
+                        <table class="blockTb">
+                            <thead class="buttonHolder btnfull">
+                                <tr class="spaceBetween">
+                                    <th class="pt-8">City</th>
+                                    <th class="pt-8">On-Road Price</th>
+                                </tr>
+                            </thead>
+                            <tbody class="buttonHolder btnfull">
+                                <tr class="spaceBetween">
+                                    <td class="pt-8"><a class="underline">Bangalore</a></td>
+                                    <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
+                                </tr>
+                                <tr class="spaceBetween">
+                                    <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
+                                    <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
+                                </tr>
+                                <tr class="spaceBetween">
+                                    <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
+                                    <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
+                                </tr>
+                                <tr class="spaceBetween">
+                                    <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
+                                    <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
+                                </tr>
+                                <tr class="spaceBetween">
+                                    <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
+                                    <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
+                                </tr>
+                                <tr class="spaceBetween">
+                                    <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
+                                    <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
+                                </tr>
+                                <tr class="spaceBetween">
+                                    <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
+                                    <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
+                                </tr>
+                                <tr class="spaceBetween">
+                                    <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
+                                    <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
+                                </tr>
+                                <tr class="spaceBetween">
+                                    <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
+                                    <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
+                                </tr>
+                                <tr class="spaceBetween">
+                                    <td class="pt-8"><a href="#" class="underline">Bangalore</a></td>
+                                    <td class="pt-8"><span>Rs.1.13 - 1.22 Lakh</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="trending mb-20 p-20 shadow24">
+                        <div class="h2Title mb-8">SP125 Price in India</div>
+                        <div>
+                            <div class="tab">
+                                <ul>
+                                    <li>Popular</li>
+                                    <li>Upcoming</li>
+                                </ul>
+                                <div>
+                                    <ul>
+                                        <li>
+                                            <div>
+                                                <img alt="Honda Shine" decoding="async" class="hover imageTransition active" title="Honda Shine"
+                                                    src="https://cdn.bikedekho.com/upload/modellogo/64918c165f525.jpg?tr=w-86" loading="eager" fetchpriority="low" data-lazy="true">
+                                            </div>
+                                            <div>
+                                                <a href="#">Honda Shine</a>
+                                                <div>
+                                                    <span>Rs </span>83,251 - 87,251
+                                                    <sup>*</sup>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <img alt="Honda Shine" decoding="async" class="hover imageTransition active" title="Honda Shine"
+                                                    src="https://cdn.bikedekho.com/upload/modellogo/64918c165f525.jpg?tr=w-86" loading="eager" fetchpriority="low" data-lazy="true">
+                                            </div>
+                                            <div>
+                                                <a href="#">Honda Shine</a>
+                                                <div>
+                                                    <span>Rs </span>83,251 - 87,251
+                                                    <sup>*</sup>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <img alt="Honda Shine" decoding="async" class="hover imageTransition active" title="Honda Shine"
+                                                    src="https://cdn.bikedekho.com/upload/modellogo/64918c165f525.jpg?tr=w-86" loading="eager" fetchpriority="low" data-lazy="true">
+                                            </div>
+                                            <div>
+                                                <a href="#">Honda Shine</a>
+                                                <div>
+                                                    <span>Rs </span>83,251 - 87,251
+                                                    <sup>*</sup>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <img alt="Honda Shine" decoding="async" class="hover imageTransition active" title="Honda Shine"
+                                                    src="https://cdn.bikedekho.com/upload/modellogo/64918c165f525.jpg?tr=w-86" loading="eager" fetchpriority="low" data-lazy="true">
+                                            </div>
+                                            <div>
+                                                <a href="#">Honda Shine</a>
+                                                <div>
+                                                    <span>Rs </span>83,251 - 87,251
+                                                    <sup>*</sup>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div>
+                                                <img alt="Honda Shine" decoding="async" class="hover imageTransition active" title="Honda Shine"
+                                                    src="https://cdn.bikedekho.com/upload/modellogo/64918c165f525.jpg?tr=w-86" loading="eager" fetchpriority="low" data-lazy="true">
+                                            </div>
+                                            <div>
+                                                <a href="#">Honda Shine</a>
+                                                <div>
+                                                    <span>Rs </span>83,251 - 87,251
+                                                    <sup>*</sup>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>  
+            </div>
+        </section>  
     </main>
+
+
+    <script src="./js/model.js"></script>
 </body>
 </html>
