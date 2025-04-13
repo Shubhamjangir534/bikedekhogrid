@@ -77,17 +77,12 @@ strong{
     width: 195px;
     color: var( --primary-color);
 }
-.F-18{
-    font-size: 18px;
-}
-.F-12{
-    font-size: 12px;
-}
-.F-15{
-    font-weight: 400;
-    color: var(--gray-color);
-    font-size: 15px;
-}
+.fw-400{font-weight: 400;}
+.fw-500{font-weight: 500;}
+.F-18{ font-size: 18px;}
+.F-12{font-size: 12px;}
+.F-14{font-size: 14px;}
+.F-15{font-size: 15px;}
 .p-30{
     padding: 27px 20px 37px 0px;
 }
@@ -102,6 +97,7 @@ strong{
 }
 .bb-10{
     border-bottom: 1px solid rgba(36, 39, 44, .15);
+    
 }
 .bg{
     width: calc(100% + 20px);
@@ -119,5 +115,14 @@ strong{
 .td-font{
     color: var(--gray-color);
     font-weight: 500;
+}
+.honda-border{
+    border-radius: var( --radius-md);
+}
+.blcolor{
+    color: var( --grey-hover-font);
+}
+.active{
+    border-bottom: 3px solid var( --primary-color);
 }
 

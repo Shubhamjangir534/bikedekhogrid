@@ -53,7 +53,8 @@
 .ml-8 { margin-left: 8px; }
 .mr-8 { margin-right: 8px; }
 
-
+.mr-36{margin-right: 36px;}
+.mt-16{margin-top: 16px;}
 .mt-10 { margin-top: 8px; }
 .mb-10 { margin-bottom: 8px; }
 .ml-10 { margin-left: 8px; }
@@ -75,10 +76,11 @@
 .pb-8 { padding-bottom: 8px; }
 .pl-8 { padding-left: 8px; }
 .pr-8 { padding-right: 8px; }
+.pt-14{padding-top: 14px;}
+.pb-14{padding-bottom: 14px;}
+.pb-16{padding-bottom: 16px;}
+.pl-10{ padding-left: 10px;}
 
-.pl-10{
-    padding-left: 10px;
-}
 
 .pt-20 { padding-top: 20px;}
 .pb-20 { padding-bottom: 20px; }
