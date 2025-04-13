@@ -77,6 +77,14 @@ strong{
     width: 195px;
     color: var( --primary-color);
 }
+.pt-14{padding-top: 14px;}
+.pb-14{padding-bottom: 14px;}
+.pb-16{padding-bottom: 16px;}
+.pl-10{ padding-left: 10px;}
+
+
+.mr-36{margin-right: 36px;}
+.mt-16{margin-top: 16px;}
 .fw-400{font-weight: 400;}
 .fw-500{font-weight: 500;}
 .F-18{ font-size: 18px;}
