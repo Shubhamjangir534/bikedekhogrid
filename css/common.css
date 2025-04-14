@@ -59,6 +59,7 @@
 .mr-10 { margin-right: 8px; }
 
 .mb-20 {margin-bottom: 20px;}
+.ml-20{margin-left: 20px;}
 
 .mt-12 { margin-top: 12px; }
 .mb-12 { margin-bottom: 12px; }
@@ -107,7 +108,7 @@
     text-align: right;
 }
 .leftAlign{
-    text-align: right;
+    text-align: left;
 }
 .centerAlign{
     text-align: center;
@@ -163,7 +164,13 @@
     cursor: pointer;
 }
 
-.nextMenu{
+.broderBd{
+    left: -20px;
+    width: calc(100% + 40px);
+    border-bottom: 1px solid rgba(36, 39, 44, .15);
+}
+
+/* .nextMenu{
     background-color: var(--white);
     border: 1px solid rgba(36, 39, 44, .15);
     border-radius: 0 0 4px 4px;
@@ -173,7 +180,11 @@
     transform-origin: 0 0;
     transition: transform .8s, opacity .4s;
     width: 240px;
+} */
+.flex{
+    display: flex;
 }
+
 
 .row-new {
     display: grid;
@@ -261,6 +272,9 @@
     }
     .col-lg-11 { 
         grid-column: span 11; 
+    }
+    .col-lg-12 { 
+        grid-column: span 12; 
     }
 }
 

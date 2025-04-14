@@ -18,17 +18,12 @@ html{
 h1, h2, h3, .h2Title {
     color: var(--gray-color);
     font-size: 18px;
+    font-weight: 500;
 }
-.h2Title{
-    font-weight: 600;
-}
-
 a{
     cursor: pointer;
     text-decoration: none;
-    color: var(--blue-link);
-    font-size: 14px;
-    font-weight: 500;
+    color: var(--gray-color);
 }
 
 li{
