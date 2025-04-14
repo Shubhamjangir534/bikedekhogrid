@@ -374,6 +374,17 @@ border-radius: var( --radius-md);
     padding: 8px 12px;
     line-height: 20px;
  }
+ .mt-2{margin-top: 2px;}
+ .mt-16{margin-top: 16px;}
+ .explorer .content{
+    padding: 16px;
+ }
+
+ .explorer .exploreprice{
+    padding: 16px;
+    font-size: 15px;
+    font-weight: 500;
+ }
 .modelSpecsMain .ExpertTitle{
     font-size: 17px;
     display: flex;
