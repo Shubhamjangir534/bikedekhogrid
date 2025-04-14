@@ -13,8 +13,9 @@
     --light-bg:#fafafa;
     --gray-border: #d8d8d8;
 
-
+  
     --radius-sm: 4px;
+    --radius-sd: 6px;
     --radius-md: 8px;
     --radius-lg: 12px;
     --radius-xl: 16px;
