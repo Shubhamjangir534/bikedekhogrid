@@ -237,7 +237,7 @@ strong{
 }
 .news .content .heading{
     color: var( --grey-hover-font);
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
 }
 .news .content p{
@@ -269,6 +269,29 @@ strong{
     /* .trending .tab .blueLink a{
     font-weight: 400;
 } */
+ .colors img{
+    border-radius: 8px;
+    border: 1px solid rgba(36, 39, 44, .1);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .1);
+ }
+ .colors .label{
+    color:var( --grey-hover-font);
+    font-size: 15px;
+    font-weight: 500;
+ }
+ .colors.color-icon i{
+    outline: 1px solid rgba(36, 39, 44, .15);
+ }
+ .colors .color-icon .color-icon-r{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--red-icon-bg);
+ }
+ .colors .mt-24{
+    font-weight: 400;
+    margin-top: 24px;
+ }
 .modelSpecsMain .ExpertTitle{
     font-size: 17px;
     display: flex;
