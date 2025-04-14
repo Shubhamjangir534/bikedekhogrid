@@ -419,3 +419,13 @@ border-radius: var( --radius-md);
     font-weight: 600;
 }
 
+
+.userReview .ratingvalue{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--gray-color);
+}
+
+.userReview .startRating .valueStar{
+    font-size: 28px;
+}
