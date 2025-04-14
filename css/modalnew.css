@@ -96,6 +96,9 @@ strong{
     top: 6px;
     width: 3px;
  }
+ .hondaprice .variants .dotlist span:first-child::before{
+    content: none;
+ }
  .hondaprice .variants .dotlist span{
     font-size: 12px;
  }
@@ -169,6 +172,10 @@ strong{
 .comparision table tr td{
     min-width: 162px;
 }
+.comparision table .blueLink{
+    color: var(--primary-color);
+    font-weight: 400;
+}
 .trending{
     color: var(--gray-color);
     font-size: 14px;
@@ -195,3 +202,47 @@ strong{
 /* .trending .tab .blueLink a{
     font-weight: 400;
 } */
+.modelSpecsMain .ExpertTitle{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    color: var(--gray-color);
+    font-weight: 500;
+}
+
+.modelSpecsMain .ExpertTitle i{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #d02f2f;
+    line-height: 22px;
+}
+.modelSpecsMain .ExpertTitle .icon-star-full-fill::before{
+    font-size: 13px;
+    color: var(--white);
+}
+.modelSpecsMain .specsFeaturesBlock{
+    padding: 12px 0;
+}
+.modelSpecsMain .specsFeaturesBlock .readmoreCont{
+    height: 100px;
+    overflow: hidden;
+}
+.modelSpecsMain .specsFeaturesBlock img{
+    border-radius: var(--radius-md);
+}
+
+.modelSpecsMain .specsFeaturesBlock h3{
+    font-size: 17px;
+}
+
+.modelSpecsMain .specsFeaturesBlock .expandMore{
+    background: linear-gradient(transparent, #fff 50%, #fff);
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    width: 100%;
+}
+.modelSpecsMain .specsFeaturesBlock .expandMore span{
+    font-weight: 600;
+}
