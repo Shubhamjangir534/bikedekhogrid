@@ -58,6 +58,43 @@
         color: var(--gray-color);
         font-size: 14px;
     }
+    .header .loginAreaRight .info .drop-down{
+        top: 18px;
+        opacity: 0;
+        transform: rotateX(0);
+        transform-origin: 0 0;
+        transition: transform .8s, opacity .4s;
+        padding: 15px 0 0;
+        position: absolute;
+        z-index: 9;
+        right: 0;
+    }
+    
+    .header .loginAreaRight .info .account {
+        background: var(--white);
+        border: 1px solid #d5d5d5;
+        border-radius: 3px;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, .15);
+        position: relative;
+        padding: 5px 10px;
+        width: 188px;
+    }
+    .header .loginAreaRight .info .account li .icon{
+        margin-right: 10px;
+    }
+    .header .loginAreaRight .info li{
+        border-bottom: 1px solid #d5d6d5;
+        color: var(--gray-color);
+        font-size: 12px;
+        padding: 12px 0;
+        vertical-align: middle;
+    }
+    .header .loginAreaRight .info li:last-child{
+        border-bottom: none;
+    }
+    .header .loginAreaRight li.login:hover .info .drop-down{
+        opacity: 1;
+    }
     .header .bottomArea .mainMenu{
         padding-right: 33px;
         color: var(--gray-color);
