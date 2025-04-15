@@ -363,14 +363,6 @@ border-radius: var( --radius-md);
  .virtual .blueLink{
     font-weight: 400;
  }
- .userReview .mentions li{
-    border: 1px solid rgba(36, 39, 44, .1);
-    border-radius: 4px;
-    box-shadow: 0 1px 4px 0 rgba(36, 39, 44, .08);
-    display: inline-block;
-    padding: 8px 12px;
-    line-height: 20px;
- }
  .explorer .content{
     padding: 16px;
  }
