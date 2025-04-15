@@ -72,6 +72,10 @@ strong{
     padding-bottom: 0;
 }
 
+.hondaprice .blueLink{
+    font-weight: 500;
+}
+
 .hondaprice > p{
     font-size: 13px;
 }
@@ -276,6 +280,8 @@ strong{
     font-weight: 500;
     font-size: 15px;
 }
+
+
 .indianprice span{
     color: var(--grey-hover-font);
 }
@@ -289,6 +295,9 @@ strong{
     left: -20px;
     width: calc(100% + 40px);
     background: #f8f8f8;
+}
+.indianprice thead .index{
+    line-height: 25px;
 }
 .news img{
     border-radius: var( --radius-md);

@@ -6,6 +6,24 @@
     width: 100%;
 }
 
+.modelPrice .bikeDtls .blueLink{
+    font-weight: 500;
+}
+.modelPrice .bikeDtls .blueLink.exCity{
+    font-weight: 400;
+}
+
+.modelPrice .reviewShare .wrtReview{
+    padding-left: 10px;
+}
+
+.modelNav .listItems .downArrow{
+    border-top-color: var( --light-gray);
+    top: -2px;
+
+}
+
+
 .modelNavList{
     display: flex;
     align-items: center;
