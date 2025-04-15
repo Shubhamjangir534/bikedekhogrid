@@ -411,7 +411,49 @@ border-radius: var( --radius-md);
     min-width: 45px;
     padding: 0 10px;
 }
- 
+.tabs {
+    border-bottom: 2px solid #ccc;
+  }
+
+  .tab {
+    padding: 10px 15px;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+  }
+  .tab.active {
+    border-bottom: 2px solid red;
+    color: red;
+  }
+
+  details {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 0;
+  }
+
+  summary {
+    font-weight: 500;
+    padding-right: 25px;
+    list-style: none;
+  }
+
+  /* Remove default arrow */
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+  }
+
+  details[open] summary::after {
+    content: "-";
+  }
+
+
 .modelSpecsMain .ExpertTitle{
     font-size: 17px;
     display: flex;
