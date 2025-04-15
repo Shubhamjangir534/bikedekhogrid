@@ -108,7 +108,7 @@
 
 @media (min-width: 786px) {
     main{
-        padding: 34px 0px;
+        padding-top: 34px;
     }
     /* temp */
     .modelPrice .morePics{
