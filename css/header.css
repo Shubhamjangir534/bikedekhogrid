@@ -1,14 +1,42 @@
-@media (min-width: 786px) {
+.desktop{
+    display: none;
+}
+.mobiHeader{
+    padding: 11px 17px;
+}
+.mobiHeader .logoImg{
+    justify-self: start;
+}
+.mobiHeader .logo{
+    height: 21px;
+    width: 91px;
+    margin-left: -12px;
+}
+.mobiHeader .icon{
+    color: var(--gray-color);
+    font-size: 18px;
+}
+.mobiHeader .icon.icon-cd-locationPin{
+    font-size: 24px;
+    top: 0px;
+}
+
+@media (min-width: 768px) {
+
+    .desktop{
+        display: block;
+    }
     .header .topArea{
         padding: 11px 0;
-    }
-    .header .topheader{
-        align-items: center;
     }
     .header .topArea .logo{
         height: 42px;
         width: 174px;
     }
+    .header .topheader{
+        align-items: center;
+    }
+    
     .header .topArea .bdhomeSearch{
         font-size: 14px;
         border: 1px solid var(--gray-border);
@@ -116,8 +144,8 @@
         position: relative;
         top: -2px;
     }
-
-
+    
+    
     .header .mainMenu .submenu{
         background-color: var(--white);
         border: 1px solid rgba(36, 39, 44, .15);
@@ -133,7 +161,7 @@
         transform-origin: 0 0;
         transition: transform .8s, opacity .4s;
     }
-
+    
     .header .bottomArea li .subMenu li:hover {
         background: #f0f1f2;
     }
@@ -155,7 +183,7 @@
         background: #f0f1f2;
     }
     
-
+    
     .header .mainMenu .submenu .subMenuDeep {
         background: #fff;
         border: 1px solid rgba(36, 39, 44, .15);
@@ -174,11 +202,11 @@
         opacity: 1;
         visibility: visible;
     }
-
+    
     .header .bottomArea li .subMenu li:hover  .subMenuDeep li a{
         background: #f0f1f2;
     }
-
+    
     .header .mainMenu .submenu .innerSpan i {
         border: 1px solid rgba(36, 39, 44, .5);
         border-width: 0 0 1px 1px;
@@ -192,14 +220,14 @@
         transform: rotate(-135deg);
         width: 7px;
     }
-
+    
     .header .bottomArea .linkArea{
         font-size: 14px;
         position: absolute;
         right: 10px;
         top: 12px;
     }
-
+    
     /*  */
     .header .topArea .bdhomeSearch.fullview {
         outline: none;
@@ -228,7 +256,7 @@
         font-size: 15px;
         color: var(--gray-color);
     }
-
+    
     .header .typeHeadContainer .results li.groups{
         cursor: text;
         font-size: 11px;

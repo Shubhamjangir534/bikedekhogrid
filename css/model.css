@@ -120,9 +120,9 @@
     width: 240px;
 }
 
-.topArea .logo{
+/* .topArea .logo{
     height: 21px;
-}
+} */
 
 @media (min-width: 786px) {
     main{
