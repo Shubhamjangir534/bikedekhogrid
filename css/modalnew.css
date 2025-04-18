@@ -21,7 +21,23 @@
     color: var(--gray-color);
     font-weight: 400;
 }
-
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    visibility: hidden;
+    z-index: 2600;
+    cursor: pointer;
+    transition: opacity .5s;
+}
+.overlay .open{
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+}
 strong{
     font-weight: 600;
 }
@@ -546,21 +562,27 @@ border-radius: var( --radius-md);
     border: 1px solid #e9e9e9;
     border-radius:var( --radius-sd);
 }
-
-.modalCompare .carbox img{
-    height: 130px;
-}
 .modalCompare .carbox-content{
+    width: 264px;
     background: #fff;
     border: 1px solid rgba(36, 39, 44, .1);
     border-radius: 16px;
     box-shadow: 0 1px 2px rgba(36, 39, 44, .1);
     padding: 0;
 }
-.modalCompare .margin-10r{
+.modalCompare .dropbottom{
+    background: #fff;
+        bottom: 0;
+        box-shadow: 6px 2px 20px 0 rgba(36, 39, 44, .15);
+        left: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 99999;
+}
+.modalCompare .carbox-first{
     margin-right: -10px;
 }
-.modalCompare .margin-10l{
+.modalCompare .carbox-second{
     margin-left: -10px;
 }
 .modalCompare .borderright{
@@ -570,16 +592,27 @@ border-radius: var( --radius-md);
     border-radius: 8px 0 0;
 }
 .modalCompare .compare-price{
-    padding: 0 10px 0 16px;
+  height: 36px;
 }
 .modalCompare .price-size{
+    padding: 0 0px 0 12px;
     font-weight: 400;
     color: var( --grey-hover-font);
-    font-size: 16px;
+    font-size: 12px;
 }
 .modalCompare .button{
     width: 100%;
     padding: 16px;
+}
+.modalCompare .closeBtn{
+    position: sticky;
+    color: #24272c;
+    font-weight: 300;
+    padding: 0 10px 10px 0;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 23px;
+    text-align: center;
 }
 .modalCompare .Vstag{
     background: #24272c;
@@ -841,4 +874,27 @@ border-radius: var( --radius-md);
 .feature-tabs li:hover{
     font-weight: 500;
 }
+.overlay{
+    visibility: hidden;
 }
+}
+@media (min-width: 786px){
+    .modalCompare .carbox-content{
+    width: auto;
+    }
+    .modalCompare .price-size{
+       font-size:16px;
+    }
+    .modalCompare .dropbottom{
+       position: relative;
+      }
+     .modalCompare .secondaryBtn{
+        font-size: 16px;
+      }
+      .modalCompare .btn{
+        font-weight: 700;
+      }
+      .modalCompare .closeBtn{
+        display: none;
+      }
+    }   
