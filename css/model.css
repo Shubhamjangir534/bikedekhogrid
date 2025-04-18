@@ -116,15 +116,13 @@
 .bikeDtls .limitedOffer i{
     font-size: 20px;
 }
-.bikeDtls .primaryBtn{
-    width: 240px;
-}
+
 
 /* .topArea .logo{
     height: 21px;
 } */
 
-@media (min-width: 786px) {
+@media (min-width: 768px) {
     main{
         padding-top: 34px;
     }
@@ -141,6 +139,9 @@
     }
     .modelPrice .bikeImg img{
         height: 304px;
+    }
+    .bikeDtls .primaryBtn{
+        width: 240px;
     }
 }
   

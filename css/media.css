@@ -1,0 +1,121 @@
+@media (min-width: 768px){
+    .hondaprice tbody .variants .btn{
+        width: 195px;
+     }
+     .hondaprice tbody .variants{
+        padding: 27px 0 37px;
+     }
+     .hondaprice tbody .variants .secondaryBtn{
+        border: 1px solid var(--primary-color);
+        height: 44px;
+        line-height: 44px;
+    }
+    .hondaprice table thead tr{
+        display: grid;
+        /* grid-template-columns: repeat(4, 1fr); */
+        grid-template-columns: 3fr 2fr 2fr 1fr;
+        justify-content: stretch;
+     }
+     .hondaprice table tbody tr{
+        display: grid;
+        /* grid-template-columns: repeat(4, 1fr); */
+        grid-template-columns: 3fr 2fr 2fr 1fr;
+        justify-content: stretch;
+     }
+     .variants:nth-child(3){
+        grid-column: auto;
+        grid-row: auto;
+     }
+     .variants:nth-child(4){
+        grid-column: auto;
+        grid-row: auto;
+     }
+     .hondaprice thead .priceTab,
+     .hondaprice tbody .variants.priceVal{
+        text-align: left;
+     }
+
+    .hondaprice tbody .variants:last-child,
+    .hondaprice tbody .variants:nth-child(3){
+        padding: 27px 0 37px;
+    }
+    .hondaprice tbody .variants .secondaryBtn{
+        text-align: center;
+     }
+     .hondaprice tbody .variants label {
+        justify-content: center;
+    }
+
+    .expertReview .wrongthings{
+        display: block;
+    }
+    .expertReview  .rightthings h3{
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .expertReview .icon-cd-thumbup,
+    .expertReview .icon-cd-thumbdown{
+        margin-right: 15px;
+    }
+
+    .expertReview  .rightthings{
+        min-height: 228px;
+        padding: 18px 14px;
+    }
+    .expertReview .rightthings li {
+        margin: 14px 0 0 35px;
+    }
+    .expertReview .rightthings li::before{
+        left: -28px;
+        top: 9px;
+    }
+
+    .userReview .secondaryBtn{
+        max-width: 245px;
+        margin: 0;
+        font-size: 500;
+    }
+
+    .explorer .exploreprice{
+        font-weight: 500;
+     }
+
+
+    .option .label{
+        font-size: 15px;
+    }
+    .option .btnchoice {
+        font-size: 15px;
+        height: 35px;
+        min-width: 65px;
+        margin-left: 20px;
+    }
+
+    .ask .contentBox{
+        display: grid;
+        grid-template-columns: 200px auto;
+    }
+    .ask .contentBox .ImgContainer{
+        text-align: center;
+    }
+
+    .ask .ImgContainer img{
+        width: 118px;
+        height: 115px;
+        position: unset;
+     }
+     /* .ask input{
+        max-width: 354px;
+     } */
+     .ask .textContainer .qArea button{
+        width: 138px;
+     }
+
+     summary {
+        font-weight: 500;
+     }
+     summary::after {
+        font-weight: 400;
+    }
+}

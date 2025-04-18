@@ -18,7 +18,7 @@
 }
 .mobiHeader .icon.icon-cd-locationPin{
     font-size: 24px;
-    top: 0px;
+    top: -3px;
 }
 
 @media (min-width: 768px) {
