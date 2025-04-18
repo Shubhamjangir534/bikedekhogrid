@@ -334,9 +334,9 @@ strong{
 .trending .margintop{
     margin-top: 16px;
 }
-.hidden-sm{
+/* .hidden-sm{
     display: none;
-}
+} */
 .trending .tab>ul li{
     padding: 16px 0;
     margin-right: 36px;
