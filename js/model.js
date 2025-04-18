@@ -9,3 +9,10 @@ input.addEventListener("focus", () => {
 language.addEventListener("click", ()=>{
     document.querySelector(".langDropDown").style.display = "block";
 });
+
+document.querySelectorAll(".mainNav").forEach(button => {
+    button.addEventListener("click", () => {
+      const submenu = button.nextElementSibling;
+      submenu.classList.toggle("show");
+    });
+});

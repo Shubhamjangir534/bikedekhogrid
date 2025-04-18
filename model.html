@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="./css/icons.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
     <!-- header -->
@@ -591,18 +594,18 @@
                         <h2 class="mb-8">Honda SP 125 Price</h2>
                         <p class="mb-20">The price of Honda SP 125 in India starts at Rs. 92,678 and goes upto Rs. 
                             1,00,948. Honda SP 125 comes with 2 variants.</p>
-                            <table class="blockTb">
-                                <thead class="row-new bg posR broderBd pl-20 pr-20">
-                                    <tr class="spaceBetween col-lg-12 row-new">
-                                        <th class="col-lg-4 leftAlign">Variant</th>
-                                        <th class="col-lg-3 leftAlign">Ex-Showroom Price</th>
-                                        <th class="col-lg-3"></th>
-                                        <th class="col-lg-2 centerAlign">Compare</th>
+                            <table>
+                                <thead>
+                                    <tr class="broderBd posR pl-20 pr-20 bg">
+                                        <th class="leftAlign">Variant</th>
+                                        <th class="rightAlign priceTab">Ex-Showroom Price</th>
+                                        <th class="hidden-sm"></th>
+                                        <th class="centerAlign hidden-sm">Compare</th>
                                     </tr>
                                 </thead>
-                                <tbody class="row-new">
-                                    <tr class="spaceBetween col-lg-12 posR broderBd pl-20 pr-20 row-new">
-                                        <td class="variants col-lg-4">
+                                <tbody >
+                                    <tr class="posR broderBd pl-20 pr-20">
+                                        <td class="variants">
                                             <a  class="hover" href="#" title="SP125 Drum">SP125 Drum</a>
                                             <div class="dotlist mt-4">
                                                 <span>100 kmp</span>
@@ -610,25 +613,27 @@
                                                 <span class="posR ml-20">123.94 cc</span>
                                             </div>
                                         </td>
-                                        <td class=" variants priceVal col-lg-3">
-                                           <span> ₹ 92,678</span>
+                                        <td class=" variants priceVal rightAlign">
+                                            <span> ₹ 92,678</span>
                                             <div>
-                                                <span class="blueLink ">Get On Road Price</span>
+                                                <span class="blueLink hidden-sm">Get On Road Price</span>
                                             </div>
                                         </td>
-                                        <td class="variants col-lg-3">
-                                            <div class="btn secondaryBtn">
+                                        <td class="variants">
+                                            <div class="btn secondaryBtn rightAlign">
                                                 <span>View Offers</span>
                                             </div>
                                         </td>
-                                        <td class="variants col-lg-2 centerAlign">
-                                            <label for="input">
+                                        <td class="variants centerAlign">
+                                            <label for="input" class="flexCenter leftAlign posR">
                                                 <input type="checkbox">
+                                                <span class="hidden-lg comparetext  ml-8 blockTb">Compare</span>
                                             </label>
                                         </td>
                                     </tr>
-                                    <tr class=" spaceBetween col-12 row-new">
-                                        <td class="variants col-lg-4">
+
+                                    <tr>
+                                        <td class="variants" >
                                             <a href="#" title="SP125 Drum">SP125 Drum</a>
                                             <div class="dotlist mt-4">
                                                 <span>100 kmph</span>
@@ -636,20 +641,21 @@
                                                 <span class="posR ml-20">123.94 cc</span>
                                             </div>
                                         </td>
-                                        <td class="variants priceVal col-lg-3">
+                                        <td class="variants priceVal rightAlign">
                                             <span>₹ 92,678</span>
                                             <div>
-                                                <span class="blueLink">Get On Road Price</span>
+                                                <span class="blueLink hidden-sm">Get On Road Price</span>
                                             </div>
                                         </td>
-                                        <td class="variants col-lg-3">
-                                            <div class="btn secondaryBtn">
+                                        <td class="variants">
+                                            <div class="btn secondaryBtn rightAlign">
                                                 <span>View Offers</span>
                                             </div>
                                         </td>
-                                        <td class="variants col-lg-2 centerAlign">
-                                            <label for="input">
+                                        <td class="variants centerAlign">
+                                            <label for="input" class="flexCenter leftAlign posR">
                                                 <input type="checkbox">
+                                                <span class="hidden-lg comparetext ml-8 blockTb">Compare</span>
                                             </label>
                                         </td>
                                     </tr>
@@ -794,17 +800,25 @@
                     </div>
                     <div class="expertReview mb-20 shadow24">
                         <h2 class="mb-8">Honda SP 125 Pros and Cons</h2>
-                        <div class="row-new">
-                            <div class="col-lg-6 rightthings">
-                                <h3><i class="icon-cd-thumbup"></i>Things We Like</h3>
+                        <div class="tabTitle hidden-lg">
+                            <div class="tabs broderBd posR">
+                                <ul>
+                                    <li class="buttonHolder"><i class="icon-cd-thumbup mr-4"></i>Things We Like</li>
+                                    <li class="buttonHolder"><i class="icon-cd-thumbdown mr-4"></i>Things We Don't Like</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contentHolder row-new">
+                            <div class="col-lg-6 col-12 rightthings">
+                                <h3 class="hidden-sm"><i class="icon-cd-thumbup"></i>Things We Like</h3>
                                 <ul>
                                     <li class="posR">Gets an extensive feature list</li>
                                     <li class="posR">Refined and punchy engine</li>
                                     <li class="posR">The build quality and finish levels are good</li>
                                 </ul>
                             </div>
-                            <div class="posR col-lg-6 rightthings wrongthings">
-                                <h3><i class="icon-cd-thumbdown"></i>Things We Don't Like</h3>
+                            <div class="posR col-lg-6 col-12 rightthings wrongthings">
+                                <h3 class="hidden-sm"><i class="icon-cd-thumbdown"></i>Things We Don't Like</h3>
                                 <ul>
                                     <li class="posR">Looks might not cater to the younger audience</li>
                                     <li class="posR">Pricing could be better</li>
@@ -1320,8 +1334,8 @@
                     </div>
                     <div class="news mb-20 shadow24">
                         <h2 class="mb-8">SP125 News</h2>
-                        <div class="owl-crousel" id="crousel">
-                            <ul class="row-new">
+                        <div class="mobileCrousel" id="crousel">
+                            <ul class="row-new main">
                                 <li class="col-4">
                                     <div class="news-card">
                                         <div>
@@ -1336,9 +1350,6 @@
                                                 <span class="date posR ml-20">Dec 29, 2024</span>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="bluelink hover mt-12">
-                                        <a href="#">Honda SP 125 News</a>
                                     </div>
                                 </li>
                                 <li class="col-4">
@@ -1375,13 +1386,16 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="bluelink hover mt-12">
+                            <a href="#">Honda SP 125 News</a>
+                        </div>
                     </div> 
                     <div class="colors mb-20 shadow24">
                         <h2 mb-8>Honda SP 125 Colours</h2>
                         <p class="mb-12">Honda SP 125 is available in the following colours in India. View all bike images with different colour options on BikeDekho.</p>
                         <div>
-                            <div class="posR mt-12 hover ">
-                                <ul class="row-new">
+                            <div class="posR mt-12 hover mobileCrousel ">
+                                <ul class="row-new main">
                                     <li class="col-4">
                                         <img alt="Pearl Igneous Black"  data-autofit="true" decoding="async" title="Pearl Igneous Black" style="width:100%" src="https://cdn.bikedekho.com/processedimages/honda/sp125/640X309/sp1256789e3e35c30f.jpg?imwidth=480&amp;impolicy=resize" loading="eager" fetchpriority="low" data-lazy="true">
                                         <span class="label mt-12 blockTb">Pearl Igneous Black</span>
@@ -1434,8 +1448,8 @@
                     <div class="imgbike mb-20 shadow24">
                         <h2 class="mb-8">Honda SP 125 Images</h2>
                         <p class="mb-12">Honda SP 125 has 32 images, view picture gallery of SP125 which includes 360 view of Bikes.</p>
-                        <div>
-                            <ul class="row-new">
+                        <div class="mobileCrousel">
+                            <ul class="row-new main">
                                 <li class="col-4">
                                     <img alt="Honda SP 125 Front Right View" class="hover" data-autofit="true" decoding="async" style="width:100%" title="Honda SP 125 Front Right View" height="194" src="https://cdn.bikedekho.com/processedimages/honda/sp125/494X300/sp1256789eaeb8a21e.jpg?tr=w-360" loading="eager" fetchpriority="low" data-lazy="true">
                                 </li>
@@ -1468,7 +1482,7 @@
                     <div class="userReview mb-20 shadow24">
                         <h2 class="mb-8">Honda SP 125  User Reviews</h2>
                         <div class="row-new">
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-12">
                                 <div class="startRating buttonHolder">
                                     <span class="ratingvalue">
                                         4.5
@@ -1481,7 +1495,7 @@
                                     <span>82 User Reviews</span>
                                 </div>
                             </div>
-                            <div class="col-lg-8 btn secondaryBtn">
+                            <div class="col-lg-8 col-12 btn secondaryBtn">
                                 <span>Write Review</span>
                             </div>
                         </div>
@@ -1489,7 +1503,7 @@
                         <div class="mentions">
                             <div class="moreDropDown">
                                 <span class="mb-12 blockTb mt-8 tabtitle">Popular Mentions</span>
-                                <ul>
+                                <ul class="mobileCrousel">
                                     <li class="hover buttonHolder mr-8 mb-8">All (82)</li>
                                     <li class="hover buttonHolder mr-8 mb-8">Looks (42)</li>
                                     <li class="hover buttonHolder mr-8 mb-8">Mileage (37)</li>
@@ -1506,8 +1520,8 @@
                                     <li class="buttonHolder">Most Helpful</li>
                                 </ul>
                             </div>
-                            <div class="latestReviews mb-8">
-                                <ul class="row-new mb-20">
+                            <div class="latestReviews mb-8 mobileCrousel pl-20">
+                                <ul class="row-new mb-20 main">
                                     <li class="col-lg-4">
                                         <div class="userReviewBox shadow24">
                                             <div class="userInfo flex mb-8">
@@ -1611,17 +1625,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ask mb-20 shadow24">
-                    <div class="row-new">
-                        <div class="col-lg-3 centerAlign">
+                    <div class="ask mb-20 shadow24 posR">
+                    <div class="contentBox">
+                        <div class="ImgContainer">
                             <img alt="Ask Question"  decoding="async" src="https://cdn.bikedekho.com/pwa/img/ask-que.png" loading="eager" fetchpriority="low" data-lazy="true">
                         </div>
-                        <div class="col-lg-9">
+                        <div class="textContainer">
                             <h2>Ask anything and everything</h2>
                             <p>Ask anything &amp; get answer in 48 hours</p>
-                            <div>
-                                <input type="text" id="otherquestion" data-id="otherquestion" name="otherquestion" maxlength="1000" data-gsv-type="required" data-gsv-min-length="50" data-gsf-name="otherquestion" placeholder="Write your question here" data-type="otherquestion" aria-label="Select City" data-move-top="0" autocomplete="off" class="" value="">
-                                <button class="col-lg-2 pl-20 pr-20 ml-10" title="Ask Question">Ask Question</button>
+                            <div class="qArea row-new">
+                                <input type="text" id="otherquestion" data-id="otherquestion" name="otherquestion" maxlength="1000" data-gsv-type="required" data-gsv-min-length="50" data-gsf-name="otherquestion" placeholder="Write your question here" data-type="otherquestion" aria-label="Select City" data-move-top="0" autocomplete="off" class="buttonHolder col-10 col-lg-6" value="">
+                                <button class="ml-10 buttonHolder col-2 col-lg-2" title="Ask Question">Ask Question</button>
                             </div>
                            
                         </div>
@@ -1668,8 +1682,8 @@
                     </div>
                     <div class="explorer mb-20 shadow24">
                         <h2 class="mb-8">SP125 News</h2>
-                        <div>
-                            <ul class="row-new">
+                        <div class="mobileCrousel">
+                            <ul class="row-new main">
                                 <li class="col-4">
                                     <div class="explorecard">
                                         <div>
@@ -1736,30 +1750,11 @@
                             <a  class="blueLink hover" href="#">View All Electric Scooters</a>
                         </div>
                     </div> 
-                    <div class="option row-new mb-20">
-                        <div class=" label col-lg-10"> Did you find this information helpful?</div>
-                        <button class="btnchoice  hover col-lg-1">Yes</button>
-                        <button class="btnchoice  hover  col-lg-1">No</button>
-                    </div>
-
-                    <div class="breadcrumb-model">
-                        <div class="breadcrumb-list">
-                            <a href="#" class="buttonHolder">Home</a>
-                            <i>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="4" height="7" viewBox="0 0 4 7" fill="none">
-                                    <path d="M0.75 1L3.25 3.5L0.75 6" stroke="#B6B6B6" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </i>
-                            <a>Honda bikes</a>
-                            <i>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="4" height="7" viewBox="0 0 4 7" fill="none">
-                                    <path d="M0.75 1L3.25 3.5L0.75 6" stroke="#B6B6B6" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                            </i>
-                            <span class="model">SP 125</span>
-                        </div>
-                    </div>
-                 
+                    <div class="option flex mb-20">
+                        <div class=" label"> Did you find this information helpful?</div>
+                        <button class="btnchoice  hover">Yes</button>
+                        <button class="btnchoice  hover">No</button>
+                    </div>                 
                 </div>
                 <div class="col-lg-3 col-12">
                     <div class="finOffer mb-20 p-20 shadow24">
@@ -2019,7 +2014,144 @@
               </div>
         </section> 
     </main>
+    <div class="breadcrumb-model pl-20 pr-20">
+        <div class="container">
+            <div class="breadcrumb-list">
+                <a href="#" class="buttonHolder">Home</a>
+                <i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="4" height="7" viewBox="0 0 4 7" fill="none">
+                        <path d="M0.75 1L3.25 3.5L0.75 6" stroke="#B6B6B6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </i>
+                <a>Honda bikes</a>
+                <i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="4" height="7" viewBox="0 0 4 7" fill="none">
+                        <path d="M0.75 1L3.25 3.5L0.75 6" stroke="#B6B6B6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </i>
+                <span class="model">SP 125</span>
+            </div>
+        </div>
+    </div>
     <!-- footer -->
+    <footer class="mobileFooter">
+        <div>
+            <a href="#" class="footerLogo">
+                <img src="https://cdn.bikedekho.com/pwa/img/BD-new-logo-2023.svg"  height="31" alt="Bikedekho.com - Best place to buy New Bikes in India">
+            </a>
+            <div class="socialIcons">
+                <ul class="buttonHolder">
+                    <li class="buttonHolder pr-20"><a href="">
+                        <span class="icon-cd-fb-icon icon"></span>
+                        </a>
+                    </li>
+                    <li class="buttonHolder pr-20"><a href="">
+                        <span class="icon-instagram icon"></span>
+                        </a>
+                    </li>
+                    <li class="buttonHolder pr-20"><a href="">
+                        <span class="icon-youtube icon"></span>
+                        </a>
+                    </li>
+                    <li class="buttonHolder pr-20"><a href="">
+                        <span class="icon-instagram icon"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contactDetails">
+                <ul>
+                    <li>
+                        <a href="#">support@bikedekho.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footerNav">
+                <ul>
+                    <li>
+                        <span class="mainNav blockTb posR">About BikeDekho</span>
+                        <ul class="subMenu"> 
+                            <li><span>About</span></li>
+                            <li><span>Carrers With Us</span></li>
+                            <li><span>Privacy Poilicies</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="mainNav blockTb posR">Connect With Us</span>
+                        <ul class="subMenu">
+                            <li><span>Feedback</span></li>
+                            <li><span>Contact us</span></li>
+                            <li><span>Advertise with us</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="mainNav blockTb posR">Others</span>
+                        <ul class="subMenu">
+                            <li><span>TrucksDekho</span></li>
+                            <li><span>TractorsDekho</span></li>
+                            <li><span>TyreDekho</span></li>
+                            <li><span>BatteryDekho</span></li>
+                            <li><span>Finance Discount Offers</span></li>
+                            <li><span>Girnar Vision Fund</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span class="mainNav blockTb posR">CarDekho Group Ventures</span>
+                        <ul class="subMenu appHolder">
+                            <li class="buttonHolder">
+                                <a href="#" class="blockTb">
+                                    <img src="https://cdn.bikedekho.com/pwa/img/footer_cd_logo.svg" alt="" class="cardekhoLogo posR">
+                                </a>
+                            </li>
+                            <li class="buttonHolder">
+                                <a href="#" class="blockTb">
+                                    <img src="https://cdn.bikedekho.com/pwa/img/rupyy-logo-v1.svg" alt="" class="blockTb rupyy posR">
+                                </a>
+                            </li>
+                            <li class="buttonHolder">
+                                <a href="#" class="blockTb">
+                                    <img src="https://cdn.bikedekho.com/pwa/img/zigwheels-logo-new-v1.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="buttonHolder">
+                                <a href="#" class="blockTb">
+                                    <img src="https://cdn.bikedekho.com/pwa/img/Insurance-Dekho-v1.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="buttonHolder">
+                                <a href="#" class="blockTb">
+                                    <img src="https://cdn.bikedekho.com/pwa/img/Revv_Logo-v1.svg" alt=""  class="blockTb revv posR">
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="appSection">
+                <ul>
+                    <li class="downloadApp">Download BikeDekho App</li>
+                    <li class="starRating">50 Lakh+ downloads • 4.5 star rating</li>
+                </ul>
+                <div class="storeCtr">
+                    <ul >
+                        <li class="buttonHolder">
+                            <a href="#">
+                                <img src="https://cdn.bikedekho.com/pwa/img/itunes.svg" height="45" alt="">
+                            </a>
+                        </li>
+                        <li class="buttonHolder">
+                            <a href="#">
+                                <img src="https://cdn.bikedekho.com/pwa/img/gplay_badge.png" alt=""  height="45" class="blockTb">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyRight centerAlign">© 2025 Girnar Software Pvt. Ltd.</div>
+
+        </div>
+    </footer>
+
     <footer class="footer">
         <div class="footerTraffic">
             <div class="container">
@@ -2053,8 +2185,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            
+            </div>  
         </div>
         <div class="footerNav">
             <div class="container">
