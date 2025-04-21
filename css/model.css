@@ -7,6 +7,7 @@
 }
 
 .modelPrice .bikeDtls .blueLink{
+    font-size: 13px;
     font-weight: 500;
 }
 .modelPrice .bikeDtls .blueLink.exCity{
@@ -16,18 +17,26 @@
 .modelPrice .reviewShare .wrtReview{
     padding-left: 10px;
 }
+.modelPrice .buttonHolder{
+    margin-top: 12px;
+}
 
+.modelPrice .content{
+    padding-left: 20px;
+}
+.modelPrice h1{
+    margin-bottom: 4px;
+}
 .modelNav .listItems .downArrow{
     border-top-color: var( --light-gray);
     top: -2px;
 
 }
-
-
 .modelNavList{
+    padding-left: 20px;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 33px;
     overflow-y: auto;
 }
 .modelNavList li{
@@ -50,11 +59,13 @@
 }
 
 .modelPrice{
+    margin-top: 0;
     margin-bottom: 28px;
 }
 
 /* temp */
 .modelPrice .morePics{
+    margin-left:0;
     width: 48px;
     height: 48px;
     background: black;
@@ -66,6 +77,7 @@
 }
 
 .modelPrice .bikeImg img{
+    margin-left: 0;
     height: 240px;
 }
   
@@ -85,6 +97,9 @@
     width: 3px;
 }
 
+.priceDtls{
+    margin-top: 0;
+}
 .priceDtls .bikePrice{
     font-size: 18px;
     color: var(--gray-color);
@@ -93,7 +108,6 @@
 
 .priceDtls .bikePrice i{
     font-size: 18px;
-    top: 1px;
 }
 
 .exShowroom{
@@ -138,10 +152,32 @@
         border-radius: var(--radius-md);
     }
     .modelPrice .bikeImg img{
+        margin-left: -20px;
         height: 304px;
     }
     .bikeDtls .primaryBtn{
         width: 240px;
     }
-}
-  
+    .modelNavList{
+        padding-left: 0;
+    }
+    .modelPrice .content{
+        padding-left: 0;
+    }
+    .modelPrice .morePics{
+        margin-left: -9px;
+    }
+
+    .modelPrice{
+        margin-top: -8px;
+    }
+    .modelPrice h1{
+        margin-bottom: 0;
+    }
+    .priceDtls{
+        margin-top: -8px;
+    }
+    }
+
+
+

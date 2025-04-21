@@ -40,30 +40,31 @@
     }
     
     .header .topArea .bdhomeSearch{
+        margin-top: -7px;
         font-size: 14px;
         border: 1px solid var(--gray-border);
-        height: 44px;
+        height: 43px;
         text-overflow: ellipsis;
         padding: 0 40px 0 50px;
         border-radius: 23px;
         font-weight: 500;
-        width: 100%;
+        width: 98%;
         color: var(--gray-color);
         font-weight: 600;
-        line-height: 44px;
+        line-height: 43px;
     }
     
     .header .topArea .homeSearch{
         color: var(--gray-color);
         font-weight: 500;
-        top: 13px;
+        top: 7px;
         font-size: 17px;
         position: absolute;
         left: 17px;
     }
     .header .topArea .loginAreaRight > ul > li{
         display: inline-block;
-        margin-left: 34px;
+        margin-left: 36px;
     }
     .header .topArea .LangProfile{
         font-size: 11px;
@@ -91,7 +92,7 @@
     .header .loginAreaRight .info .drop-down{
         top: 18px;
         opacity: 0;
-        transform: rotateX(0);
+        transform: rotateX(-92deg);
         transform-origin: 0 0;
         transition: transform .8s, opacity .4s;
         padding: 15px 0 0;
@@ -124,8 +125,10 @@
     }
     .header .loginAreaRight li.login:hover .info .drop-down{
         opacity: 1;
+        transform: rotateX(0deg);
     }
     .header .bottomArea .mainMenu{
+        margin-top: -4px;
         padding-right: 33px;
         color: var(--gray-color);
     }
@@ -226,8 +229,8 @@
     .header .bottomArea .linkArea{
         font-size: 14px;
         position: absolute;
-        right: 10px;
-        top: 12px;
+        right: 24px;
+        top: 10px;
     }
     
     /*  */
