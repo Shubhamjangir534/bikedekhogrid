@@ -164,6 +164,18 @@
     .modelPrice .content{
         padding-left: 0;
     }
+    .trending .tab  .blueLink{
+        margin-top: 25px;
+    }
+    .modelSpecsMain .specsFeaturesBlock{
+        margin-top: 4px;
+    }
+    .news .bluelink{
+        margin-top: 18px;
+     }
+    .news .content p{
+        margin-top: 11px;}
+
     .modelPrice .morePics{
         margin-left: -9px;
     }
@@ -176,6 +188,12 @@
     }
     .priceDtls{
         margin-top: -8px;
+    }
+    .keySpecs{
+        margin-left: -9px;
+    }
+    .finOffer .editEMI .linkTag{
+        margin-left: 8px;
     }
     }
 

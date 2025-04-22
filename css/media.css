@@ -3,7 +3,7 @@
         width: 195px;
      }
      .hondaprice tbody .variants{
-        padding: 27px 0 37px;
+        padding: 24px 0 37px;
      }
      .hondaprice tbody .variants .secondaryBtn{
         border: 1px solid var(--primary-color);
@@ -37,9 +37,10 @@
 
     .hondaprice tbody .variants:last-child,
     .hondaprice tbody .variants:nth-child(3){
-        padding: 27px 0 37px;
+        padding: 29px 0 37px;
     }
     .hondaprice tbody .variants .secondaryBtn{
+        margin-left: -21px;
         text-align: center;
      }
      .hondaprice tbody .variants label {
@@ -61,10 +62,10 @@
 
     .expertReview  .rightthings{
         min-height: 228px;
-        padding: 18px 14px;
+        padding: 24px 14px;
     }
     .expertReview .rightthings li {
-        margin: 14px 0 0 35px;
+        margin: 16px 0 0 35px;
     }
     .expertReview .rightthings li::before{
         left: -28px;
@@ -73,11 +74,12 @@
 
     .userReview .secondaryBtn{
         max-width: 245px;
-        margin: 0;
+        margin: -3px 0px 0px -7px;
         font-size: 500;
     }
 
     .explorer .exploreprice{
+        margin-top: -5px;
         font-weight: 500;
      }
 
@@ -95,6 +97,7 @@
     .ask .contentBox{
         display: grid;
         grid-template-columns: 200px auto;
+        column-gap: 30px;
     }
     .ask .contentBox .ImgContainer{
         text-align: center;

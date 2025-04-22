@@ -183,6 +183,14 @@
     grid-template-columns: repeat(12, 1fr);
     column-gap: 20px; 
 }
+.truncate2L{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-clamp: 2;    
+    -webkit-line-clamp: 2;
+}
 .truncate3L{
     display: -webkit-box;
     -webkit-box-orient: vertical;
