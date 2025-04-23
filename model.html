@@ -297,9 +297,12 @@
                 <li class="listItems"><span>MILEAGE</span></li>
                 <li class="listItems"><span>USER REVIEWS</span></li>
                 <li class="listItems"><span>SP125 EMI</span></li>
+                <li class="listItems"><span>SP125 EMI</span></li>
+                <li class="listItems"><span>SP125 EMI</span></li>
                 <li class="listItems modelNew posR">
                     <span>MORE<i class="downArrow posR"></i></span>
                     <div class="ModelDropDown">
+                        <div class="ArrowTop"></div>
                         <ul>
                             <li><span>News</span></li>
                             <li><span>Variants</span></li>
@@ -2076,7 +2079,13 @@
             </div>
         </div>
     </footer> 
-
+<script>
+   
+    const list = document.querySelectorAll(".modelNavList > .listItems");
+    if(list.length >= 15){
+        list[list.length-1].classList.add("left");
+    }
+</script>
 
     <script src="./js/model.js"></script>
 </body>

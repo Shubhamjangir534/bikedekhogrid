@@ -790,10 +790,8 @@ border-radius: var( --radius-md);
     color: var(--light-gray);
 }
 .modelNew .ModelDropDown{
-    transition: transform .8s, opacity .4s;
-    transform-origin: 0 0;
     background: white;
-      opacity: 0;
+    opacity: 0;
     border: 1px solid rgba(36, 39, 44, .15);
     border-radius: 3px;
     bottom: auto;
@@ -801,7 +799,6 @@ border-radius: var( --radius-md);
     left: -10px;
     position: absolute;
     transform: rotateX(-92deg);
-    top: 60px;
     width: 315px;
     z-index: 999;
 }
@@ -816,13 +813,47 @@ border-radius: var( --radius-md);
     text-transform: none;
 }
 
+.ArrowTop::after , .ArrowTop::before{
+    border: solid transparent;
+    bottom: 100%;
+    content: " ";
+    height: 0;
+    left: 30px;
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+}
+.modelNew.left .ArrowTop::after ,.modelNew.left .ArrowTop::before{
+    right: 15px;
+    left: auto;
+}
+.ArrowTop::before{
+    border-color: hsla(210, 3%, 87%, 0) hsla(210, 3%, 87%, 0) #dedfe0;
+    border-width: 11px;
+    margin-left: -11px;
+}
+.ArrowTop::after{
+    border-color: hsla(0, 0%, 100%, 0) hsla(0, 0%, 100%, 0) #fff;
+    border-width: 10px;
+    margin-left: -10px;
+}
 .modelNew:hover .ModelDropDown {
     opacity: 1;
     transform: rotateX(0deg);
+  }
+  .modelNew.left:hover .ModelDropDown {
+    padding: 0 22px 0 0;
+    text-align: right;
+    right: 0;
+    left: auto;
+  }
+  .modelNew :hover .arrowTop::before{
+    opacity: 1;
   }
   .ModelDropDown li:hover{
     background: #fafafa;
     color: #24272c;
     padding-bottom: 0;
   }
+ 
 
