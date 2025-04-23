@@ -21,9 +21,7 @@
     color: var(--gray-color);
     font-weight: 500px;
 }
-.dropdownNew{
-    display: block;
-}
+
 strong{
     font-weight: 600;
 }
@@ -775,7 +773,7 @@ border-radius: var( --radius-md);
 }
 
 .breadcrumb-list{
-    line-height: 18px;
+    line-height: 2px;
     font-size: 10px;
     color: var(--blue-color);
 }
