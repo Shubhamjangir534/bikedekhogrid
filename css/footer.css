@@ -101,7 +101,11 @@
         border-top: solid 1px rgba(0, 0, 0, .12);
     }
     .footer .footerTraffic{
-        padding: 42px 10px;
+        padding: 39px 10px;
+    }
+    .footer .Ventures{
+        margin-top: -4px;
+        margin-left: -2px;
     }
 
     .footer .footerTraffic .icon{
@@ -138,7 +142,7 @@
     }
     .footer .footerNav .Ventures li:nth-child(2n){
         padding-right: 0;
-        padding-left: 30px;
+        padding-left: 10px;
     }
     .footer .footerNav .appHolder img{
         width: 130px;
@@ -162,17 +166,16 @@
     .footer .footerBottom .copyRight{
         font-size: 12px;
         color: rgba(36, 39, 44, .5);
-        margin-top: 9px;
+        margin-top: -8px;
     }
     .footer .footerBottom .title{
         font-size: 15px;
         font-weight: 600;
         color: var(--gray-color);
-        margin-right: 41px;
-        line-height: 23px;
+        margin-right: 16px;
     }
     .footer .footerBottom .socialIcons{
-        margin-top: 9px;
+        margin-top: -4px;
     }
     .footer .footerBottom .socialIcons li{
         padding-right: 30px;

@@ -52,7 +52,7 @@
     font-weight: 500;
     padding: 20px 0px;
 }
-.modelNavList li:hover span{
+.modelNavList > li:hover > span{
     color: var(--primary-color);
     border-bottom: 3px solid #d02f2f;
     padding-bottom: 17px;
@@ -159,6 +159,7 @@
         width: 240px;
     }
     .modelNavList{
+        overflow-y: unset;
         padding-left: 0;
     }
     .modelPrice .content{
