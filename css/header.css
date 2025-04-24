@@ -15,10 +15,13 @@
 .mobiHeader .icon{
     color: var(--gray-color);
     font-size: 18px;
+    top: 2px;
+    left: -4px;
 }
 .mobiHeader .icon.icon-cd-locationPin{
     font-size: 24px;
-    top: -3px;
+    top: 0px;
+    left: -5px;
 }
 
 @media (min-width: 768px) {
