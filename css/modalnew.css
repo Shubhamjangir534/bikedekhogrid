@@ -22,14 +22,15 @@
     color: var(--gray-color);
     font-weight: 500px;
 }
+.imgbike span,.virtual .blueLink,.trending a{
+    font-weight: 400;
+}
+
 .otherDetails .limitedOffer{
     margin-top: 6px;
     margin-bottom: 10px;
 }
 
-strong{
-    font-weight: 600;
-}
 .table-data{
     margin-top: 15px;
 }
@@ -40,14 +41,15 @@ strong{
 .table-data .blockTb{
     display: block;
 }
-.table-data td{
+
+.hondaprice > p,.colors p,.table-data td{
     font-size: 13px;
 }
 
 .table-data .iconname{
     color: var(--gray-color);
     font-weight: 400;
-    font-size: 13px;
+   font-size: 13px;
 }
 .hondaprice-data{
     padding: 27px 0px 37px 20px;
@@ -55,7 +57,7 @@ strong{
 
 .link-btn{
     cursor: pointer;
-    font-size: 14px !important;
+   font-size: 14px !important;
     line-height: 21px;
     margin: 13px 0 0;
 }
@@ -66,7 +68,6 @@ strong{
     font-weight: 600;
 }
 .finOffer .editEMI .linkTag{
-    margin-left: 0;
     color: var(--gray-color);
     font-size: 14px;
 }
@@ -98,9 +99,6 @@ strong{
     font-weight: 500;
 }
 
-.hondaprice > p{
-    font-size: 13px;
-}
 
  .hondaprice tbody .variants{
     padding-top: 16px;
@@ -113,16 +111,12 @@ strong{
     
  }
 
- .hondaprice table thead tr{
+ .hondaprice table tbody tr, .hondaprice table thead tr{
     display: grid;
     grid-template-columns: auto 131px;
     justify-content: stretch;
  }
- .hondaprice table tbody tr{
-    display: grid;
-    grid-template-columns: auto 131px;
-    justify-content: stretch;
- }
+
  .variants:nth-child(3){
     grid-column: 2;
     grid-row: 2;
@@ -180,17 +174,6 @@ strong{
     background-color: var(--light-bg);
     color: var(--light-grey-font);
 }
-.expertReview{margin-bottom: 12px;}
-.news{margin-bottom: 12px;}
-.colors{margin-bottom: 12px;}
-.imgbike{margin-bottom: 12px;}
-.virtual{margin-bottom: 12px;}
-.userReview{margin-bottom: 12px;}
-.ans{margin-bottom: 12px;}
-.ask{margin-bottom: 12px;}
-.option{margin-bottom: 12px;}
-.explorer{margin-bottom: 12px;}
-
 
 .expertReview .contentHolder{
     margin-top: 16px;
@@ -251,8 +234,7 @@ strong{
 }
 
 
-.comparision{
-    margin-bottom: 12px;
+.comparision,.indianprice span{
     color: var(--gray-color);
 }
 .comparision .tableResp .price{
@@ -337,9 +319,6 @@ strong{
     line-height: 16px;
 
 }
-.trending a{
-    font-weight: 400;
-}
 
 .trending .tab>ul li{
     padding: 16px 0;
@@ -347,13 +326,12 @@ strong{
     color: var(--light-grey-font);
 }
 
-.trending .card img{
-    border-radius: var(--radius-md);
-}
+
 .trending .blueLink a{
     color: var(--blue-color);
 }
-.trending .tab .blueLink{
+
+.indianprice td,.trending .tab .blueLink{
     margin-top: 12px;
 }
 .trending .tab .borderbtm{
@@ -366,7 +344,7 @@ strong{
     font-size: 15px;
     font-weight: 500;
 }
- .trending .tab img{
+.userReview .userReviewBox.trending .card img, .trending .tab img{
     border-radius: var( --radius-md);
 }
 .trending .price{
@@ -375,16 +353,11 @@ strong{
     font-size: 15px;
 }
 
-.indianprice span{
-    color: var(--grey-hover-font);
-}
+
 .indianprice th{
     color: rgba(36, 39, 44, .5);
     font-size: 11px;
     font-weight: 400;
-}
-.indianprice td{
-    margin-top: 12px;
 }
 .indianprice thead{
     padding: 0px 20px;
@@ -439,19 +412,16 @@ strong{
     /* .trending .tab .blueLink a{
     font-weight: 400;
 } */
- .colors .blueLink{
-    margin-top: 24px;
+.colors span,.colors .blueLink{
+    margin-top: 8px;
  }
- .colors p{
-    font-size: 13px;
- }
+ 
  .colors img{
     min-height: 192px;
     border-radius: 8px;
     border: 1px solid rgba(36, 39, 44, .1);
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .1);
  }
- .colors span{margin-top: 8px;}
  .colors h2{margin-bottom: 8px;}
  .colors .label{
     color:var( --grey-hover-font);
@@ -471,14 +441,16 @@ strong{
     font-weight: 400;
     margin-top: 24px;
  }
+ h2{
+    line-height: 1.4;
+ }
  .imgbike img{
+    height: 174px!important;
     border-radius: var( --radius-md);
  }
- .imgbike span{
-    font-weight: 400;
- }
  .virtual img{
-border-radius: var( --radius-md);
+    height: 176px;
+    border-radius: var( --radius-md);
  }
  .virtual .tag{
     white-space: nowrap;
@@ -493,18 +465,17 @@ border-radius: var( --radius-md);
     color: var(--gray-color);
  }
  .virtual p{
+    margin-top: 8px;
     font-size: 15px;
     font-weight: 500;
     color: var( --gray-color);
- }
- .virtual .blueLink{
-    font-weight: 400;
  }
  .explorer .content{
     padding: 16px;
  }
 
  .explorer .exploreprice{
+    line-height: 15px;
     color: var(--gray-color);
     padding: 16px;
     font-size: 15px;
@@ -597,19 +568,18 @@ border-radius: var( --radius-md);
   details:last-of-type{
     border-bottom: none;
   }
-.Summary{
-    margin-bottom: 12px;
-}
-.hondaprice{
-    margin-bottom: 12px;
-}
-.modelSpecsMain{margin-bottom: 12px;}
+
+ .explorer img{
+    height: 194px!important;
+    }
+    .Summary p{line-height: 1.6;}
   summary {
     padding: 12px 20px 12px 0;
     font-weight: 400;
     padding-right: 25px;
     list-style: none;
   }
+  .Summary li  p:nth-child(2){line-height: 1.6px;}
 
   /* Remove default arrow */
   summary::-webkit-details-marker {
@@ -657,13 +627,12 @@ border-radius: var( --radius-md);
 }
 
 .keySpecs{
-    margin-bottom: 12px;
     margin-top: 12px;
     margin-left: 0;
 }
-.keySpecs h2{
+/*.keySpecs h2{
     letter-spacing: 1px;
-}
+}*/
 .hondaprice input[type="checkbox"]{
     width: 18px;
     height: 18px;
@@ -718,13 +687,10 @@ border-radius: var( --radius-md);
     right: 0;
     width: 100%;
 }
-.modelSpecsMain .specsFeaturesBlock .expandMore span{
+    .strong,.userReview .latestReviews .ratingStarNew,.modelSpecsMain .specsFeaturesBlock .expandMore span{
     font-weight: 600;
 }
 
-.userReview .userReviewBox{
-    border-radius: var(--radius-md);
-}
 
 .userReview .ratingvalue{
     font-size: 32px;
@@ -737,14 +703,14 @@ border-radius: var( --radius-md);
 }
 .userReview .startRating{
     line-height: normal;
-    padding-left: 10px;
+    padding-left: 0;
 }
 .userReview .bottomText{
     margin-left: 3px;
     color: var(--gray-color);
 }
 .userReview .secondaryBtn{
-    margin: 12px 0;
+    margin: 12px 0 10px;
     font-weight: 400;
     width: 100%;
 }
@@ -752,6 +718,9 @@ border-radius: var( --radius-md);
 .userReview .mentions .tabtitle{
     font-size: 15px;
     color: var(--gray-color);
+}
+.userReview .mentions .broderBd{
+    margin-bottom: 15px;
 }
 .userReview .mentions .moreDropDown > ul.mobileCrousel{
     white-space: nowrap;
@@ -788,17 +757,15 @@ border-radius: var( --radius-md);
     font-weight: 600;
 }
 .userReview .latestReviews .userInfo{
+    margin-bottom: 8px;
     align-items: center;
     gap: 9px;
 }
 .userReview .latestReviews .name{
     font-size: 11px;
 }
-.userReview .latestReviews .ratingStarNew{
-    font-weight: 600;
-}
-.userReview .latestReviews .content{
-    line-height: 22px;
+.userReview .latestReviews .content,.userReview .contentHeight{
+    line-height:22px;
 }
 .userReview .latestReviews .title{
     color: var(--gray-color);
@@ -823,6 +790,9 @@ border-radius: var( --radius-md);
     padding: 0 10px;
     height: 20px;
     line-height: 20px;
+}
+.userReview .shadow24{
+    padding: 16px;
 }
 
 .breadcrumb-list{
@@ -909,5 +879,162 @@ border-radius: var( --radius-md);
     color: #24272c;
     padding-bottom: 0;
   }
+  .marginBtm{
+    margin-bottom: 12px;
+  }
+  @media (min-width: 768px){
+    .marginBtm{
+        margin-bottom: 20px;
+    }
+    .explorer .exploreprice{
+        line-height: auto;
+    }
+    .colors .blueLink{
+        margin-top: 24px;
+     }
+    .news .bluelink{
+        margin-top: 18px;
+     }
+    .news .content p{
+        margin-top: 7px;
+    }
+    .news img{
+     height: 194px!important;
+        }
+     .virtual p{
+        margin-top: 8px;
+     }
+    .userReview .secondaryBtn{
+        margin: 12px 0;
+    }
+    .modelSpecsMain .specsFeaturesBlock .expandMore{
+    bottom: 1px;
+    right: -1px;}
+
+    .userReview .row-new{
+        margin-bottom: 20px;
+    }
+    .modelPrice .features,.modelPrice h1,  .userReview .latestReviews .userInfo{
+        margin-bottom: 0;
+    }
+    .imgbike,.virtual,.explorer,.colors img{
+        height: auto;
+    }
+     .table-data ,.userReviewBox .blueLink,.colors span{
+        margin-top: 12px;
+    }
+    .EMIDtls,.modelPrice .reviewShare{
+        margin-bottom: 12px;
+    }
+    .priceDtls,.hondaprice .dotlist{
+        margin-top: 4px;
+     }
+     .bikeDtls .limitedOffer, .table-data td{
+        font-size: 15px;
+    }
+    .userReview .latestReviews{
+        margin-bottom: 8px;
+    }
+   
+    .modelPrice .morePics{
+        margin-left: -9px;
+    }
+   
+    .modelPrice{
+        margin-top: -8px;
+        margin-bottom: 28px;
+    }
+    
+   
+    .feature-tabs li{
+        line-height: 16px;
+        padding: 14px 0;
+    }
+   
+    .hondaprice table thead th{
+        padding: 13px 0;
+    }
+    .modelSpecsMain .specsFeaturesBlock h3{
+        font-weight: 700;}
+
+    .modelSpecsMain .ExpertTitle{
+        margin: 20px 0 4px 0;
+        font-size: 17px;
+    }
+    .userReview .startRating{
+        padding-left: 10px;
+    }
+   
+    .table-data tr{
+        padding:13px 0px 8px 10px;
+    }
+    .table-data .iconname{
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .keySpecs{
+        margin-top: 0;
+    }
+    .userReview .mentions .broderBd{
+        margin-bottom: 16px;
+    }
+    .modelPrice .morePics{
+        position: unset;
+    }
+    .modelPrice .hondaText{
+        margin-top: -5px;
+    }
+
+    .modelPrice .bikeImg img{
+        border-radius: var(--radius-md);
+    }
+    .modelPrice .bikeImg img{
+        margin-left: -20px;
+        height: 304px;
+    }
  
+    .hondaprice .priceVal > span{
+        font-size: 18px;
+    }
+    
+    .bikeDtls .primaryBtn{
+        width: 240px;
+    }
+    .bikeDtls .features li:nth-child(2){
+        display: block;
+    }
+    .priceDtls .bikePrice{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .modelNavList{
+        overflow-y: unset;
+        padding-left: 0;
+    }
+    .modelNavList li span{
+        padding: 20px 0px;
+    }
+    .modelPrice .content{
+        padding-left: 0;
+    }
+   
+    .trending .tab  .blueLink{
+        margin-top: 25px;
+    }
+    .otherDetails .limitedOffer{
+        margin-bottom: 10px;
+        margin-top: 6px;
+    }
+    .comparision table tr td{
+        vertical-align: unset;
+    }
+    .modelPrice .bikeDtls .blueLink{
+        font-size: 14px;
+    }
+    .modelPrice .bikeDtls .exCity{
+        font-size: 12px;
+    }
+    .EMIDtls span{font-size: 10px;}
+    .EMIDtls{line-height: 5px;}
+  }
 

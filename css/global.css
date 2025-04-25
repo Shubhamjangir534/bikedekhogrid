@@ -19,7 +19,9 @@ h1, h2, h3, .h2Title {
     color: var(--gray-color);
     font-size: 18px;
     font-weight: 700;
+    
 }
+
 a{
     cursor: pointer;
     text-decoration: none;
