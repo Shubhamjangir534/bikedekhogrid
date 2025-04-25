@@ -22,10 +22,16 @@
     color: var(--gray-color);
     font-weight: 500px;
 }
+/*400-weight*/
 .imgbike span,.virtual .blueLink,.trending a{
     font-weight: 400;
 }
-
+.table-data .iconname,.comparision,.indianprice span,.finOffer .editEMI .EMIamt,.finOffer .editEMI .linkTag{
+    color: var(--gray-color);
+}
+.finOffer .editEMI .linkTag{
+    font-size: 14px;
+}
 .otherDetails .limitedOffer{
     margin-top: 6px;
     margin-bottom: 10px;
@@ -41,15 +47,12 @@
 .table-data .blockTb{
     display: block;
 }
-
-.hondaprice > p,.colors p,.table-data td{
-    font-size: 13px;
-}
-
 .table-data .iconname{
-    color: var(--gray-color);
     font-weight: 400;
    font-size: 13px;
+}
+.hondaprice > p,.colors p,.table-data td{
+    font-size: 13px;
 }
 .hondaprice-data{
     padding: 27px 0px 37px 20px;
@@ -64,12 +67,7 @@
 
 .finOffer .editEMI .EMIamt{
     font-size: 17px;
-    color: var(--gray-color);
     font-weight: 600;
-}
-.finOffer .editEMI .linkTag{
-    color: var(--gray-color);
-    font-size: 14px;
 }
 
 .finOffer .offerImg{
@@ -232,11 +230,6 @@
 .expertReview .wrongthings li::before{
     background: #ff1e3c;
 }
-
-
-.comparision,.indianprice span{
-    color: var(--gray-color);
-}
 .comparision .tableResp .price{
     font-size: 15px;
     font-weight: 500;
@@ -352,8 +345,6 @@
     font-weight: 500;
     font-size: 15px;
 }
-
-
 .indianprice th{
     color: rgba(36, 39, 44, .5);
     font-size: 11px;
