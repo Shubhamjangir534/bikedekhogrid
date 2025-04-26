@@ -21,6 +21,9 @@ h1, h2, h3, .h2Title {
     font-weight: 700;
     
 }
+h2{
+    line-height: 1.4;
+ }
 
 a{
     cursor: pointer;
