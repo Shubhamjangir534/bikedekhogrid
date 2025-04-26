@@ -62,8 +62,9 @@
     }
 
     .expertReview  .rightthings{
+        margin-top: 7px;
         min-height: 228px;
-        padding: 24px 14px;
+        padding: 18px 14px;
     }
     .expertReview .rightthings li {
         margin: 16px 0 0 35px;
@@ -75,7 +76,7 @@
 
     .userReview .secondaryBtn{
         max-width: 245px;
-        margin: -3px 0px 0px -7px;
+        margin: 1px 0px 0px -7px;
         font-size: 500;
     }
 
