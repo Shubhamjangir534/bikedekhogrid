@@ -18,6 +18,9 @@
 .colors .label,.virtual .tag,.modelPrice .bikeDtls .blueLink.userReview .latestReviews .title,.userReview .mentions .filters li:hover,.modelSpecsMain .ExpertTitle,.modelSpecsMain .specsFeaturesBlock h3, .tabs .tab.active,.virtual p,.explorer .explorebtn,.hondaprice .priceVal > span,.news .content .heading,.comparision .specarea .name.trending .price,.trending .tab .borderbtm,.hondaprice .blueLink,.feature-tabs li:hover,.trending  .card .price,.comparision .tableResp .price{
     font-weight: 500px;
 }
+.userReview .title{
+    font-weight: 500;
+}
 /*400-weight*/
 .hondaprice .variants a,.hondaprice table thead th,.hondaprice tbody .variants .secondaryBtn, .colors .mt-24,.explorer .exploreprice,
 .table-data .iconname,.modelNew .ModelDropDown ul li span,.indianprice th, details p,.userReview .secondaryBtn, summary ,.ans .blueLink a, .explorer .blueLink,.comparision table .blueLink.offers,.hondaprice tbody .variants .secondaryBtn,.imgbike span,.virtual .blueLink,.trending a{
@@ -551,7 +554,6 @@
 }
 
 
-
 .userReview .ratingvalue{
     font-size: 32px;
 }
@@ -827,6 +829,9 @@
     }
     .modelNavList{
      padding-left: 0;
+    }
+    .userReview .secondaryBtn{
+        font-weight: 500;
     }
     .modelNavList li span{
         padding: 20px 0px;
