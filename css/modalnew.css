@@ -15,39 +15,47 @@
     text-transform: none;
     white-space: nowrap;
 }
-
-.hondaprice .blueLink,.feature-tabs li:hover{
+.colors .label,.virtual .tag,.modelPrice .bikeDtls .blueLink.userReview .latestReviews .title,.userReview .mentions .filters li:hover,.modelSpecsMain .ExpertTitle,.modelSpecsMain .specsFeaturesBlock h3, .tabs .tab.active,.virtual p,.explorer .explorebtn,.hondaprice .priceVal > span,.news .content .heading,.comparision .specarea .name.trending .price,.trending .tab .borderbtm,.hondaprice .blueLink,.feature-tabs li:hover,.trending  .card .price,.comparision .tableResp .price{
     font-weight: 500px;
 }
 /*400-weight*/
-.hondaprice tbody .variants .secondaryBtn,.imgbike span,.virtual .blueLink,.trending a{
+.hondaprice .variants a,.hondaprice table thead th,.hondaprice tbody .variants .secondaryBtn, .colors .mt-24,.explorer .exploreprice,
+.table-data .iconname,.modelNew .ModelDropDown ul li span,.indianprice th, details p,.userReview .secondaryBtn, summary ,.ans .blueLink a, .explorer .blueLink,.comparision table .blueLink.offers,.hondaprice tbody .variants .secondaryBtn,.imgbike span,.virtual .blueLink,.trending a{
     font-weight: 400;
 }
-.feature-tabs li,.feature-tabs li:hover,.table-data .iconname,
-.comparision,.indianprice span,.finOffer .editEMI .EMIamt,.finOffer .editEMI .linkTag{
+.userReview .ratingvalue,.userReview .latestReviews .profile,.finOffer .editEMI .EMIamt, .strong,.userReview .latestReviews .ratingStarNew,.modelSpecsMain .specsFeaturesBlock .expandMore span{
+    font-weight: 600;
+}
+.bg,.hondaprice tbody .variants .secondaryBtn{
+    border: none;  
+ }
+.feature-tabs li:hover,.userReview .mentions .filters li:hover, .tabs .tab:last-child:hover,.grayShade{
     color: var(--gray-color);
 }
-.finOffer .editEMI .linkTag{
+.table-data .iconname,.modelPrice .bikeDtls .blueLink,.hondaprice > p,.modelSpecsMain .ExpertTitle .icon-star-full-fill::before,.modelSpecsMain .ExpertTitle,.colors p,.news .content p,.table-data td{
+    font-size: 13px;
+}
+.trending,.comparision table tr .cviewing,.userReview .mentions .filters li,.tabs .tab, .ask input,.ask .textContainer .qArea button, .explorer .blueLink,.comparision .tableResp .price .icon-cd_R,.finOffer .editEMI .linkTag,.expertReview .tabTitle li{
     font-size: 14px;
 }
+.expertReview .rightthings li,.userReview .latestReviews .title,.userReview .latestReviews .profile,.table-data tr,.userReview .mentions .tabtitle,.explorer .exploreprice,.virtual p, .colors .label,.news .content .heading,.trending .price,.hondaprice .priceVal > span,.comparision .tableResp .price,.hondaprice .variants a{
+    font-size: 15px;
+  
+ }
+ .virtual img,.modelSpecsMain .specsFeaturesBlock img,.expertReview  .rightthings,.imgbike img,.ask input .ask .textContainer .qArea button, .userReview .userReviewBox.trending .card img, .explorer .explorecard,.news img,.comparision .crewImg img, .trending .tab img{
+    border-radius: var( --radius-md);
+}
+ 
 .otherDetails .limitedOffer{
     margin-block: 6px 10px;
 }
-
 .table-data{
     margin-top: 15px;
 }
 .table-data tr{
-    font-size: 15px;
     padding: 6px 0;
 }
-.table-data .iconname{
-    font-weight: 400;
-   font-size: 13px;
-}
-.hondaprice > p,.colors p,.table-data td{
-    font-size: 13px;
-}
+
 .hondaprice-data{
     padding: 27px 0px 37px 20px;
 }
@@ -58,9 +66,8 @@
     margin: 13px 0 0;
 }
 
-.finOffer .editEMI .EMIamt{
+.finOffer .editEMI .EMIamt,.modelSpecsMain .specsFeaturesBlock h3,details, .modelSpecsMain .ExpertTitle{
     font-size: 17px;
-    font-weight: 600;
 }
 
 .finOffer .offerImg{
@@ -80,7 +87,7 @@
 .hondaprice{
     padding-bottom: 0;
 }
-.hondaprice table{
+.hondaprice table,.modelSpecsMain .specsFeaturesBlock .expandMore,.userReview .secondaryBtn{
     width: 100%;
 }
 
@@ -90,8 +97,7 @@
 
  .hondaprice tbody .variants:last-child,
  .hondaprice tbody .variants:nth-child(3){
-    padding-top: 6px;
-    padding-bottom: 13px;
+    padding: 6px 0 13px 0;
     
  }
 
@@ -109,21 +115,17 @@
     grid-column: 1;
     grid-row: 2;
  }
- .hondaprice tbody .variants .comparetext{
+ .hondaprice tbody .variants .comparetext,.news .content .dotboxlabel,.indianprice th, .header .topArea .LangProfile,.userReview .latestReviews .name,.option .label{
     font-size: 11px;
  }
  .hondaprice tbody .variants label{
     justify-content: flex-start;
     top: 13px;
  }
- .hondaprice tbody .variants .secondaryBtn{
-    border: none;
-    font-weight: 400;
- }
+
  .hondaprice table thead th{
-    font-size: 12px;
     padding: 5px 0 13px 0;
-    font-weight: 400;
+   
  }
  .hondaprice .variants .dotlist span:before {
     background: rgba(36, 39, 44, .9);
@@ -139,24 +141,11 @@
  .hondaprice .variants .dotlist span:first-child::before{
     content: none;
  }
- .hondaprice .variants .dotlist span{
+ .hondaprice table thead th,.option .btnchoice,.userReview .mentions .moreDropDown li,.hondaprice .variants .dotlist span{
     font-size: 12px;
  }
- .hondaprice .variants a{
-    font-size: 15px;
-    color: var(--gray-color);
-    font-weight: 400;
- }
- .hondaprice .priceVal > span{
-    font-size: 15px;
-    font-weight: 500;
-    color: var(--gray-color);
- }
-
 .bg{
-    border: none;
     background-color: var(--light-bg);
-    color: var(--light-grey-font);
 }
 
 .expertReview .contentHolder{
@@ -164,7 +153,7 @@
 }
 .expertReview  .rightthings{
     padding: 8px;
-    border-radius: var(--radius-md);
+
 }
 
 .rightthings{
@@ -179,14 +168,13 @@
     display: none;
 } */
 .expertReview .tabTitle li{
-    font-size: 14px;
     padding: 14px 0;
     border-bottom: 3px solid transparent;
 }
 .expertReview .tabTitle li:hover{
     border-bottom: 3px solid var(--primary-color);
 }
-.expertReview .tabTitle li:first-child{
+.expertReview .tabTitle li:first-child,.trending .tab>ul li,.userReview .mentions .filters li, .tabs .tab.active {
     margin-right: 36px;
 }
 
@@ -198,41 +186,35 @@
     color: #ff1e3c;
 }
 .expertReview .rightthings li {
-    line-height: 1.7;
-    font-size: 15px;
-    margin: 6px 0 0 28px;
+     margin: 6px 0 0 28px;
 }
 
 .expertReview .rightthings li::before{
         width: 4px;
-        height: 4px;
-        border-radius: 50%;
-        background: #6bad23;
-        content: "";
-        position: absolute;
-        left: -16px;
-        top: 10px;
+         height: 4px; 
+          border-radius: 50%; 
+           background: #6bad23; 
+            content: "";
+             position: absolute;
+             left: -16px;
+             top: 10px;
 }
 .expertReview .wrongthings li::before{
     background: #ff1e3c;
 }
 .comparision .tableResp .price{
-    font-size: 15px;
-    font-weight: 500;
     line-height: 5px;
 }
 .comparision .tableResp .price .icon-cd_R {
-    font-size: 14px;
     top: 1px;
 }
 
-.comparision .startRating .ratingStarNew{
+.modelSpecsMain .specsFeaturesBlock h3,.comparision .startRating .ratingStarNew{
     font-weight: 700;
 } 
 
 .comparision .crewImg img{
     margin-bottom: 7px;
-    border-radius: var(--radius-md);
     max-height: 100px;
     max-width: 150px;
 }
@@ -245,15 +227,10 @@
     min-width: 162px;
 }
 .comparision table .blueLink.offers{
-    margin-bottom: 12px;
     color: var(--primary-color);
-    font-weight: 400;
 }
 
 .comparision .specarea .name{
-    color: var(--gray-color);
-    font-weight: 500;
-    line-height: 24px;
     margin: 0 -9px 4px;
     background: rgba(217, 217, 217, .2);
     text-indent: -9999px;
@@ -273,8 +250,7 @@
     border-bottom: none;
     margin-left: -20px;
 }
-.comparision table tr .cviewing{
-    font-size: 14px;
+.comparision table tr .cviewing,.breadcrumb-list .model{
     color: var(--light-gray);
 }
 .comparision .tableResp::-webkit-scrollbar {
@@ -291,17 +267,13 @@
 .comparision .tableResp::-webkit-scrollbar-track {
     background: #fff;
 }
-.trending{
-    color: var(--gray-color);
-    font-size: 14px;
+.trending, .feature-tabs li{
     line-height: 16px;
 
 }
 
 .trending .tab>ul li{
     padding: 16px 0;
-    margin-right: 36px;
-    color: var(--light-grey-font);
 }
 
 
@@ -313,27 +285,14 @@
     margin-top: 12px;
 }
 .trending .tab .borderbtm{
-    font-weight: 500;
-    color: var( --gray-color);
     border-bottom: 3px solid var(--red-hover);
 }
-.trending  .card .price{
+
+.trending .price,.comparision .specarea .name{
     line-height: 24px;
-    font-size: 15px;
-    font-weight: 500;
-}
-.userReview .userReviewBox.trending .card img, .trending .tab img{
-    border-radius: var( --radius-md);
-}
-.trending .price{
-    line-height: 24px;
-    font-weight: 500;
-    font-size: 15px;
 }
 .indianprice th{
     color: rgba(36, 39, 44, .5);
-    font-size: 11px;
-    font-weight: 400;
 }
 .indianprice thead{
     padding: 0px 20px;
@@ -344,25 +303,12 @@
 .indianprice thead .index{
     line-height: 25px;
 }
-.news img{
-    border-radius: var( --radius-md);
+.news img,.imgbike img{
     height: 174px!important;
 }
 .news .content{
     height: 153px;
     padding: 10px 16px 16px 16px;
-}
-.news .content .heading{
-    color: var( --grey-hover-font);
-    font-size: 15px;
-    font-weight: 500;
-}
-.news .content p{
-    margin-top: 8px;
-    font-size: 13px;
-}
-.news .content .dotboxlabel{
-    font-size: 11px;
 }
 .news .content .date::before{
     
@@ -382,13 +328,13 @@
  }
  .news .bluelink a{
     font-size: 14px;
- color: var( --blue-color);
+
  }
 
     /* .trending .tab .blueLink a{
     font-weight: 400;
 } */
-.colors span,.colors .blueLink{
+.colors span,.colors .blueLink,.news .content p,.virtual p{
     margin-top: 8px;
  }
  
@@ -399,11 +345,7 @@
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .1);
  }
  .colors h2{margin-bottom: 8px;}
- .colors .label{
-    color:var( --grey-hover-font);
-    font-size: 15px;
-    font-weight: 500;
- }
+ 
  .colors.color-icon i{
     outline: 1px solid rgba(36, 39, 44, .15);
  }
@@ -414,16 +356,12 @@
     background-color: var(--red-icon-bg);
  }
  .colors .mt-24{
-    font-weight: 400;
+    
     margin-top: 24px;
  }
- .imgbike img{
-    height: 174px!important;
-    border-radius: var( --radius-md);
- }
+
  .virtual img{
     height: 176px;
-    border-radius: var( --radius-md);
  }
  .virtual .tag{
     white-space: nowrap;
@@ -432,42 +370,29 @@
     background-color:var( --white);
     position: absolute;
     border-radius: 50px;
-    font-weight: 500;
     top: 50%;
     left: 50%;
-    color: var(--gray-color);
  }
- .virtual p{
-    margin-top: 8px;
-    font-size: 15px;
-    font-weight: 500;
-    color: var( --gray-color);
- }
- .explorer .content{
+ 
+ .explorer .content,.userReview .shadow24, .explorer .explorepricet{
     padding: 16px;
  }
 
  .explorer .exploreprice{
     line-height: 15px;
-    color: var(--gray-color);
-    padding: 16px;
-    font-size: 15px;
-    font-weight: 400;
  }
  .explorer .explorecard{
-    border-radius: var( --radius-md);
     box-shadow: 0 1px 2px rgba(36, 39, 44, .1);
     border: 1px solid rgba(36, 39, 44, .1);
  }
  .explorer .explorebtn{
     margin-top: 14px;
     font-size: 16px;
-    font-weight: 500;
+   
  }
  .explorer .blueLink{
     line-height: 3;
-    font-size: 14px;
-    font-weight: 400;
+
  }
 /* .ask img{
     height: 118px;
@@ -485,9 +410,7 @@
  }
  .ask .textContainer .qArea button{
     width: 95px;
-    border-radius: var(--radius-md);
     border: 0;
-    font-size: 14px;
     height: 40px;
     background: rgba(36, 39, 44, .3);
     color:var(--white);
@@ -495,14 +418,11 @@
 .ask p{  
     line-height: 1;
     margin-bottom: 19px;
-    color: var(--gray-color);
 }
 .ask input{
-    border-radius: var( --radius-md);
     text-shadow: 0 0 0 var(--gray-color);
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
     border: 1px solid rgba(36, 39, 44, .3);
-    font-size: 14px;
     padding: 9px 10px;
 }
 .tabs {
@@ -511,31 +431,21 @@
 }
 
 .tabs .tab {
-    font-size: 14px;
     padding:14px 0;
   }
-  .tabs .tab:last-child:hover{
-    color: var( --grey-hover-font);
-  }
+ 
  .tabs .tab.active {
-    color: var( --gray-color);
-    font-weight: 500;
-    margin-right: 36px;
     border-bottom: 2px solid red;
   }
 
   details {
     position: relative;
     transition: height .2s ease;
-    color: var(--gray-color);
-    font-size: 17px;
     line-height: 25px;
     border-bottom: 1px solid rgba(36, 39, 44, .1);
   }
   details p{
     margin-bottom: 23px;
-    font-weight: 400;
-    color:var( --light-grey-font);
 }
   details:last-of-type{
     border-bottom: none;
@@ -545,14 +455,13 @@
     border-radius: 8px 8px 0 0;
     height: 194px!important;
     }
-    .Summary p{line-height: 1.6;}
   summary {
     padding: 12px 20px 12px 0;
-    font-weight: 400;
     padding-right: 25px;
     list-style: none;
   }
-  .Summary li  p:nth-child(2){line-height: 1.6px;}
+  .Summary li  p:nth-child(2){
+    line-height: 1.6px;}
 
   /* Remove default arrow */
   summary::-webkit-details-marker {
@@ -572,8 +481,7 @@
   details[open] summary::after {
     content: "-";
   }
-.ans .blueLink a{
-    font-weight: 400;
+.ans .blueLink a, .news .bluelink a{
     color: var( --blue-color);
 }
 .option{
@@ -583,7 +491,6 @@
     align-items: center;
 }
 .option .label{
-    font-size: 11px;
     flex: 1;
 }
  .option .btnchoice {
@@ -591,10 +498,8 @@
     line-height: 18px;
     margin-left: 10px;
     background:var(--white);
-    font-size: 12px;
     height: 26px;
     min-width: 45px;
-    color: var( --gray-color);
     border: 1px solid #e9e9e9;
     border-radius:var( --radius-sd);
 }
@@ -607,11 +512,8 @@
 }
 .modelSpecsMain .ExpertTitle{
    margin-bottom: 11px;
-    font-size: 13px;
     display: flex;
     align-items: center;
-    color: var(--gray-color);
-    font-weight: 500;
 }
 
 .modelSpecsMain .ExpertTitle i{
@@ -622,7 +524,6 @@
     line-height: 22px;
 }
 .modelSpecsMain .ExpertTitle .icon-star-full-fill::before{
-    font-size: 13px;
     color: var(--white);
 }
 .modelSpecsMain .specsFeaturesBlock{
@@ -633,17 +534,10 @@
     overflow: hidden;
     margin-top: 6px;
 }
-.modelSpecsMain .specsFeaturesBlock .readmoreCont li p{
+.modelSpecsMain .specsFeaturesBlock .readmoreCont li p,.expertReview .rightthings li{
     line-height: 1.7;
 }
-.modelSpecsMain .specsFeaturesBlock img{
-    border-radius: var(--radius-md);
-}
 
-.modelSpecsMain .specsFeaturesBlock h3{
-    font-weight: 500;
-    font-size: 17px;
-}
 .modelSpecsMain  .expandMore span{
     top: 2px;
     left: -3px;
@@ -653,17 +547,12 @@
     position: absolute;
     bottom: -5px;
     right: 0;
-    width: 100%;
 }
-    .strong,.userReview .latestReviews .ratingStarNew,.modelSpecsMain .specsFeaturesBlock .expandMore span{
-    font-weight: 600;
-}
+
 
 
 .userReview .ratingvalue{
     font-size: 32px;
-    font-weight: 600;
-    color: var(--gray-color);
 }
 
 .userReview .startRating .valueStar{
@@ -675,18 +564,11 @@
 }
 .userReview .bottomText{
     margin-left: 3px;
-    color: var(--gray-color);
 }
 .userReview .secondaryBtn{
     margin: 12px 0 10px;
-    font-weight: 400;
-    width: 100%;
 }
 
-.userReview .mentions .tabtitle{
-    font-size: 15px;
-    color: var(--gray-color);
-}
 .userReview .mentions .broderBd{
     margin-bottom: 15px;
 }
@@ -694,25 +576,21 @@
     white-space: nowrap;
 }
 .userReview .mentions .moreDropDown li{
-    font-size: 12px;
     border: 1px solid rgba(36, 39, 44, .1);
     border-radius: var(--radius-sm);
     box-shadow: 0 1px 4px 0 rgba(36, 39, 44, .08);
     padding: 8px 12px;
     margin-right: 5px;
     line-height: 20px;
-    color: var(--gray-color);
  }
 .userReview .mentions .filters li{
-    font-size: 14px;
-    margin-right: 36px;
     padding: 14px 0;
     border-bottom: 3px solid transparent;
 }
 .userReview .mentions .filters li:hover{
-    color: var(--gray-color);
+   
     border-bottom: 3px solid var(--primary-color);
-    font-weight: 500;
+
 }
 
 .userReview .latestReviews .profile{
@@ -721,24 +599,16 @@
     background: #9fb7e4;
     border-radius: 50%;
     color: var(--white);
-    font-size: 15px;
-    font-weight: 600;
+   
 }
 .userReview .latestReviews .userInfo{
     margin-bottom: 8px;
     align-items: center;
     gap: 9px;
 }
-.userReview .latestReviews .name{
-    font-size: 11px;
-}
+
 .userReview .latestReviews .content,.userReview .contentHeight{
     line-height:22px;
-}
-.userReview .latestReviews .title{
-    color: var(--gray-color);
-    font-size: 15px;
-    font-weight: 500; 
 }
 .userReview .latestReviews .link::before{
     content: '...';
@@ -759,9 +629,7 @@
     height: 20px;
     line-height: 20px;
 }
-.userReview .shadow24{
-    padding: 16px;
-}
+
 
 .breadcrumb-list{
     line-height: 2px;
@@ -776,9 +644,6 @@
 }
 .breadcrumb-list i{
     margin-right: 10px;
-}
-.breadcrumb-list .model{
-    color: var(--light-gray);
 }
 .modelNew .ModelDropDown{
     background: white;
@@ -798,7 +663,6 @@
     color: #24272c;
     cursor: pointer;
     font-size: 14px;
-    font-weight: 400;
     line-height: 3.39;
     padding: 0 0 0 22px;
     text-transform: none;
@@ -857,8 +721,8 @@
     .expertReview .rightthings li { 
         line-height: 1.6;
     }
-    .explorer .exploreprice{
-        line-height: auto;
+    .exploreprice .lineHeight{
+        line-height: 24px;
     }
     .colors .blueLink{
         margin-top: 18px;
@@ -906,19 +770,15 @@
     }
     
     .feature-tabs li{
-        line-height: 16px;
         padding: 14px 0;
     }
    
     .hondaprice table thead th{
         padding: 13px 0;
     }
-    .modelSpecsMain .specsFeaturesBlock h3{
-        font-weight: 700;}
 
     .modelSpecsMain .ExpertTitle{
         margin: 20px 0 4px 0;
-        font-size: 17px;
     }
     .userReview .startRating{
         padding-left: 10px;

@@ -18,22 +18,17 @@
 .modelPrice .reviewShare .wrtReview{
     padding-left: 10px;
 }
-.modelPrice .reviewShare{
-    margin-bottom: 4px;
-}
+
 .modelPrice .buttonHolder{
     margin-top: 10px;
 }
-.modelPrice .features{
+.modelPrice .features,.modelPrice .reviewShare,.modelPrice h1{
     margin-bottom: 4px;
 }
 
 .modelPrice .content{
    padding: 0 20px 10px;}
 
-.modelPrice h1{
-    margin-bottom: 4px;
-}
 .modelNav .listItems .downArrow{
     border-top-color: var( --light-gray);
     top: -2px;
@@ -114,7 +109,7 @@
 .exShowroom{
     color: rgba(36, 39, 44, .5);;
 }
-.exShowroom .leftSup{
+.exShowroom .leftSup,.bikeDtls .limitedOffer{
     font-size: 13px;
 }
 .exShowroom .exCity{
@@ -122,10 +117,6 @@
 }
 .exShowroom .exCity i{
     font-size: 10px;
-}
-
-.bikeDtls .limitedOffer{
-    font-size: 13px;
 }
 
 .bikeDtls .limitedOffer i{
