@@ -250,6 +250,7 @@
     border-bottom: none;
     margin-left: -20px;
 }
+.keySpecs h2{letter-spacing: 1;}
 .comparision table tr .cviewing,.breadcrumb-list .model{
     color: var(--light-gray);
 }
@@ -764,7 +765,7 @@
     .userReview .latestReviews, .userReview .latestReviews .userInfo{
         margin-bottom: 8px;
     }
-   
+    .keySpecs h2{letter-spacing: 0;}
     .modelPrice{
         margin-bottom:28px;
     }
