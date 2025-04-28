@@ -412,9 +412,11 @@
     top: 10px;
  }
  .ask .textContainer .qArea input{
+    border-radius: 8px;
     margin-right: -20px;
  }
  .ask .textContainer .qArea button{
+    border-radius: 8px;
     width: 95px;
     border: 0;
     height: 40px;
