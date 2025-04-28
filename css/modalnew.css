@@ -15,7 +15,9 @@
     text-transform: none;
     white-space: nowrap;
 }
-.colors .label,.virtual .tag,.modelPrice .bikeDtls .blueLink.userReview .latestReviews .title,.userReview .mentions .filters li:hover,.modelSpecsMain .ExpertTitle,.modelSpecsMain .specsFeaturesBlock h3, .tabs .tab.active,.virtual p,.explorer .explorebtn,.hondaprice .priceVal > span,.news .content .heading,.comparision .specarea .name.trending .price,.trending .tab .borderbtm,.hondaprice .blueLink,.feature-tabs li:hover,.trending  .card .price,.comparision .tableResp .price{
+.colors .label,.virtual .tag,.modelPrice .bikeDtls .blueLink.userReview .latestReviews .title,
+.userReview .mentions .filters li:hover,.modelSpecsMain .ExpertTitle,.modelSpecsMain .specsFeaturesBlock h3,
+ .tabs .tab.active,.virtual p,.explorer .explorebtn,.hondaprice .priceVal > span,.news .content .heading,.comparision .specarea .name.trending .price,.trending .tab .borderbtm,.hondaprice .blueLink,.feature-tabs li:hover,.trending  .card .price,.comparision .tableResp .price{
     font-weight: 500px;
 }
 .userReview .title{
