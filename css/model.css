@@ -137,6 +137,9 @@
     main{
         padding-top: 28px;
     }
+    .modelNavList{
+        overflow-y: visible;
     /* temp */
+}
 }
    
