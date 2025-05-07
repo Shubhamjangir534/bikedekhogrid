@@ -293,7 +293,7 @@
                 <li class="listItems"><span>SPECS</span></li>
                 <li class="listItems"><span>IMAGES</span></li>
                 <li class="listItems"><span>COLOURS</span></li>
-                <li class="listItems"><span>COMPARE <i class="downArrow posR"></i></span></li>
+                <li class="listItems"><span class="compare">COMPARE <i class="downArrow posR"></i></span></li>
                 <li class="listItems"><span>MILEAGE</span></li>
                 <li class="listItems"><span>USER REVIEWS</span></li>
                 <li class="listItems"><span>SP125 EMI</span></li>
@@ -319,7 +319,6 @@
         <div class="modalCompare hidden-sm">
             <div class="container dropbottom">
                 <div class="shadow24">
-                <div class="closeBtn">×</div>
                 <h2></h2>
                
                     <div></div>
@@ -507,6 +506,22 @@
         <section>
               <div class="row-new">
                 <div class="col-lg-9 col-12">
+                    <div class=" authorize marginBtm shadow24">
+                        <h2 class="mb-8"> Get Deals from Authorized Honda Dealers </h2>
+                        <div>
+                            <ul>
+                                <li>
+                                    <div class="deal">
+                                        <div class="deal1">Absolute Honda-Satbari</div>
+                                        <div class="deal2">Chattarpur,Delhi</div>
+                                        <div class="btn secondaryBtn">
+                                            <span>View May Offers</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                     <div class="keySpecs marginBtm shadow24 col-12">
                         <h2 class="mb-8"> Key Specs & Features of Honda SP 125</h2>
                         <div>
@@ -516,7 +531,7 @@
                                     <li class="grayShade" title="Stand Out Features">Stand Out Features</li>
                                 </ul>
                         </div>
-                        <div class="table-data">
+                        <div class="table-data" id="keySpecs">
                                 <table class="blockTb">
                                     <tbody class="row-new">
                                         <tr class="col-lg-6 spaceBetween col-12">
@@ -2196,7 +2211,19 @@
     if(list.length >= 15){
         list[list.length-1].classList.add("left");
     }
+    
 </script>
+  
+<script>
+    const compare = document.querySelector('.compare');
+    const modalCompare = document.querySelector('.modalCompare');
+  
+    [compare, modalCompare].forEach(el => {
+      el.addEventListener('mouseenter', () => modalCompare.classList.add('show'));
+      el.addEventListener('mouseleave', () => modalCompare.classList.remove('show'));
+    });
+  </script>
+  
 
     <script src="./js/model.js"></script>
 </body>
