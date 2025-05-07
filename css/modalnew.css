@@ -255,6 +255,9 @@
 .keySpecs h2{
     letter-spacing: 1;
 }
+#topFeatures{
+    display: none;
+}
 .comparision table tr .cviewing,.breadcrumb-list .model{
     color: var(--light-gray);
 }

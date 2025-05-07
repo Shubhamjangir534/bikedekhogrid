@@ -526,11 +526,34 @@
                         <h2 class="mb-8"> Key Specs & Features of Honda SP 125</h2>
                         <div>
                                 <ul class="feature-tabs hide-scrollbar posR pl-20 pr-20">
-                                    <li class="grayShade" title="key specs">Key Specs</li>
-                                    <li class="grayShade" title="Top Features">Top Features</li>
-                                    <li class="grayShade" title="Stand Out Features">Stand Out Features</li>
+                                    <li class="grayShade" title="key specs" onclick="showSection('keySpecs')">Key Specs</li>
+                                    <li class="grayShade" title="Top Features" onclick="showSection('topFeatures')">Top Features</li>
+                                    <li class="grayShade" title="Stand Out Features" onclick="showSection('keySpecs')">Stand Out Features</li>
                                 </ul>
                         </div>
+                        <div class="table-data mt-12" id="topFeatures">
+                            <table class="blockTb">
+                                <tbody class="row-new">
+                                    <tr class="col-lg-6 col-12">
+                                        <td ><i class="icon-check mr-12"></i> </td>
+                                        <td class="iconname">Engine Combi Brake System</td>
+                                    </tr>
+                                    <tr class="col-lg-6  col-12">
+                                        <td ><i class="icon-check mr-12"></i> </td>
+                                        <td class="iconname">Service Due Indicator</td>
+                                    </tr>
+                                    <tr class="col-lg-6  col-12">
+                                        <td ><i class="icon-check mr-12"></i> </td>
+                                        <td class="iconname">Speedometer Digital</td>
+                                    </tr>
+                                    <tr class="col-lg-6  col-12">
+                                        <td ><i class="icon-check mr-12"></i> </td>
+                                        <td class="iconname">Odometer Digital</td>
+                                    </tr>
+                                   
+                                </tbody>
+                            </table>
+                         </div>
                         <div class="table-data" id="keySpecs">
                                 <table class="blockTb">
                                     <tbody class="row-new">
@@ -2213,7 +2236,19 @@
     }
     
 </script>
-  
+<script>
+    function showSection(id) {
+        const sections = document.querySelectorAll('.table-data');
+        sections.forEach(section => section.style.display = 'none');
+        
+        const selected = document.getElementById(id);
+        if (selected) {
+            selected.style.display = 'block';
+        }
+    }
+    </script>
+    
+     
 <script>
     const compare = document.querySelector('.compare');
     const modalCompare = document.querySelector('.modalCompare');
