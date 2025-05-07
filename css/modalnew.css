@@ -6,6 +6,11 @@
     border-bottom: 1px solid rgba(36, 39, 44, .15);
     overflow-y: auto;
 }
+.feature-tabs li.active {
+    border-bottom: 3px solid var( --red-hover);
+    font-weight: bold;
+  }
+  
 .feature-tabs li{
     line-height: 10px;
     list-style: none;
@@ -15,7 +20,7 @@
     text-transform: none;
     white-space: nowrap;
 }
-.colors .label,.virtual .tag,.modalCompare .Vstag,.modelPrice .bikeDtls .blueLink.userReview .latestReviews .title,.userReview .title,.authorize .deal1,
+.colors .label,.standfeature p,.featurename,.virtual .tag,.modalCompare .Vstag,.modelPrice .bikeDtls .blueLink.userReview .latestReviews .title,.userReview .title,.authorize .deal1,
 .userReview .mentions .filters li:hover,.modelSpecsMain .ExpertTitle,.modelSpecsMain .specsFeaturesBlock h3,
  .tabs .tab.active,.virtual p,.explorer .explorebtn,.hondaprice .priceVal > span,.news .content .heading,.comparision .specarea .name.trending .price,.trending .tab .borderbtm,.hondaprice .blueLink,.feature-tabs li:hover,.trending  .card .price,.comparision .tableResp .price{
     font-weight: 500;
@@ -165,10 +170,9 @@
     display: none;
     background-color: rgba(255, 30, 60, .03);
 }
-
-/* .expertReview .hidden-sm{
-    display: none;
-} */
+.featurename{
+    color: var(--gray-color);
+}
 .expertReview .tabTitle li{
     padding: 14px 0;
     border-bottom: 3px solid transparent;
@@ -255,7 +259,7 @@
 .keySpecs h2{
     letter-spacing: 1;
 }
-#topFeatures{
+#topFeatures , #standOut,#Latest{
     display: none;
 }
 .comparision table tr .cviewing,.breadcrumb-list .model{
@@ -429,6 +433,11 @@
     border: 1px solid rgba(36, 39, 44, .3);
     padding: 9px 10px;
 }
+.standfeature li{width: 33%;}
+.standfeature img{ border-radius: var(--radius-md); height: 176px;}
+.standfeature{display: flex;}
+.standfeature p{padding-top: 10px; color: var(--gray-color);}
+
 .tabs {
     padding: 0 20px;
     border-bottom: 1px solid rgba(36, 39, 44, .15);
@@ -437,11 +446,6 @@
 .tabs .tab {
     padding:14px 0;
   }
- 
- .tabs .tab.active {
-    border-bottom: 2px solid red;
-  }
-
   details {
     position: relative;
     transition: height .2s ease;
@@ -637,7 +641,6 @@
 }
 .authorize h2{font-size: 20px; font-weight: 700;}
 .authorize ul li{
-    width: 33%;
     padding: 6px 0 2px 0;
 }
 .authorize .deal{
@@ -842,7 +845,9 @@
     .modelPrice{
         margin-bottom:28px;
     }
-    
+    .authorize ul li{
+        width: 33%;
+    }
     .feature-tabs li{
         padding: 14px 0;
     }

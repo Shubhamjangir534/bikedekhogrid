@@ -443,6 +443,7 @@
   content: "\e910";
 }
 .icon-check:before {
+  color: #32bea6;
   content: "\e901";
 }
 .icon-deletearrow:before {

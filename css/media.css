@@ -120,7 +120,4 @@
      summary {
         font-weight: 500;
      }
-     summary::after {
-        font-weight: 400;
-    }
 }

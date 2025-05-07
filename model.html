@@ -528,7 +528,7 @@
                                 <ul class="feature-tabs hide-scrollbar posR pl-20 pr-20">
                                     <li class="grayShade" title="key specs" onclick="showSection('keySpecs')">Key Specs</li>
                                     <li class="grayShade" title="Top Features" onclick="showSection('topFeatures')">Top Features</li>
-                                    <li class="grayShade" title="Stand Out Features" onclick="showSection('keySpecs')">Stand Out Features</li>
+                                    <li class="grayShade" title="Stand Out Features" onclick="showSection('standOut')">Stand Out Features</li>
                                 </ul>
                         </div>
                         <div class="table-data mt-12" id="topFeatures">
@@ -536,19 +536,19 @@
                                 <tbody class="row-new">
                                     <tr class="col-lg-6 col-12">
                                         <td ><i class="icon-check mr-12"></i> </td>
-                                        <td class="iconname">Engine Combi Brake System</td>
+                                        <td class="featurename">Engine Combi Brake System</td>
                                     </tr>
                                     <tr class="col-lg-6  col-12">
                                         <td ><i class="icon-check mr-12"></i> </td>
-                                        <td class="iconname">Service Due Indicator</td>
+                                        <td class="featurename">Service Due Indicator</td>
                                     </tr>
                                     <tr class="col-lg-6  col-12">
                                         <td ><i class="icon-check mr-12"></i> </td>
-                                        <td class="iconname">Speedometer Digital</td>
+                                        <td class="featurename">Speedometer Digital</td>
                                     </tr>
                                     <tr class="col-lg-6  col-12">
                                         <td ><i class="icon-check mr-12"></i> </td>
-                                        <td class="iconname">Odometer Digital</td>
+                                        <td class="featurename">Odometer Digital</td>
                                     </tr>
                                    
                                 </tbody>
@@ -583,6 +583,18 @@
                                         </tr>
                                     </tbody>
                                 </table>
+                        </div>
+                        <div class="table-data" id="standOut">
+                            <ul class="standfeature row-new">
+                                <li>
+                                    <img class="fit-img" alt="Build quality is excellent" decoding="async"title="Build quality is excellent" src="https://cdn.bikedekho.com/upload/standoutfeatures/67690c996468f.png" loading="eager" fetchpriority="low" data-lazy="true">
+                                    <p>Build quality is excellent</p>
+                                </li>
+                                <li>
+                                    <img class="fit-img" alt="The engine is very fuel efficient" decoding="async"title="The engine is very fuel efficient" src="https://cdn.bikedekho.com/upload/standoutfeatures/67690c998cc12.png" loading="eager" fetchpriority="low" data-lazy="true">
+                                    <p>The engine is very fuel efficient</p>
+                                </li>
+                            </ul>
                         </div>
                         <div class="link-btn posR" >
                             <a href="#" class="blueLink">SP125 Specifications</a>
@@ -1662,10 +1674,10 @@
                     <div class="ans marginBtm  shadow24">
                         <h2 class="mb-8">Honda SP 125 Questions & answers</h2>
                             <div class="tabs broderBd posR flex hover">
-                              <div title="FAQ" class="tab active grayShade">FAQ</div>
-                              <div class="tab" title="Latest Questions">Latest Questions</div>
+                              <div title="FAQ" class="tab active grayShade" onclick="showSection('FAQ')">FAQ</div>
+                              <div class="tab" title="Latest Questions" onclick="showSection('Latest')">Latest Questions</div>
                             </div>
-                        
+                        <div class="Questions" id="FAQ">
                             <details class="grayShade">
                               <summary class="hover posR">Q) What is the exact on-road price of Honda SP 125?</summary>
                               <p>The on-road price depends on location. Please check your nearest dealer for accurate pricing.</p>
@@ -1696,6 +1708,39 @@
                               <div class="blueLink mt-12">
                                 <a> View All FAQs</a>
                             </div>
+                        </div>
+                        <div class="Questions" id="Latest">
+                            <details class="grayShade">
+                              <summary class="hover posR">Q) What braking options are available on the Honda SP125?</summary>
+                              <p>The on-road price depends on location. Please check your nearest dealer for accurate pricing.</p>
+                            </details>
+                        
+                            <details class="grayShade">
+                              <summary class="hover posR">Q) What braking options are available on the Honda SP125?</summary>
+                              <p>Both bikes have their pros and cons. It depends on your preference for features and ride experience.</p>
+                            </details>
+                        
+                            <details class="grayShade">
+                              <summary class="hover posR">Q) What braking options are available on the Honda SP125?</summary>
+                              <p>The average mileage is around 60-65 kmpl under standard conditions.</p>
+                            </details>
+                        
+                            <details class="grayShade">
+                              <summary class="hover posR">Q) What braking options are available on the Honda SP125?</summary>
+                              <p>There are Disc and Drum variants available.</p>
+                            </details>
+                        
+                            <details class="grayShade">
+                                <summary class="hover posR">Q) What braking options are available on the Honda SP125?</summary>
+                                <p>The on-road price depends on location. 
+                                   <a href="https://www.honda2wheelersindia.com/sp125" target="_blank">Check official site</a> 
+                                   for accurate pricing.
+                                </p>
+                              </details> 
+                              <div class="blueLink mt-12">
+                                <a> View All Questions</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="explorer marginBtm shadow24">
                         <h2 class="mb-8">Explore Electric Scooters</h2>
@@ -2236,19 +2281,23 @@
     }
     
 </script>
-<script>
-    function showSection(id) {
-        const sections = document.querySelectorAll('.table-data');
-        sections.forEach(section => section.style.display = 'none');
-        
-        const selected = document.getElementById(id);
-        if (selected) {
-            selected.style.display = 'block';
-        }
-    }
-    </script>
+<!--feature tabs id based-->
+    <script>
+        function showSection(id) {
+            const sections = document.querySelectorAll('.table-data');
+            sections.forEach(section => section.style.display = 'none');
     
-     
+            const selected = document.getElementById(id);
+            if (selected) {
+                selected.style.display = 'block';
+            }
+        
+            const tabs = document.querySelectorAll('.feature-tabs li'); // for tab feature active //
+            tabs.forEach(tab => tab.classList.remove('active'));
+            event.target.classList.add('active');
+        }
+        </script>
+     <!--modalcompare cars-->
 <script>
     const compare = document.querySelector('.compare');
     const modalCompare = document.querySelector('.modalCompare');
@@ -2259,7 +2308,20 @@
     });
   </script>
   
+<!--<script>
+    function showSection(id) {
+        const sections = document.querySelectorAll('.Questions');
+        sections.forEach(section => section.style.display = 'none');
 
+        const selected = document.getElementById(id);
+        if (selected) {
+            selected.style.display = 'block';
+        }
+    
+        tabs.forEach(tab => tab.classList.remove('active'));
+        event.target.classList.add('active');
+    }
+    </script>-->
     <script src="./js/model.js"></script>
 </body>
 </html>
