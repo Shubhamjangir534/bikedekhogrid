@@ -6,11 +6,13 @@
     border-bottom: 1px solid rgba(36, 39, 44, .15);
     overflow-y: auto;
 }
-.feature-tabs li.active {
+.feature-tabs li.active, #popularBtn.activeTab,
+#upcomingBtn.activeTab  {
     border-bottom: 3px solid var( --red-hover);
     font-weight: bold;
   }
-  
+ 
+
 .feature-tabs li{
     line-height: 10px;
     list-style: none;
