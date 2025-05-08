@@ -215,7 +215,7 @@
     top: 1px;
 }
 
-.modelSpecsMain .specsFeaturesBlock h3,.comparision .startRating .ratingStarNew{
+.modelSpecsMain .specsFeaturesBlock h3,.comparision .startRating .ratingStarNew,.modelPrice .btn{
     font-weight: 700;
 } 
 
@@ -837,6 +837,7 @@
      .bikeDtls .limitedOffer, .table-data td{
         font-size: 15px;
     }
+    .modelPrice .btn{font-weight: 400;}
     .userReview .latestReviews, .userReview .latestReviews .userInfo{
         margin-bottom: 8px;
     }
