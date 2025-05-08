@@ -1674,10 +1674,10 @@
                     <div class="ans marginBtm  shadow24">
                         <h2 class="mb-8">Honda SP 125 Questions & answers</h2>
                             <div class="tabs broderBd posR flex hover">
-                              <div title="FAQ" class="tab active grayShade" onclick="showSection('FAQ')">FAQ</div>
-                              <div class="tab" title="Latest Questions" onclick="showSection('Latest')">Latest Questions</div>
+                              <div id="faqTab" class="tab active grayShade" onclick="showFAQ()">FAQ</div>
+                              <div id="latestTab" class="tab" onclick="showLatest()">Latest</div>
                             </div>
-                        <div class="Questions" id="FAQ">
+                        <div  id="faqContent" class="FAQ">
                             <details class="grayShade">
                               <summary class="hover posR">Q) What is the exact on-road price of Honda SP 125?</summary>
                               <p>The on-road price depends on location. Please check your nearest dealer for accurate pricing.</p>
@@ -1709,7 +1709,7 @@
                                 <a> View All FAQs</a>
                             </div>
                         </div>
-                        <div class="Questions" id="Latest">
+                        <div  id="latestContent"class="Latest">
                             <details class="grayShade">
                               <summary class="hover posR">Q) What braking options are available on the Honda SP125?</summary>
                               <p>The on-road price depends on location. Please check your nearest dealer for accurate pricing.</p>
@@ -1911,8 +1911,9 @@
                                 <ul class="broderBd posR pl-20 pr-20 mb-20">
                                     <li class="buttonHolder hover borderbtm grayShade">Popular</li>
                                     <li class="buttonHolder hover">Upcoming</li>
-                                </ul>
-                                <div class="hidden-sm" id="Upcoming">
+                                  </ul>
+                                  
+                                <div class="upcoming">
                                     <ul>
                                         <li class="flex margintop">
                                             <div>
@@ -1999,7 +2000,7 @@
                                         <a href="#">View All Honda Upcoming bikes</a>
                                     </div>
                                 </div>
-                                <div id="popouar">
+                                <div class="popular">
                                     <ul>
                                         <li class="flex grayShade mt-12">
                                             <div>
@@ -2395,7 +2396,17 @@
       el.addEventListener('mouseleave', () => modalCompare.classList.remove('show'));
     });
   </script>
-  
+<!--sidebae honda upcoming-->
+<script>
+function toggleTab(tab, showSelector, hideSelector) {
+    document.querySelector(showSelector).style.display = 'block';
+    document.querySelector(hideSelector).style.display = 'none';
+
+    document.querySelectorAll('.buttonHolder').forEach(item => item.classList.remove('active'));
+    tab.classList.add('active');
+}
+ </script>
+ </script>
     <script src="./js/model.js"></script>
 </body>
 </html>

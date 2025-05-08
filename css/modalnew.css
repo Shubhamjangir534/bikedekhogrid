@@ -6,30 +6,28 @@
     border-bottom: 1px solid rgba(36, 39, 44, .15);
     overflow-y: auto;
 }
-.feature-tabs li.active, #popularBtn.activeTab,
-#upcomingBtn.activeTab  {
+.feature-tabs li.active, .buttonHolder.active
+  {
     border-bottom: 3px solid var( --red-hover);
     font-weight: bold;
   }
- 
 
 .feature-tabs li{
     line-height: 10px;
     list-style: none;
     padding: 14px 0;
     cursor: pointer;
-    font-size: 14px;
     text-transform: none;
     white-space: nowrap;
 }
-.colors .label,.standfeature p,.featurename,.virtual .tag,.modalCompare .Vstag,.modelPrice .bikeDtls .blueLink.userReview .latestReviews .title,.userReview .title,.authorize .deal1,
+.colors .label,.standfeature p,.trending .boldclr,.featurename,.virtual .tag,.modalCompare .Vstag,.modelPrice .bikeDtls .blueLink.userReview .latestReviews .title,.userReview .title,.authorize .deal1,
 .userReview .mentions .filters li:hover,.modelSpecsMain .ExpertTitle,.modelSpecsMain .specsFeaturesBlock h3,
  .tabs .tab.active,.virtual p,.explorer .explorebtn,.hondaprice .priceVal > span,.news .content .heading,.comparision .specarea .name.trending .price,.trending .tab .borderbtm,.hondaprice .blueLink,.feature-tabs li:hover,.trending  .card .price,.comparision .tableResp .price{
     font-weight: 500;
 }
 /*400-weight*/
 .hondaprice .variants a,.modalCompare .price-size,.hondaprice table thead th,.hondaprice tbody .variants .secondaryBtn, .colors .mt-24,.explorer .exploreprice,
-.table-data .iconname,.modelNew .ModelDropDown ul li span,.indianprice th, details p,.userReview .secondaryBtn, summary ,.ans .blueLink a, .explorer .blueLink,.comparision table .blueLink.offers,.hondaprice tbody .variants .secondaryBtn,.imgbike span,.virtual .blueLink,.trending a{
+.table-data .iconname,.trending .bolddot,.modelNew .ModelDropDown ul li span,.indianprice th, details p,.userReview .secondaryBtn, summary ,.ans .blueLink a, .explorer .blueLink,.comparision table .blueLink.offers,.hondaprice tbody .variants .secondaryBtn,.imgbike span,.virtual .blueLink,.trending a{
     font-weight: 400;
 }
 .userReview .ratingvalue,.userReview .latestReviews .profile,.finOffer .editEMI .EMIamt, .strong,.userReview .latestReviews .ratingStarNew,.modelSpecsMain .specsFeaturesBlock .expandMore span{
@@ -44,7 +42,7 @@
 .table-data .iconname,.modelPrice .bikeDtls .blueLink,.hondaprice > p,.modelSpecsMain .ExpertTitle .icon-star-full-fill::before,.modelSpecsMain .ExpertTitle,.colors p,.news .content p,.table-data td{
     font-size: 13px;
 }
-.trending,.comparision table tr .cviewing,.userReview .mentions .filters li,.tabs .tab, .ask input,.ask .textContainer .qArea button, .explorer .blueLink,.comparision .tableResp .price .icon-cd_R,.finOffer .editEMI .linkTag,.expertReview .tabTitle li{
+.trending,.comparision table tr .cviewing,.feature-tabs li,.userReview .mentions .filters li,.tabs .tab, .ask input,.ask .textContainer .qArea button, .explorer .blueLink,.comparision .tableResp .price .icon-cd_R,.finOffer .editEMI .linkTag,.expertReview .tabTitle li{
     font-size: 14px;
 }
 .expertReview .rightthings li,.userReview .latestReviews .title,.userReview .latestReviews .profile,.table-data tr,.userReview .mentions .tabtitle,.explorer .exploreprice,.virtual p, .colors .label,.news .content .heading,.trending .price,.hondaprice .priceVal > span,.comparision .tableResp .price,.hondaprice .variants a{
@@ -169,7 +167,6 @@
     background-color: #dff1e74d;
 }
 .wrongthings{
-    display: none;
     background-color: rgba(255, 30, 60, .03);
 }
 .featurename{
@@ -261,7 +258,7 @@
 .keySpecs h2{
     letter-spacing: 1;
 }
-#topFeatures , #standOut,#Latest{
+#topFeatures , #standOut,.wrongthings,.upcoming, summary::-webkit-details-marker,.modalCompare,.Latest{
     display: none;
 }
 .comparision table tr .cviewing,.breadcrumb-list .model{
@@ -296,9 +293,7 @@
 .indianprice td,.trending .tab .blueLink{
     margin-top: 12px;
 }
-.trending .tab .borderbtm{
-    border-bottom: 3px solid var(--red-hover);
-}
+
 
 .trending .price,.comparision .specarea .name{
     line-height: 24px;
@@ -314,6 +309,16 @@
 }
 .indianprice thead .index{
     line-height: 25px;
+}
+.trending .bolddot{
+    font-size: 11px;
+    color: var( --light-grey-font);
+}
+.trending .boldclr{
+    color: var( --grey-hover-font);
+}
+.trending .margintop{
+    margin-top: 16px;
 }
 .news img,.imgbike img{
     height: 174px!important;
@@ -474,9 +479,7 @@
     line-height: 1.6px;}
 
   /* Remove default arrow */
-  summary::-webkit-details-marker {
-    display: none;
-  }
+ 
 
   summary::after {
     font-weight: 300;
@@ -660,9 +663,7 @@
 .authorize .deal2{
     font-size: 13px; margin-block: 3px 12px;height: 36px;
 }
-.modalCompare{
-    display: none;
-}
+
 .modalCompare.show {
     display: block;
   }
