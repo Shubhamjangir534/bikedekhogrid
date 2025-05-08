@@ -6,6 +6,11 @@
     border-bottom: 1px solid rgba(36, 39, 44, .15);
     overflow-y: auto;
 }
+.feature-tabs li.active {
+    border-bottom: 3px solid var( --red-hover);
+    font-weight: bold;
+  }
+  
 .feature-tabs li{
     line-height: 10px;
     list-style: none;
@@ -15,16 +20,13 @@
     text-transform: none;
     white-space: nowrap;
 }
-.colors .label,.virtual .tag,.modelPrice .bikeDtls .blueLink.userReview .latestReviews .title,
+.colors .label,.standfeature p,.featurename,.virtual .tag,.modalCompare .Vstag,.modelPrice .bikeDtls .blueLink.userReview .latestReviews .title,.userReview .title,.authorize .deal1,
 .userReview .mentions .filters li:hover,.modelSpecsMain .ExpertTitle,.modelSpecsMain .specsFeaturesBlock h3,
  .tabs .tab.active,.virtual p,.explorer .explorebtn,.hondaprice .priceVal > span,.news .content .heading,.comparision .specarea .name.trending .price,.trending .tab .borderbtm,.hondaprice .blueLink,.feature-tabs li:hover,.trending  .card .price,.comparision .tableResp .price{
-    font-weight: 500px;
-}
-.userReview .title{
     font-weight: 500;
 }
 /*400-weight*/
-.hondaprice .variants a,.hondaprice table thead th,.hondaprice tbody .variants .secondaryBtn, .colors .mt-24,.explorer .exploreprice,
+.hondaprice .variants a,.modalCompare .price-size,.hondaprice table thead th,.hondaprice tbody .variants .secondaryBtn, .colors .mt-24,.explorer .exploreprice,
 .table-data .iconname,.modelNew .ModelDropDown ul li span,.indianprice th, details p,.userReview .secondaryBtn, summary ,.ans .blueLink a, .explorer .blueLink,.comparision table .blueLink.offers,.hondaprice tbody .variants .secondaryBtn,.imgbike span,.virtual .blueLink,.trending a{
     font-weight: 400;
 }
@@ -168,10 +170,9 @@
     display: none;
     background-color: rgba(255, 30, 60, .03);
 }
-
-/* .expertReview .hidden-sm{
-    display: none;
-} */
+.featurename{
+    color: var(--gray-color);
+}
 .expertReview .tabTitle li{
     padding: 14px 0;
     border-bottom: 3px solid transparent;
@@ -255,15 +256,18 @@
     border-bottom: none;
     margin-left: -20px;
 }
-.keySpecs h2{letter-spacing: 1;}
+.keySpecs h2{
+    letter-spacing: 1;
+}
+#topFeatures , #standOut,#Latest{
+    display: none;
+}
 .comparision table tr .cviewing,.breadcrumb-list .model{
     color: var(--light-gray);
 }
 .comparision .tableResp::-webkit-scrollbar {
     height: 10px;
 }
-
-
 .comparision .tableResp::-webkit-scrollbar-thumb {
     background-color: #c7c8ca;
     border-radius: 20px;
@@ -336,10 +340,6 @@
     font-size: 14px;
 
  }
-
-    /* .trending .tab .blueLink a{
-    font-weight: 400;
-} */
 .colors span,.colors .blueLink,.news .content p,.virtual p{
     margin-top: 8px;
  }
@@ -433,6 +433,11 @@
     border: 1px solid rgba(36, 39, 44, .3);
     padding: 9px 10px;
 }
+.standfeature li{width: 33%;}
+.standfeature img{ border-radius: var(--radius-md); height: 176px;}
+.standfeature{display: flex;}
+.standfeature p{padding-top: 10px; color: var(--gray-color);}
+
 .tabs {
     padding: 0 20px;
     border-bottom: 1px solid rgba(36, 39, 44, .15);
@@ -441,11 +446,6 @@
 .tabs .tab {
     padding:14px 0;
   }
- 
- .tabs .tab.active {
-    border-bottom: 2px solid red;
-  }
-
   details {
     position: relative;
     transition: height .2s ease;
@@ -636,7 +636,81 @@
     height: 20px;
     line-height: 20px;
 }
-
+.authorize ul{
+    padding-right: 20px;
+}
+.authorize h2{font-size: 20px; font-weight: 700;}
+.authorize ul li{
+    padding: 6px 0 2px 0;
+}
+.authorize .deal{
+    min-height: 169px;
+    border-radius: 8px;
+    border: 1px solid rgba(36, 39, 44, .1);
+    box-shadow: 0 1px 2px rgba(36, 39, 44, .1);
+    background: #fff;
+    padding: 16px;
+}
+.authorize .btn{font-weight: 600; font-size: 14px; height: 40px; padding: 0 5px 0 5px;}
+.authorize .deal1{
+    font-size: 15px; color: var(--gray-color);
+}
+.authorize .deal2{
+    font-size: 13px; margin-block: 3px 12px;height: 36px;
+}
+.modalCompare{
+    display: none;
+}
+.modalCompare.show {
+    display: block;
+  }
+.modalCompare .carbox-content{
+    background: #fff;
+    border: 1px solid rgba(36, 39, 44, .1);
+    border-radius: 16px;
+    box-shadow: 0 1px 2px rgba(36, 39, 44, .1);
+    padding: 0;
+}
+.modalCompare .carbox-first{
+    margin-right: -10px;
+}
+.modalCompare .carbox-second{
+    margin-left: -10px;
+}
+.modalCompare .borderright{
+    border-radius: 0 8px 0 0;
+}
+.modalCompare .borderleft{
+    border-radius: 8px 0 0;
+}
+.modalCompare .compare-price{
+    font-size: 16px;
+  height: 36px;
+}
+.modalCompare .price-size{
+    padding: 0 0px 0 12px;
+    color: var( --grey-hover-font);
+    font-size: 17px;
+}
+.modalCompare .button{
+    width: 100%;
+    padding: 16px;
+}
+.modalCompare .Vstag{
+    background: #24272c;
+    border: 1px solid rgba(36, 39, 44, .15);
+    border-radius: 50%;
+    color:var(--white);
+    height: 36px;
+    line-height: 36px;
+    margin-top: -18px;
+    position: absolute;
+    right: -18px;
+    text-align: center;
+    top: 50%;
+    width: 36px;
+    z-index: 1;
+}
 
 .breadcrumb-list{
     line-height: 2px;
@@ -722,7 +796,7 @@
     margin-bottom: 12px;
   }
   @media (min-width: 768px){
-    .marginBtm{
+    .userReview .row-new,.marginBtm{
         margin-bottom: 20px;
     }
     .expertReview .rightthings li { 
@@ -747,12 +821,7 @@
         margin: 12px 0;
     }
     .modelSpecsMain .specsFeaturesBlock .expandMore{
-    bottom: 1px;
-    right: -1px;}
-
-    .userReview .row-new{
-        margin-bottom: 20px;
-    }
+    bottom: 1px; right: -1px;}
     .modelPrice .features,.modelPrice h1{
         margin-bottom: 0;
     }
@@ -771,11 +840,14 @@
     .userReview .latestReviews, .userReview .latestReviews .userInfo{
         margin-bottom: 8px;
     }
-    .keySpecs h2{letter-spacing: 0;}
+    .keySpecs h2{
+        letter-spacing: 0;}
     .modelPrice{
         margin-bottom:28px;
     }
-    
+    .authorize ul li{
+        width: 33%;
+    }
     .feature-tabs li{
         padding: 14px 0;
     }
@@ -785,7 +857,7 @@
     }
 
     .modelSpecsMain .ExpertTitle{
-        margin: 20px 0 4px 0;
+        margin-block: 20px 4px;
     }
     .userReview .startRating{
         padding-left: 10px;
@@ -829,19 +901,15 @@
     }
     .priceDtls .bikePrice{
         font-size: 20px;
-        font-weight: 500;
     }
-    .modelNavList{
+    .modelNavList, .modelPrice .content{
      padding-left: 0;
     }
-    .userReview .secondaryBtn{
+    .userReview .secondaryBtn,  .priceDtls .bikePrice{
         font-weight: 500;
     }
     .modelNavList li span{
         padding: 20px 0px;
-    }
-    .modelPrice .content{
-        padding-left: 0;
     }
    
     .trending .tab  .blueLink{
