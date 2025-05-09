@@ -526,7 +526,7 @@
                         <h2 class="mb-8"> Key Specs & Features of Honda SP 125</h2>
                         <div>
                                 <ul class="feature-tabs hide-scrollbar posR pl-20 pr-20">
-                                    <li class="grayShade" title="key specs" onclick="showSection('keySpecs')">Key Specs</li>
+                                    <li class="grayShade active" title="key specs" onclick="showSection('keySpecs')">Key Specs</li>
                                     <li class="grayShade" title="Top Features" onclick="showSection('topFeatures')">Top Features</li>
                                     <li class="grayShade" title="Stand Out Features" onclick="showSection('standOut')">Stand Out Features</li>
                                 </ul>
@@ -584,13 +584,13 @@
                                     </tbody>
                                 </table>
                         </div>
-                        <div class="table-data" id="standOut">
+                        <div class="table-data active" id="standOut">
                             <ul class="standfeature row-new">
-                                <li>
+                                <li class="col-4">
                                     <img class="fit-img" alt="Build quality is excellent" decoding="async"title="Build quality is excellent" src="https://cdn.bikedekho.com/upload/standoutfeatures/67690c996468f.png" loading="eager" fetchpriority="low" data-lazy="true">
                                     <p>Build quality is excellent</p>
                                 </li>
-                                <li>
+                                <li class="col-4">
                                     <img class="fit-img" alt="The engine is very fuel efficient" decoding="async"title="The engine is very fuel efficient" src="https://cdn.bikedekho.com/upload/standoutfeatures/67690c998cc12.png" loading="eager" fetchpriority="low" data-lazy="true">
                                     <p>The engine is very fuel efficient</p>
                                 </li>
@@ -1674,10 +1674,10 @@
                     <div class="ans marginBtm  shadow24">
                         <h2 class="mb-8">Honda SP 125 Questions & answers</h2>
                             <div class="tabs broderBd posR flex hover">
-                              <div id="faqTab" class="tab active grayShade" onclick="showFAQ()">FAQ</div>
-                              <div id="latestTab" class="tab" onclick="showLatest()">Latest</div>
+                              <div  class="tab  grayShade"  onclick="showTab('FAQ')">FAQ</div>
+                              <div class="tab"  onclick="showTab('Latest')">Latest</div>
                             </div>
-                        <div  id="faqContent" class="FAQ">
+                        <div class="FAQ">
                             <details class="grayShade">
                               <summary class="hover posR">Q) What is the exact on-road price of Honda SP 125?</summary>
                               <p>The on-road price depends on location. Please check your nearest dealer for accurate pricing.</p>
@@ -1709,7 +1709,7 @@
                                 <a> View All FAQs</a>
                             </div>
                         </div>
-                        <div  id="latestContent"class="Latest">
+                        <div class="Latest">
                             <details class="grayShade">
                               <summary class="hover posR">Q) What braking options are available on the Honda SP125?</summary>
                               <p>The on-road price depends on location. Please check your nearest dealer for accurate pricing.</p>
@@ -1909,7 +1909,7 @@
                         <div>
                             <div class="tab">
                                 <ul class="broderBd posR pl-20 pr-20 mb-20">
-                                    <li class="buttonHolder hover borderbtm grayShade"  onclick="toggleTab(this, '.popular', '.upcoming')">Popular</li>
+                                    <li class="buttonHolder hover active"  onclick="toggleTab(this, '.popular', '.upcoming')">Popular</li>
                                     <li class="buttonHolder hover" onclick="toggleTab(this, '.upcoming', '.popular')">Upcoming</li>
                                   </ul>
                                   
@@ -2398,14 +2398,31 @@
   </script>
 <!--sidebae honda upcoming-->
 <script>
-function toggleTab(tab, showSelector, hideSelector) {
-    document.querySelector(showSelector).style.display = 'block';
-    document.querySelector(hideSelector).style.display = 'none';
-
-    document.querySelectorAll('.buttonHolder').forEach(item => item.classList.remove('active'));
-    tab.classList.add('active');
-}
- </script>
+    function toggleTab(tab, showSelector, hideSelector) {
+      document.querySelector(showSelector).style.display = 'block';
+      document.querySelector(hideSelector).style.display = 'none';
+  
+      document.querySelectorAll('.buttonHolder').forEach(item => item.classList.remove('active'));
+      tab.classList.add('active');
+    }
+  </script>
+  
+ <!--ans section-->
+ <script>
+    function showTab(name) {
+      document.querySelector('.FAQ').classList.toggle('show', name === 'FAQ');
+      document.querySelector('.Latest').classList.toggle('show', name === 'Latest');
+  
+      document.querySelectorAll('.tab').forEach((tab, i) =>
+        tab.classList.toggle('active', (name === 'FAQ' && i === 0) || (name === 'Latest' && i === 1))
+      );
+    }
+  
+    window.onload = () => showTab('FAQ');
+  </script>
+  
+  
+  
  </script>
     <script src="./js/model.js"></script>
 </body>
