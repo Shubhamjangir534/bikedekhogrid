@@ -710,6 +710,12 @@
     width: 36px;
     z-index: 1;
 }
+.modalCompare{
+    background: #fff;
+    position: fixed;
+    z-index: 99999;
+}
+
 
 .breadcrumb-list{
     line-height: 2px;
@@ -913,7 +919,7 @@
     .modelNavList li span{
         padding: 20px 0px;
     }
-   
+    .modalCompare{width: 1280px; position:absolute; right: 16%;z-index: 999; bottom: unset;top: 63px;background: #fff;}
     .trending .tab  .blueLink{
         margin-top: 25px;
     }
