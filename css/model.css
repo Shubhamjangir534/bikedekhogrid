@@ -1,80 +1,32 @@
-.modelPrice .hondaText{
-    letter-spacing: 1px;
-    margin-top: 29px;
+.modelPrice .hondaText{ letter-spacing: 1px; margin-top: 29px;}
+.modelNav{ box-shadow: 0 6px 10px 0 rgba(36, 39, 44, .05); width: 100%;}
+
+.modelPrice .bikeDtls .blueLink{  font-size: 13px;  font-weight: 500;}
+.modelPrice .bikeDtls .blueLink.exCity{font-weight: 400;}
+
+.modelPrice .reviewShare .wrtReview{ padding-left: 10px;}
+
+.modelPrice .buttonHolder{ margin-top: 10px;}
+.modelPrice .features,.modelPrice .reviewShare,.modelPrice h1{margin-bottom: 4px;}
+
+.modelPrice .content{padding: 0 20px 10px;}
+
+.modelNav .listItems .downArrow{border-top-color: var( --light-gray);top: -2px;}
+.modelNavList{ padding-left: 20px; display: flex; align-items: center; gap: 33px; overflow-y: auto;
 }
-.modelNav{
-    box-shadow: 0 6px 10px 0 rgba(36, 39, 44, .05);
-    width: 100%;
+.modelNavList li{ cursor: pointer; list-style: none; transition:0.4s ease-in-out; white-space: nowrap;
 }
 
-.modelPrice .bikeDtls .blueLink{
-    font-size: 13px;
-    font-weight: 500;
+.modelNavList li span{ display: inline-block; font-size: 14px; font-weight: 500; padding: 16px 0px;
 }
-.modelPrice .bikeDtls .blueLink.exCity{
-    font-weight: 400;
-}
-
-.modelPrice .reviewShare .wrtReview{
-    padding-left: 10px;
-}
-
-.modelPrice .buttonHolder{
-    margin-top: 10px;
-}
-.modelPrice .features,.modelPrice .reviewShare,.modelPrice h1{
-    margin-bottom: 4px;
-}
-
-.modelPrice .content{
-   padding: 0 20px 10px;}
-
-.modelNav .listItems .downArrow{
-    border-top-color: var( --light-gray);
-    top: -2px;
-
-}
-.modelNavList{
-    padding-left: 20px;
-    display: flex;
-    align-items: center;
-    gap: 33px;
-    overflow-y: auto;
-}
-.modelNavList li{
-    cursor: pointer;
-    list-style: none;
-    transition:0.4s ease-in-out;
-    white-space: nowrap;
-}
-
-.modelNavList li span{
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 16px 0px;
-}
-.modelNavList > li:hover > span{
-    color: var(--primary-color);
-    border-bottom: 3px solid #d02f2f;
-    padding-bottom: 17px;
+.modelNavList > li:hover > span{ color: var(--primary-color); border-bottom: 3px solid #d02f2f; padding-bottom: 17px;
 }
 /* temp */
-.modelPrice .morePics{
-    margin-left:0;
-    width: 48px;
-    height: 48px;
-    background: black;
-    border-radius: var(--radius-md);
-    position: absolute;
-    bottom: -18px;
-    left: 20px;
+.modelPrice .morePics{ margin-left:0; width: 48px; height: 48px; background: black; border-radius: var(--radius-md); position: absolute; bottom: -18px; left: 20px;
 
 }
 
-.modelPrice .bikeImg img{
-    margin-left: 0;
-    height: 240px;
+.modelPrice .bikeImg img{ margin-left: 0; height: 240px;
 }
   
 .startRatings .rating{

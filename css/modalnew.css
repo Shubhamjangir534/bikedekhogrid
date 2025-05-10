@@ -919,7 +919,7 @@
     .modelNavList li span{
         padding: 20px 0px;
     }
-    .modalCompare{width: 1280px; position:absolute; right: 16%;z-index: 999; bottom: unset;top: 63px;background: #fff;}
+    .modalCompare{ position:absolute; right: 9%;z-index: 999; bottom: unset;top: 63px;background: #fff;}
     .trending .tab  .blueLink{
         margin-top: 25px;
     }
