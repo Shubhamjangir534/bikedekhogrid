@@ -36,7 +36,7 @@
 .bg,.hondaprice tbody .variants .secondaryBtn{
     border: none;  
  }
-.feature-tabs li:hover,.userReview .mentions .filters li:hover,.authorize .deal1,.feature-tabs li.active,.FAQ,.Latest,.buttonHolder.active, .tabs .tab:last-child:hover,.ans .tab.active{
+.feature-tabs li:hover,.userReview .mentions .filters li:hover,.modalCompare,.authorize .deal1,.feature-tabs li.active,.FAQ,.Latest,.buttonHolder.active, .tabs .tab:last-child:hover,.ans .tab.active{
     color: var(--gray-color);
 }
 .table-data .iconname,.modelPrice .bikeDtls .blueLink,.authorize .deal2,.hondaprice > p,.modelSpecsMain .ExpertTitle .icon-star-full-fill::before,.modelSpecsMain .ExpertTitle,.colors p,.news .content p,.table-data td{
