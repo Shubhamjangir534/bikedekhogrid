@@ -261,6 +261,7 @@
 #topFeatures , #standOut,.wrongthings,.upcoming, summary::-webkit-details-marker,.modalCompare,.FAQ, .Latest {
     display: none;
 }
+
 .comparision table tr .cviewing,.breadcrumb-list .model,.trending.tab li{
     color: var(--light-gray);
 }
@@ -660,7 +661,7 @@
    margin-block: 3px 12px;height: 36px;
 }
 
-.modalCompare.show,.FAQ.show, .Latest.show {
+.modalCompare.show,.FAQ.show, .Latest.show,.navWrapper:has(.compare:hover) .modalCompare {
     display: block;
   }
 .modalCompare .carbox-content{
@@ -784,7 +785,6 @@
   }
   .modelNew.left:hover .ModelDropDown {
     padding: 0 22px 0 0;
-    text-align: right;
     right: 0;
     left: auto;
   }

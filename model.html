@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>model page</title>
+     <link rel="stylesheet" href="./css/media.css">
+     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/color.css">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/model.css">
     <link rel="stylesheet" href="./css/modalnew.css">
     <link rel="stylesheet" href="./css/icons.css">
-    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/font.css">
-    <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <link rel="stylesheet" href="./css/footer.css">
 </head>
@@ -286,6 +286,7 @@
      </header>
     <!-- navbar -->
     <section class="modelNav posR">
+        <div class="navWrapper">
         <nav class="container">
             <ul class="modelNavList hide-scrollbar">
                 <li class="listItems"><span>SP125</span></li>
@@ -296,8 +297,6 @@
                 <li class="listItems"><span class="compare">COMPARE <i class="downArrow posR"></i></span></li>
                 <li class="listItems"><span>MILEAGE</span></li>
                 <li class="listItems"><span>USER REVIEWS</span></li>
-                <li class="listItems"><span>SP125 EMI</span></li>
-                <li class="listItems"><span>SP125 EMI</span></li>
                 <li class="listItems"><span>SP125 EMI</span></li>
                 <li class="listItems modelNew posR">
                     <span>MORE<i class="downArrow posR"></i></span>
@@ -432,6 +431,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <main class="mt-4 container">
         <!-- hondasp -->
@@ -2365,7 +2365,7 @@
 <script>
    
     const list = document.querySelectorAll(".modelNavList > .listItems");
-    if(list.length >= 15){
+    if(list.length >= 8){
         list[list.length-1].classList.add("left");
     }
     
@@ -2386,16 +2386,6 @@
             event.target.classList.add('active');
         }
         </script>
-     <!--modalcompare cars-->
-<script>
-    const compare = document.querySelector('.compare');
-    const modalCompare = document.querySelector('.modalCompare');
-  
-    [compare, modalCompare].forEach(el => {
-      el.addEventListener('mouseenter', () => modalCompare.classList.add('show'));
-      el.addEventListener('mouseleave', () => modalCompare.classList.remove('show'));
-    });
-  </script>
 <!--sidebae honda upcoming-->
 <script>
     function toggleTab(tab, showSelector, hideSelector) {
