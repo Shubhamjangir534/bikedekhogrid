@@ -27,7 +27,7 @@
 }
 /*400-weight*/
 .hondaprice .variants a,.modalCompare .price-size,.hondaprice table thead th,.hondaprice tbody .variants .secondaryBtn, .colors .mt-24,.explorer .exploreprice,
-.table-data .iconname,.feature-tabs li:hover,.trending .bolddot,.modelNew .ModelDropDown ul li span,.indianprice th, details p,.userReview .secondaryBtn, summary ,.ans .blueLink a, .explorer .blueLink,.comparision table .blueLink.offers,.hondaprice tbody .variants .secondaryBtn,.imgbike span,.virtual .blueLink,.trending a{
+.table-data .iconname,.feature-tabs li:hover,.feature-tabs li:not(.active):hover,.trending .bolddot,.modelNew .ModelDropDown ul li span,.indianprice th, details p,.userReview .secondaryBtn, summary ,.ans .blueLink a, .explorer .blueLink,.comparision table .blueLink.offers,.hondaprice tbody .variants .secondaryBtn,.imgbike span,.virtual .blueLink,.trending a{
     font-weight: 400;
 }
 .userReview .ratingvalue,.userReview .latestReviews .profile,.authorize .btn,.finOffer .editEMI .EMIamt, .strong,.userReview .latestReviews .ratingStarNew,.modelSpecsMain .specsFeaturesBlock .expandMore span{
@@ -734,7 +734,6 @@
 }
 .modelNew .ModelDropDown{
     background: white;
-    opacity: 0;
     border: 1px solid rgba(36, 39, 44, .15);
     border-radius: 3px;
     bottom: auto;
