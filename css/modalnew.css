@@ -11,6 +11,9 @@
     border-bottom: 3px solid var( --red-hover);
     font-weight: bold;
   }
+  .feature-tabs li.grayShade:not(.active):hover,.userReview .mentions .moreDropDown > ul.mobileCrousel,.userReview .mentions .moreDropDown > ul.mobileCrousel,.ratingStarNew,.userReview .title,.userReview .ratingvalue,    .explorer .exploreprice, .tabtitle {
+    color: var(--gray-color);
+  }
 
 .feature-tabs li{
     line-height: 10px;
@@ -21,13 +24,13 @@
     white-space: nowrap;
 }
 .colors .label,.standfeature p,.buttonHolder.active,.trending .boldclr,.buttonHolder.active,.featurename,.virtual .tag,.modalCompare .Vstag,.modelPrice .bikeDtls .blueLink.userReview .latestReviews .title,.userReview .title,.authorize .deal1,
-.userReview .mentions .filters li:hover,.modelSpecsMain .ExpertTitle,.modelSpecsMain .specsFeaturesBlock h3,
- .tabs .tab.active,.virtual p,.explorer .explorebtn,.hondaprice .priceVal > span,.news .content .heading,.comparision .specarea .name.trending .price,.trending .tab .borderbtm,.hondaprice .blueLink,.trending  .card .price,.comparision .tableResp .price{
+.userReview .mentions .filters li:hover,.specarea .name,.modelSpecsMain .ExpertTitle,.modelSpecsMain .specsFeaturesBlock h3,
+ .tabs .tab.active,.virtual p,.explorer .explorebtn,.trending .price,.hondaprice .priceVal > span,.news .content .heading,.comparision .specarea .name.trending .price,.trending .tab .borderbtm,.hondaprice .blueLink,.trending  .card .price,.comparision .tableResp .price{
     font-weight: 500;
 }
 /*400-weight*/
 .hondaprice .variants a,.modalCompare .price-size,.hondaprice table thead th,.hondaprice tbody .variants .secondaryBtn, .colors .mt-24,.explorer .exploreprice,
-.table-data .iconname,.feature-tabs li:hover,.trending .bolddot,.modelNew .ModelDropDown ul li span,.indianprice th, details p,.userReview .secondaryBtn, summary ,.ans .blueLink a, .explorer .blueLink,.comparision table .blueLink.offers,.hondaprice tbody .variants .secondaryBtn,.imgbike span,.virtual .blueLink,.trending a{
+.table-data .iconname,.trending .bolddot,.modelNew .ModelDropDown ul li span,.indianprice th, details p,.userReview .secondaryBtn, summary ,.ans .blueLink a, .explorer .blueLink,.comparision table .blueLink.offers,.hondaprice tbody .variants .secondaryBtn,.imgbike span,.virtual .blueLink,.trending a{
     font-weight: 400;
 }
 .userReview .ratingvalue,.userReview .latestReviews .profile,.authorize .btn,.finOffer .editEMI .EMIamt, .strong,.userReview .latestReviews .ratingStarNew,.modelSpecsMain .specsFeaturesBlock .expandMore span{
@@ -36,7 +39,7 @@
 .bg,.hondaprice tbody .variants .secondaryBtn{
     border: none;  
  }
-.feature-tabs li:hover,.userReview .mentions .filters li:hover,.authorize .deal1,.feature-tabs li.active,.FAQ,.Latest,.buttonHolder.active, .tabs .tab:last-child:hover,.ans .tab.active{
+.feature-tabs li:hover,.price,.hondaprice .priceVal > span,.userReview .bottomText,.colors .label, .news .content .heading,.specarea span,.modelSpecsMain .ExpertTitle,.startRating:nth-last-child(3),.indianprice .spaceBetween ,.userReview .mentions .filters li:hover,.authorize .deal1,.feature-tabs li.active,.FAQ,.Latest,.buttonHolder.active, .tabs .tab:last-child:hover,.ans .tab.active{
     color: var(--gray-color);
 }
 .table-data .iconname,.modelPrice .bikeDtls .blueLink,.authorize .deal2,.hondaprice > p,.modelSpecsMain .ExpertTitle .icon-star-full-fill::before,.modelSpecsMain .ExpertTitle,.colors p,.news .content p,.table-data td{
@@ -65,6 +68,9 @@
 
 .hondaprice-data{
     padding: 27px 0px 37px 20px;
+}
+.iconbox li{
+    margin-top: 16px; margin-right: 16px;
 }
 .link-btn{
     cursor: pointer;
@@ -253,8 +259,9 @@
 .comparision .specarea:first-of-type .name{
     text-indent: unset;
     border-bottom: none;
-    margin-left: -20px;
+    margin-left: -22px;
 }
+
 .keySpecs h2{
     letter-spacing: 1px;
 }
@@ -636,9 +643,8 @@
 }
 .StandNew {overflow-x: auto;-ms-overflow-style: none; scrollbar-width: none; }
 .keySpecs .shadow24 {padding: 17px 0px 20px;}
-.StandNew .standfeature li{
-    width: 264px;
-}
+.standfeature li{ width: 264px;scrollbar-width: none;overflow-x: auto;}
+
 .authorize ul{
     padding-right: 20px;
 }
@@ -660,7 +666,7 @@
    margin-block: 3px 12px;height: 36px;
 }
 
-.modalCompare.show,.FAQ.show, .Latest.show {
+.modalCompare.show,.FAQ.show, .Latest.show, .nav-wrapper:has(.compare:hover) .modalCompare {    
     display: block;
   }
 .modalCompare .carbox-content{
@@ -718,6 +724,7 @@
 
 
 .breadcrumb-list{
+    height: 29px;
     line-height: 2px;
     font-size: 10px;
     color: var(--blue-color);
@@ -732,18 +739,24 @@
     margin-right: 10px;
 }
 .modelNew .ModelDropDown{
-    background: white;
-    opacity: 0;
-    border: 1px solid rgba(36, 39, 44, .15);
-    border-radius: 3px;
-    bottom: auto;
-    box-shadow: 0 3px 5px 0 rgba(36, 39, 44, .15);
-    left: -999px;
-    position: absolute;
-    transform: rotateX(-92deg);
-    width: 315px;
-    z-index: 999;
-}
+        background: white;
+        opacity: 0;
+        border: 1px solid rgba(36, 39, 44, 0.15);
+        border-radius: 3px;
+        box-shadow: 0 3px 5px 0 rgba(36, 39, 44, 0.15);
+        position: absolute;
+        top: 100%; /* Places it right below the MORE */
+        left: 0;
+        width: 315px;
+        z-index: 999;
+        pointer-events: none;
+        transition: opacity 0.2s ease;
+    }
+    .modelNew:hover .ModelDropDown {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
 .modelNew .ModelDropDown ul li span{
     border-bottom: 1px solid #fafafa; 
     color: #24272c;
@@ -777,14 +790,9 @@
     border-width: 10px;
     margin-left: -10px;
 }
-.modelNew:hover .ModelDropDown {
-    left: -10px;
-    opacity: 1;
-    transform: rotateX(0deg);
-  }
+
   .modelNew.left:hover .ModelDropDown {
     padding: 0 22px 0 0;
-    text-align: right;
     right: 0;
     left: auto;
   }
@@ -792,6 +800,7 @@
     opacity: 1;
   }
   .ModelDropDown li:hover{
+    margin-right: -20px;
     background: #fafafa;
     color: #24272c;
     padding-bottom: 0;
@@ -919,7 +928,7 @@
     .modelNavList li span{
         padding: 20px 0px;
     }
-    .modalCompare{width: 1280px; position:absolute; right: 16%;z-index: 999; bottom: unset;top: 63px;background: #fff;}
+    .modalCompare{position:absolute;bottom: unset;top: 61px;inset-inline: 50%; transform: translateX(-50%);}
     .trending .tab  .blueLink{
         margin-top: 25px;
     }
