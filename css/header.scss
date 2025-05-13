@@ -1,0 +1,26 @@
+.desktop{
+    display: none;
+}
+.mobiHeader{
+    padding: 11px 17px;
+    .logoImg{
+        justify-self: start;
+    }
+    .logo{
+        height: 21px;
+        width: 91px;
+        margin-left: -12px;
+    }
+    .icon{
+        color: var(--gray-color);
+        font-size: 18px;
+        top: 2px;
+        left: -4px;
+    }
+    .icon.icon-cd-locationPin{
+        font-size: 24px;
+        top: 0px;
+        left: -5px;
+    }
+    
+}
